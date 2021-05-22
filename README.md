@@ -12,14 +12,14 @@
 </div>
 <div align = "center">
 <h3> 사용가능한 테마 <h3>
-<img src = "http://commitcombo.com/combo-mini?user=BasicWhite&theme=BasicWhite-mini" align="center" alt="-"/>
-<img src = "http://commitcombo.com/combo-mini?user=BasicDark&theme=BasicDark-mini" align="center" alt="-"/> 
-<img src = "http://commitcombo.com/combo-mini?user=BasicGray&theme=BasicGray-mini" align="center" alt="-"/> <br>
-<img src = "http://commitcombo.com/combo-mini?user=Mocha&theme=Mocha-mini" align="center" alt="-"/> 
-<img src = "http://commitcombo.com/combo-mini?user=Grape&theme=Grape-mini" align="center" alt="-"/> 
-<img src = "http://commitcombo.com/combo-mini?user=MintChocolate&theme=MintChocolate-mini" align="center" alt="-"/> <br>
-<img src = "http://commitcombo.com/combo-mini?user=Orange&theme=Orange-mini" align="center" alt="-"/> 
-<img src = "http://commitcombo.com/combo-mini?user=Abocado&theme=Abocado-mini" align="center" alt="-"/>
+<img src = "http://commitcombo.com/combo-mini?user=BasicWhite-mini&theme=BasicWhite-mini" align="center" alt="-"/>
+<img src = "http://commitcombo.com/combo-mini?user=BasicDark-mini&theme=BasicDark-mini" align="center" alt="-"/> 
+<img src = "http://commitcombo.com/combo-mini?user=BasicGray-mini&theme=BasicGray-mini" align="center" alt="-"/> <br>
+<img src = "http://commitcombo.com/combo-mini?user=Mocha-mini&theme=Mocha-mini" align="center" alt="-"/> 
+<img src = "http://commitcombo.com/combo-mini?user=Grape-mini&theme=Grape-mini" align="center" alt="-"/> 
+<img src = "http://commitcombo.com/combo-mini?user=MintChocolate-mini&theme=MintChocolate-mini" align="center" alt="-"/> <br>
+<img src = "http://commitcombo.com/combo-mini?user=Orange-mini&theme=Orange-mini" align="center" alt="-"/> 
+<img src = "http://commitcombo.com/combo-mini?user=Abocado-mini&theme=Abocado-mini" align="center" alt="-"/>
 </div>
 <h2/>
 
