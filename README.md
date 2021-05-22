@@ -1,9 +1,9 @@
-<p align = "center">
+<div align = "center">
 <h3 align="center"> Github Commit Combo </h3>
-  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=BasicWhite-mini" align="center" alt="Github Commit Combo"/>
-  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini" align="center" alt="Github Commit Combo"/>
+  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Abocado-mini" align="center" alt="Github Commit Combo"/>
+  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Orange-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=MintChocolate-mini" align="center" alt="Github Commit Combo"/>
-</p>
+</div>
 <hr>
 <p align="center"> English </p>
 <div align = "center"> 
