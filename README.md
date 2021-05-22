@@ -1,10 +1,9 @@
 <div align = "center">
-<h3 align="center"> Github Commit Combo </h3>
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Abocado-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Orange-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=MintChocolate-mini" align="center" alt="Github Commit Combo"/>
+  <h2 align="center"> Github Commit Combo </h2>
 </div>
-<hr>
 <div align="center"><a href=""> English </a></div>
 <div align = "center"> 
 <h4>연속된 커밋기록을 동적으로 생성하세요!</h4>
