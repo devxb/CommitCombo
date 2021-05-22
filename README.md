@@ -73,7 +73,7 @@ Abocado-mini
 	</li>
 </ul>
 
-<hr>
+<h2/>
 
 <h3> 버전기록 </h3>
 <ul> 
