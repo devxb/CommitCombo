@@ -1,4 +1,5 @@
 
+
 <div align = "center">
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Abocado-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Orange-mini" align="center" alt="Github Commit Combo"/>
@@ -14,10 +15,37 @@
 <h3> 사용가능한 테마 <h3>
 </div>
 	
-![commitcombo](http://commitcombo.com/combo-mini?user=BasicWhite&theme=BasicWhite-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=BasicDark&theme=BasicDark-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=BasicGray&theme=BasicGray-mini)
-![commitcombo](http://commitcombo.com/combo-mini?user=Mocha&theme=Mocha-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Grape&theme=Grape-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=MintChocolate&theme=MintChocolate-mini)
-![commitcombo](http://commitcombo.com/combo-mini?user=Orange&theme=Orange-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Abocado&theme=Abocado-mini)
+![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicWhite-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicDark-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)
+![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Mocha-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Grape-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=MintChocolate-mini)
+![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Orange-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Abocado-mini)
 
+theme 
+<ul>
+<li>
+BasicWhite-mini
+</li>
+<li>
+BasicDark-mini
+</li>
+<li>
+BasicGray-mini
+</li>
+<li>
+Mocha-mini
+</li>
+<li>
+Grape-mini
+</li>
+<li>
+MintChocolate-mini
+</li>
+<li>
+Orange-mini
+</li>
+<li>
+Abocado-mini
+</li>
+</ul>
 <h2/>
 
 <h3> 사용법 </h3>
