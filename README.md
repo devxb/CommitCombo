@@ -8,7 +8,7 @@
 <div align="center"><a href=""> English </a></div>
 <div align = "center"> 
 <h4>연속된 커밋기록을 동적으로 생성하세요!</h4>
-<p style ="fontsize:10px">Contact : develxb@gmail.com</p>
+<p>Contact : develxb@gmail.com</p>
 </div>
 <div align = "center">
 <h3> 사용가능한 테마 <h3>
@@ -66,7 +66,7 @@
 
 	[![commitcombo]http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini](https://github.com/devxb/CommitCombo)
 
-[![commitcombo]http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini](https://github.com/commitcombo)
+[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)](https://github.com/commitcombo)
 
 <hr>
 
