@@ -12,14 +12,9 @@
 </div>
 <div align = "center">
 <h3> 사용가능한 테마 <h3>
-<img src = "http://commitcombo.com/combo-mini?user=BasicWhite-mini&theme=BasicWhite-mini" align="center" alt="-"/>
-<img src = "http://commitcombo.com/combo-mini?user=BasicDark-mini&theme=BasicDark-mini" align="center" alt="-"/> 
-<img src = "http://commitcombo.com/combo-mini?user=BasicGray-mini&theme=BasicGray-mini" align="center" alt="-"/> <br>
-<img src = "http://commitcombo.com/combo-mini?user=Mocha-mini&theme=Mocha-mini" align="center" alt="-"/> 
-<img src = "http://commitcombo.com/combo-mini?user=Grape-mini&theme=Grape-mini" align="center" alt="-"/> 
-<img src = "http://commitcombo.com/combo-mini?user=MintChocolate-mini&theme=MintChocolate-mini" align="center" alt="-"/> <br>
-<img src = "http://commitcombo.com/combo-mini?user=Orange-mini&theme=Orange-mini" align="center" alt="-"/> 
-<img src = "http://commitcombo.com/combo-mini?user=Abocado-mini&theme=Abocado-mini" align="center" alt="-"/>
+![commitcombo](http://commitcombo.com/combo-mini?user=BasicWhite&theme=BasicWhite-mini)![commitcombo](http://commitcombo.com/combo-mini?user=BasicDark&theme=BasicDark-mini)![commitcombo](http://commitcombo.com/combo-mini?user=BasicGray&theme=BasicGray-mini)
+![commitcombo](http://commitcombo.com/combo-mini?user=Mocha&theme=Mocha-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Grape&theme=Grape-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=MintChocolate&theme=MintChocolate-mini)
+![commitcombo](http://commitcombo.com/combo-mini?user=Orange&theme=Orange-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Abocado&theme=Abocado -mini)
 </div>
 <h2/>
 
@@ -41,14 +36,14 @@
 <ul> 
 <h4>version-1.1</h4>
 	<li> 
-	그라데이션 테마 추가 <br><img src="https://github.com/devxb/CommitCombo/issues/1#issue-898777748" align = "center"/>
+	그라데이션 테마 추가 <br><img src="https://user-images.githubusercontent.com/62425964/119224103-dec54e00-bb37-11eb-8fee-14ca3c64e226.png" align = "center"/> <img src = "https://user-images.githubusercontent.com/62425964/119224106-df5de480-bb37-11eb-8ac4-ab4b8db5fb60.png" align = "center"/> <img src = "https://user-images.githubusercontent.com/62425964/119224107-df5de480-bb37-11eb-96c3-f4680f21483a.png" align = "center" /> <img src = "https://user-images.githubusercontent.com/62425964/119224109-dff67b00-bb37-11eb-8748-03319750fd35.png" align = "center"/> <img src = "https://user-images.githubusercontent.com/62425964/119224110-dff67b00-bb37-11eb-928a-dfbcf49a883f.png" align = "center"/>
 	</li>
 	<li>
 	깃허브 넘어올시 폰트 적용 안되는 문제해결
 	</li>
 </ul>
 
-<h2/>
+<hr>
 
 <h3> 버전기록 </h3>
 <ul> 
