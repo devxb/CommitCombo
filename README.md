@@ -66,7 +66,7 @@
 
 	[![commitcombo]http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini](https://github.com/devxb/CommitCombo)
 
-[![commitcombo]http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini](https://github.com/commitcombo)
+[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)](https://github.com/commitcombo)
 
 <hr>
 
