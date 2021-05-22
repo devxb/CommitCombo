@@ -12,10 +12,12 @@
 </div>
 <div align = "center">
 <h3> 사용가능한 테마 <h3>
+</div>
+	
 ![commitcombo](http://commitcombo.com/combo-mini?user=BasicWhite&theme=BasicWhite-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=BasicDark&theme=BasicDark-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=BasicGray&theme=BasicGray-mini)
 ![commitcombo](http://commitcombo.com/combo-mini?user=Mocha&theme=Mocha-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Grape&theme=Grape-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=MintChocolate&theme=MintChocolate-mini)
 ![commitcombo](http://commitcombo.com/combo-mini?user=Orange&theme=Orange-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Abocado&theme=Abocado -mini)
-</div>
+
 <h2/>
 
 <h3> 사용법 </h3>
