@@ -22,7 +22,7 @@ Contact : develxb@gmail.com</p>
 	<a href = "#availableTheme"> 사용가능한 테마</a>
 </li>
 <li>
-	<a href = "maker"> 빠른 만들기 </a>
+	<a href = "#maker"> 빠른 만들기 </a>
 </li>
 <li>
 	<a href = "#manual"> 사용법 및 예시</a>
