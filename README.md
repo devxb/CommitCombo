@@ -11,7 +11,7 @@
 <div align="center"><a href=""> English </a></div>
 <div align = "center"> 
 <h4>연속된 커밋기록을 동적으로 생성하세요!<br/>1일 1커밋 운동등에 동기부여를 얻을수있습니다</h4>
-<p> 아이디어 나 발견 한 버그가 있다면 제보 해주세요<br>
+<p> 아이디어나 발견 한 버그가 있다면 제보 해주세요<br>
 Contact : develxb@gmail.com</p>
 </div>
 <div>
