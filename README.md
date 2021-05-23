@@ -1,5 +1,6 @@
 <div align = "center">
-  <img src = "https://user-images.githubusercontent.com/62425964/119244836-626e5180-bbaf-11eb-9d52-5e471030425e.png" align="center"/> <br><br><br>
+  <br>
+  <img src = "https://user-images.githubusercontent.com/62425964/119244836-626e5180-bbaf-11eb-9d52-5e471030425e.png" align="center"/> <br><br><br><br>
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini" align="center" alt="Guthub Commit Combo"/>
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini" align="center" alt="Guthub Commit Combo"/><br>
