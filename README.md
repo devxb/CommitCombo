@@ -1,4 +1,5 @@
 
+
 <div align = "center">
   <br>
   <img src = "https://user-images.githubusercontent.com/62425964/119244836-626e5180-bbaf-11eb-9d52-5e471030425e.png" align="center"/> <br><br><br><br>
@@ -19,6 +20,9 @@ Contact : develxb@gmail.com</p>
 목록
 <li>
 	<a href = "#availableTheme"> 사용가능한 테마</a>
+</li>
+<li>
+	<a href = "maker"> 빠른 만들기 </a>
 </li>
 <li>
 	<a href = "#manual"> 사용법 및 예시</a>
@@ -86,8 +90,14 @@ Indigo-mini
 </li>
 </ul>
 <h2></h2>
+<h3> <a name = "maker"> </a> 빠른 만들기 </h3>
+아래 사진(<a href = "http://commitcombo.com/maker">링크</a>)을 클릭하고 적용 예시를 확인하며 당신의 테마를 만들수있습니다!
 
-<h3> <a name = "manual"></a>사용법 </h3>
+[![commitcombo-maker]https://user-images.githubusercontent.com/62425964/119250968-b3e20500-bbde-11eb-957a-7fa9d057c324.PNG)](http://commitcombo.com/maker)
+
+
+<h2></h2>
+<h3> <a name = "manual"></a>사용법 및 예시</h3>
 
 <p>미니 테마</p>
 
@@ -103,7 +113,7 @@ Indigo-mini
 <a name = "nextUpdate"></a>
 <h3>다음 업데이트</h3>
 <ul> 
-<h4>version-1.2</h4>
+<h4>version-1.3</h4>
 	<li>
 	깃허브에서 폰트 적용 안되는 문제해결
 	</li>
@@ -114,11 +124,21 @@ Indigo-mini
 <a name = "history"></a>
 <h3> 버전기록 </h3>
 <ul>
+<h4> version -1.2 / 2021.05.24</h4>
+	<li> <a href = "http://commitcombo.com/maker">빠른 만들기</a> 기능 추가</li>
+	<li> 애니메이션 수정 </li>
+</ul>
+
+<br>
+
+<ul>
 <h4>version -1.1 / 2021.05.23</h4>
 	<li> add Gradient Theme <br> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Peach-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Indigo-mini"/>
 	</li>
 </ul>
+
 <br>
+
 <ul> 
 <h4>version -1.0 / 2021.05.22</h4>
 	<li> 출시 </li>
