@@ -69,6 +69,21 @@ Orange-mini
 <li>
 Abocado-mini
 </li>
+<li>
+Perfume-mini
+</li>
+<li>
+CottonCandy-mini
+</li>
+<li>
+Grass-mini
+</li>
+<li>
+Peach-mini
+</li>
+<li>
+Indigo-mini
+</li>
 </ul>
 <h2></h2>
 
