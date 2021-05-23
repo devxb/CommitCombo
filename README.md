@@ -28,11 +28,14 @@ Contact : develxb@gmail.com</p>
 <li>
 	<a href = "#history"> 버전기록</a>
 </li>
+<li>
+	<a href = "#issue"> 발견된 이슈 </a>
+</li>
 </ul>
 </div>
 <h2></h2>
 <div align = "center">
-<h3> <a name = "availableTheme"></a>사용가능한 테마<h3>
+<h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
 </div>
 	
 ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicWhite-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicDark-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)
@@ -66,7 +69,7 @@ Orange-mini
 Abocado-mini
 </li>
 </ul>
-<h2/>
+<h2></h2>
 
 <h3> <a name = "manual"></a>사용법 </h3>
 
@@ -80,7 +83,7 @@ Abocado-mini
 
 [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)](https://github.com/commitcombo)
 
-<h2/>
+<h2></h2>
 <a name = "nextUpdate"></a>
 <h3>다음 업데이트</h3>
 <ul> 
@@ -90,15 +93,26 @@ Abocado-mini
 	</li>
 </ul>
 
-<h2/>
+<h2></h2>
 <a name = "history"></a>
 <h3> 버전기록 </h3>
 <ul>
 <h4>version -1.1 / 2021.05.23</h4>
 	<li> add Gradient </li>
 </ul>
-	
+<br>
 <ul> 
 <h4>version -1.0 / 2021.05.22</h4>
 	<li> 출시 </li>
+</ul>
+
+<h2></h2>
+<a name = "issue"></a>
+<h3> 발견된 이슈 </h3>
+<ul>
+<li>
+<b>커밋기록이 실시간으로 반영되지 않고있습니다. </b>
+<br> - 깃허브가 캐시한 이미지가 깃허브 서버에 남아있는거로 보입니다. <b>(해결책을 생각중입니다!)</b>
+<br> - 시간이 지나면 자동으로 해결되지만, 커널에 다음 명령어를 입력해서 바로 해결할수있습니다.   <br> : "curl -X PURGE [캐시된 url]"
+</li>
 </ul>
