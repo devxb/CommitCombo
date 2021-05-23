@@ -105,8 +105,9 @@ Indigo-mini
 <ul> 
 <h4>version-1.2</h4>
 	<li>
-	깃허브 넘어올시 폰트 적용 안되는 문제해결
+	깃허브에서 폰트 적용 안되는 문제해결
 	</li>
+	<li >테마추가 </li>
 </ul>
 
 <h2></h2>
@@ -114,7 +115,8 @@ Indigo-mini
 <h3> 버전기록 </h3>
 <ul>
 <h4>version -1.1 / 2021.05.23</h4>
-	<li> add Gradient </li>
+	<li> add Gradient Theme <br> - <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Peach-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=ConttonCandy-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Indigo-mini"/>
+	</li>
 </ul>
 <br>
 <ul> 
