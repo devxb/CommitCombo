@@ -6,13 +6,33 @@
   <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini" align="center" alt="Guthub Commit Combo"/><br>
   <h2 align="center"> Github Commit Combo </h2>
 </div>
+<div align = "center">  ⭐스타를 눌러주세요 개발에 큰 도움이 됩니다!⭐️</div>
 <div align="center"><a href=""> English </a></div>
 <div align = "center"> 
-<h4>연속된 커밋기록을 동적으로 생성하세요!</h4>
-<p>Contact : develxb@gmail.com</p>
+<h4>연속된 커밋기록을 동적으로 생성하세요!<br/>1일 1커밋 운동등에 동기부여를 얻을수있습니다</h4>
+<p> 아이디어 나 발견 한 버그가 있다면 제보 해주세요<br>
+Contact : develxb@gmail.com</p>
 </div>
+<div>
+<ul>
+목록
+<li>
+	<a href = "#availableTheme"> 사용가능한 테마</a>
+</li>
+<li>
+	<a href = "#manual"> 사용법 및 예시</a>
+</li>
+<li>
+	<a href = "#nextUpdate"> 다음 업데이트에 추가될 내용</a>
+</li>
+<li>
+	<a href = "#history"> 버전기록</a>
+</li>
+</ul>
+</div>
+<h2></h2>
 <div align = "center">
-<h3> 사용가능한 테마 <h3>
+<h3> <a name = "availableTheme"></a>사용가능한 테마<h3>
 </div>
 	
 ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicWhite-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicDark-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)
@@ -48,7 +68,7 @@ Abocado-mini
 </ul>
 <h2/>
 
-<h3> 사용법 </h3>
+<h3> <a name = "manual"></a>사용법 </h3>
 
 <p>미니 테마</p>
 
@@ -61,7 +81,7 @@ Abocado-mini
 [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)](https://github.com/commitcombo)
 
 <h2/>
-
+<a name = "nextUpdate"></a>
 <h3>다음 업데이트</h3>
 <ul> 
 <h4>version-1.2</h4>
@@ -71,7 +91,7 @@ Abocado-mini
 </ul>
 
 <h2/>
-
+<a name = "history"></a>
 <h3> 버전기록 </h3>
 <ul>
 <h4>version -1.1 / 2021.05.23</h4>
