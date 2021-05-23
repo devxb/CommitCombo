@@ -39,9 +39,9 @@ Contact : develxb@gmail.com</p>
 <h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
 </div>
 	
-![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicWhite-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicDark-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)
-![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Mocha-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Grape-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=MintChocolate-mini)
-![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Orange-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Abocado-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Peach-mini) ![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Indigo-mini)
+[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicWhite-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicDark-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Mocha-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Grape-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=MintChocolate-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo)
 
 <h3>theme</h3> 
 <ul>
@@ -97,7 +97,7 @@ Indigo-mini
 
 	[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini])(https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini)](https://github.com/commitcombo)
+[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
