@@ -64,10 +64,7 @@ Abocado-mini
 
 <h3>다음 업데이트</h3>
 <ul> 
-<h4>version-1.1</h4>
-	<li> 
-	그라데이션 테마 추가 <br><img src="https://user-images.githubusercontent.com/62425964/119224103-dec54e00-bb37-11eb-8fee-14ca3c64e226.png" align = "center"/> <img src = "https://user-images.githubusercontent.com/62425964/119224106-df5de480-bb37-11eb-8ac4-ab4b8db5fb60.png" align = "center"/> <img src = "https://user-images.githubusercontent.com/62425964/119224107-df5de480-bb37-11eb-96c3-f4680f21483a.png" align = "center" /> <img src = "https://user-images.githubusercontent.com/62425964/119224109-dff67b00-bb37-11eb-8748-03319750fd35.png" align = "center"/> <img src = "https://user-images.githubusercontent.com/62425964/119224110-dff67b00-bb37-11eb-928a-dfbcf49a883f.png" align = "center"/>
-	</li>
+<h4>version-1.2</h4>
 	<li>
 	깃허브 넘어올시 폰트 적용 안되는 문제해결
 	</li>
