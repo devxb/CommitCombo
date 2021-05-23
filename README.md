@@ -1,9 +1,9 @@
 
 
 <div align = "center">
-  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Abocado-mini" align="center" alt="Github Commit Combo"/>
-  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Orange-mini" align="center" alt="Github Commit Combo"/>
-  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=MintChocolate-mini" align="center" alt="Github Commit Combo"/>
+  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini" align="center" alt="Github Commt Combo"/>
+  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini" align="center" alt="Guthub Commit Combo"/>
+  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini" align="center" alt="Guthub Commit Combo"/><br>
   <h2 align="center"> Github Commit Combo </h2>
 </div>
 <div align="center"><a href=""> English </a></div>
@@ -76,6 +76,11 @@ Abocado-mini
 <h2/>
 
 <h3> 버전기록 </h3>
+<ul>
+<h4>version -1.1 / 2021.05.23</h4>
+	<li> add Gradient </li>
+</ul>
+	
 <ul> 
 <h4>version -1.0 / 2021.05.22</h4>
 	<li> 출시 </li>
