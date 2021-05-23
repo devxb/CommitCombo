@@ -79,9 +79,9 @@ Abocado-mini
 
 <p> 예제 </p>
 
-	[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini])(https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini])(https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)](https://github.com/commitcombo)
+[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini)](https://github.com/commitcombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
