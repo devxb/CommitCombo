@@ -115,7 +115,7 @@ Indigo-mini
 <h3> 버전기록 </h3>
 <ul>
 <h4>version -1.1 / 2021.05.23</h4>
-	<li> add Gradient Theme <br> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Peach-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=ConttonCandy-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Indigo-mini"/>
+	<li> add Gradient Theme <br> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Peach-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Indigo-mini"/>
 	</li>
 </ul>
 <br>
