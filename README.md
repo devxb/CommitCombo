@@ -2,7 +2,7 @@
 
 <div align = "center">
   <br>
-  <a href="https://github.com/devxb/CommitCombo"><img src = "commitcombo.com/logo" align="center"/></a> <br><br><br>
+  <a href="https://github.com/devxb/CommitCombo"><img src = "http://commitcombo.com/logo" align="center"/></a> <br><br><br>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Perfume-mini" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini" align="center" alt="Guthub Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Guthub Commit Combo"/><br>
