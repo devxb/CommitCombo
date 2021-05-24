@@ -2,10 +2,10 @@
 
 <div align = "center">
   <br>
-  <img src = "https://user-images.githubusercontent.com/62425964/119244836-626e5180-bbaf-11eb-9d52-5e471030425e.png" align="center"/> <br><br><br><br>
+  <a href="https://github.com/devxb/CommitCombo"><img src = "commitcombo.com/logo" align="center"/></a> <br><br><br>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Perfume-mini" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini" align="center" alt="Guthub Commit Combo"/>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=Grass-mini" align="center" alt="Guthub Commit Combo"/><br>
+  <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Guthub Commit Combo"/><br>
   <h2></h2>
 </div>
 <div align = "center">  ⭐스타를 눌러주세요 개발에 큰 도움이 됩니다!⭐️</div>
@@ -45,7 +45,7 @@ Contact : develxb@gmail.com</p>
 	
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicWhite-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicDark-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicGray-mini)](https://github.com/devxb/CommitCombo)
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Mocha-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grape-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=MintChocolate-mini)](https://github.com/devxb/CommitCombo)
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
 
 <h3>theme</h3> 
 <ul>
@@ -88,6 +88,9 @@ Peach-mini
 <li>
 Indigo-mini
 </li>
+<li>
+Sunset-mini
+</li>
 </ul>
 <h2></h2>
 <h3> <a name = "maker"> </a> 빠른 만들기 </h3>
@@ -105,9 +108,9 @@ Indigo-mini
 
 <p> 예제 </p>
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini])(https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini])(https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
