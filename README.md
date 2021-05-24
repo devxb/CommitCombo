@@ -3,9 +3,9 @@
 <div align = "center">
   <br>
   <img src = "https://user-images.githubusercontent.com/62425964/119244836-626e5180-bbaf-11eb-9d52-5e471030425e.png" align="center"/> <br><br><br><br>
-  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini" align="center" alt="Github Commt Combo"/>
-  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini" align="center" alt="Guthub Commit Combo"/>
-  <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini" align="center" alt="Guthub Commit Combo"/><br>
+  <img src = "http://commitcombo.com/get?user=Devxb&theme=Perfume-mini" align="center" alt="Github Commt Combo"/>
+  <img src = "http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini" align="center" alt="Guthub Commit Combo"/>
+  <img src = "http://commitcombo.com/get?user=Devxb&theme=Grass-mini" align="center" alt="Guthub Commit Combo"/><br>
   <h2></h2>
 </div>
 <div align = "center">  ⭐스타를 눌러주세요 개발에 큰 도움이 됩니다!⭐️</div>
@@ -43,9 +43,9 @@ Contact : develxb@gmail.com</p>
 <h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
 </div>
 	
-[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicWhite-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicDark-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=BasicGray-mini)](https://github.com/devxb/CommitCombo)
-[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Mocha-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Grape-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=MintChocolate-mini)](https://github.com/devxb/CommitCombo)
-[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicWhite-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicDark-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicGray-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Mocha-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grape-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=MintChocolate-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo)
 
 <h3>theme</h3> 
 <ul>
@@ -101,13 +101,13 @@ Indigo-mini
 
 <p>미니 테마</p>
 
-	[![commitcombo](http://commitcombo.com/combo-mini?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
 <p> 예제 </p>
 
-	[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini])(https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini])(https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
@@ -133,7 +133,7 @@ Indigo-mini
 
 <ul>
 <h4>version -1.1 / 2021.05.23</h4>
-	<li> add Gradient Theme <br> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Peach-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=CottonCandy-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Grass-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Perfume-mini"/> <img src = "http://commitcombo.com/combo-mini?user=Devxb&theme=Indigo-mini"/>
+	<li> add Gradient Theme <br> <img src = "http://commitcombo.com/get?user=Devxb&theme=Peach-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=Grass-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=Perfume-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=Indigo-mini"/>
 	</li>
 </ul>
 
@@ -149,15 +149,18 @@ Indigo-mini
 <h3> 발견된 이슈 </h3>
 <ul>
 <li>
-<b>커밋기록이 실시간으로 반영되지 않고있습니다. </b>
-<br> - 깃허브가 캐시한 이미지가 깃허브 서버에 남아있는거로 보입니다. (해결책을 생각중입니다!)
-<br> - 시간이 지나면 자동으로 해결되지만, 커널에 다음 명령어를 입력해서 바로 해결할수있습니다.   <br> : "curl -X PURGE [캐시된 url]"
+<b> 폰트가 적용되지않고있습니다. </b>
+</li>
+<li>
+<b> <del>커밋기록이 실시간으로 반영되지 않고있습니다.</del> 해결 </b>
+<br> - <del>깃허브가 캐시한 이미지가 깃허브 서버에 남아있는거로 보입니다. (해결책을 생각중입니다!)</del>
+<br> - <del>시간이 지나면 자동으로 해결되지만, 커널에 다음 명령어를 입력해서 바로 해결할수있습니다.   <br> : "curl -X PURGE [캐시된 url]"</del>
 </li>
 <br>
 <li>
-<b>애니메이션이 초기 1회만 재생되고 재생이 안됩니다.</b>
-<br> - 위 이유와 같은 원인으로 파악되며 해결책을 생각중입니다.
-<br> - [Ctrl + shift + R] 로 애니메이션을 강제 시작할수있습니다. 
-<br> : Ctrl + Shift + R
+<b><del>애니메이션이 초기 1회만 재생되고 재생이 안됩니다.</del> 해결 </b>
+<br> - <del>위 이유와 같은 원인으로 파악되며 해결책을 생각중입니다.</del>
+<br> - <del>[Ctrl + shift + R] 로 애니메이션을 강제 시작할수있습니다.</del> 
+<br> <del>: Ctrl + Shift + R</del>
 </li>
 </ul>
