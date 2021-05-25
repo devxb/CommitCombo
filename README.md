@@ -45,7 +45,7 @@ Contact : develxb@gmail.com</p>
 	
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicWhite-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicDark-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicGray-mini)](https://github.com/devxb/CommitCombo)
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Mocha-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grape-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=MintChocolate-mini)](https://github.com/devxb/CommitCombo)
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-calendar)](https://github.com/devxb/CommitCombo)
 
 <h3>theme</h3> 
 <ul>
@@ -74,22 +74,22 @@ Orange-mini
 Abocado-mini
 </li>
 <li>
-Perfume-mini
+Perfume-mini , calendar
 </li>
 <li>
-CottonCandy-mini
+CottonCandy-mini , calendar
 </li>
 <li>
-Grass-mini
+Grass-mini , calendar
 </li>
 <li>
-Peach-mini
+Peach-mini , calendar
 </li>
 <li>
-Indigo-mini
+Indigo-mini , calendar
 </li>
 <li>
-Sunset-mini
+Sunset-mini , calendar
 </li>
 </ul>
 <h2></h2>
@@ -116,7 +116,7 @@ Sunset-mini
 <a name = "nextUpdate"></a>
 <h3>다음 업데이트</h3>
 <ul> 
-<h4>version-1.3</h4>
+<h4>version-1.4</h4>
 	<li>
 	깃허브에서 폰트 적용 안되는 문제해결
 	</li>
@@ -126,6 +126,20 @@ Sunset-mini
 <h2></h2>
 <a name = "history"></a>
 <h3> 버전기록 </h3>
+
+<ul>
+<h4> version -1.3 / 2021.05.25 </h4>
+<li>
+	성능개선
+</li>
+<li>
+	이슈 해결
+</li>
+<li>
+	add calendar theme
+</li>
+</ul>
+
 <ul>
 <h4> version -1.2 / 2021.05.24</h4>
 	<li> <a href = "http://commitcombo.com/maker">빠른 만들기</a> 기능 추가</li>
@@ -145,15 +159,20 @@ Sunset-mini
 <ul> 
 <h4>version -1.0 / 2021.05.22</h4>
 	<li> 출시 </li>
-</ul>
 
 <h2></h2>
 <a name = "issue"></a>
 <h3> 발견된 이슈 </h3>
+
 <ul>
 <li>
 <b> 폰트가 적용되지않고있습니다. </b>
 </li>
+<br>
+<li>
+<b> <del>1년이 넘은 커밋기록이 반영되지 않고있습니다. </del> 해결 </b>
+</li>
+<br>
 <li>
 <b> <del>커밋기록이 실시간으로 반영되지 않고있습니다.</del> 해결 </b>
 <br> - <del>깃허브가 캐시한 이미지가 깃허브 서버에 남아있는거로 보입니다. (해결책을 생각중입니다!)</del>
