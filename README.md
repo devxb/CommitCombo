@@ -6,7 +6,7 @@
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Perfume-mini" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini" align="center" alt="Guthub Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Guthub Commit Combo"/><br>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=Perfume-calendar" align="center" alt="Github Commt Combo"/><br>
+  <img src = "http://commitcombo.com/get?user=Devxb&theme=Perfume-calendar" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=CottonCandy-calendar" align="center" alt="Guthub Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-calendar" align="center" alt="Guthub Commit Combo"/><br>
   <h2></h2>
