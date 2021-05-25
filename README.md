@@ -43,9 +43,15 @@ Contact : develxb@gmail.com</p>
 <h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
 </div>
 	
+<h3>mini theme</h3>
+	
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicWhite-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicDark-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicGray-mini)](https://github.com/devxb/CommitCombo)
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Mocha-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grape-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=MintChocolate-mini)](https://github.com/devxb/CommitCombo)
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-calendar)](https://github.com/devxb/CommitCombo)
+
+<h2></h2>
+<h3>calendar theme </h3>
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-calendar)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-calendar)](https://github.com/devxb/CommitCombo)
 
 <h3>theme</h3> 
 <ul>
