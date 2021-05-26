@@ -60,8 +60,8 @@ Contribution setting에서 Private contributions를 체크하세요
 <h2></h2>
 <h3>calendar theme </h3>
 
-[![commitcombo](https://user-images.githubusercontent.com/62425964/119518275-57840e80-bdb3-11eb-86ea-9345f953f654.jpg)](https://github.com/devxb/CommitCombo)
-[![commitcombo](https://user-images.githubusercontent.com/62425964/119667178-00447380-be71-11eb-9c28-1579b7461e69.PNG)](https://github.com/devxb/CommitCombo)
+[![commitcombo](https://user-images.githubusercontent.com/62425964/119518275-57840e80-bdb3-11eb-86ea-9345f953f654.jpg)](http://commitcombo.com/maker)
+[![commitcombo](https://user-images.githubusercontent.com/62425964/119667178-00447380-be71-11eb-9c28-1579b7461e69.PNG)](http://commitcombo.com/maker)
 
 <h3>theme</h3> 
 <ul>
