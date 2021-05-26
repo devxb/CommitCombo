@@ -8,6 +8,7 @@ public class Theme{
     protected String BackgroundColor;
     protected String ComboBoxColor;
     protected String Gradient;
+    protected String ExtraAnimation;
     
     public String getNameTagColor(){
         return this.NameTagColor;
@@ -26,6 +27,10 @@ public class Theme{
     }
     public String getGradient(){
         return this.Gradient;
+    }
+    
+    public String getExtraAnimation(){
+        return this.ExtraAnimation;
     }
     
 }

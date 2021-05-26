@@ -37,8 +37,8 @@
     comboCnt = (Integer)session.getAttribute(username);
     User user = new User(username);
     
-    // delete session after 1hour
-    if((System.currentTimeMillis() - (Long)session.getAttribute(username+"-timeout"))/1000 >= 60*60) session.invalidate();
+    // delete session after 3hour
+    if((System.currentTimeMillis() - (Long)session.getAttribute(username+"-timeout"))/1000 >= 60*(60*3)) session.invalidate();
 
     // start display set
     request.setAttribute("userNameSize",user.getFontSize(username));
@@ -54,6 +54,11 @@
     request.setAttribute("gradient", userTheme.getGradient());
     request.setAttribute("comboBoxFill", userTheme.getComboBoxColor()); // setting combobox color
     // end color set
+    
+    // start extra animaiton
+    request.setAttribute("extraAnimation", userTheme.getExtraAnimation()); // setting extra animation
+    // end extra animation
+    
     if(theme == null || theme.contains("mini")){ // theme null
         if(comboCnt > 999) request.setAttribute("comboCnt",999);
         pageContext.forward("minitheme");

@@ -1,10 +1,12 @@
 <%@ page language="java" contentType="image/svg+xml; charset=utf-8" pageEncoding = "utf-8"%>
 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
 <svg width="153" height="67" viewBox="0 0 153 67" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style type="text/css">
         <![CDATA[
-
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Sarala:wght@400;700&display=swap');
+        
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
             
             @keyframes fadeInAnimation{
                 from{
@@ -36,8 +38,10 @@
                 
             }
             
+            ${extraAnimaiton}
+            
             .nameTag{
-                font-family: 'Sarala', sans-serif;
+                font-family: 'Noto Sans KR', sans-serif;
                 font-size: ${userNameSize};
                 fill: ${nameTagFill};
                 font-weight: 700;
@@ -45,7 +49,7 @@
             }
             
             .commitCombo{
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Noto Sans KR', sans-serif;
                 font-size: 0.625em;
                 fill:${commitComboFill};
                 font-weight: 400;
@@ -53,7 +57,7 @@
             }
             
             .comboCnt{
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Noto Sans KR', sans-serif;
                 font-size: 1.688em;
                 font-weight: 300;
                 text-align: center;

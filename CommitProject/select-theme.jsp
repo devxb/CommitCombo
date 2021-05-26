@@ -65,6 +65,14 @@
             <a href = "./displayURL?user=${username}&theme=Peach-mini"> <img src = "./get?user=${username}&theme=Peach-mini"></a>
             <a href = "./displayURL?user=${username}&theme=Indigo-mini"> <img src = "./get?user=${username}&theme=Indigo-mini"></a>
             <a href = "./displayURL?user=${username}&theme=Sunset-mini"> <img src = "./get?user=${username}&theme=Sunset-mini"></a>
+            
+            <a href = "./displayURL?user=${username}&theme=Lake-mini"> <img src = "./get?user=${username}&theme=Lake-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Ocean-mini"> <img src = "./get?user=${username}&theme=Ocean-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=DeepOcean-mini"> <img src = "./get?user=${username}&theme=DeepOcean-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Cloud-mini"> <img src = "./get?user=${username}&theme=Cloud-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Emerald-mini"> <img src = "./get?user=${username}&theme=Emerald-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Depths-mini"> <img src = "./get?user=${username}&theme=Depths-mini"></a>
+            
             <br><br>
             
             <!--
@@ -85,6 +93,12 @@
             <a href = "./displayURL?user=${username}&theme=Peach-calendar"> <img src = "./get?user=${username}&theme=Peach-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=Indigo-calendar"> <img src = "./get?user=${username}&theme=Indigo-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=Sunset-calendar"> <img src = "./get?user=${username}&theme=Sunset-calendar"></a>
+            <a href = "./displayURL?user=${username}&theme=Lake-calendar"> <img src = "./get?user=${username}&theme=Lake-calendar"></a>
+            <a href = "./displayURL?user=${username}&theme=Ocean-calendar"> <img src = "./get?user=${username}&theme=Ocean-calendar"></a>
+            <a href = "./displayURL?user=${username}&theme=DeepOcean-calendar"> <img src = "./get?user=${username}&theme=DeepOcean-calendar"></a>
+            <a href = "./displayURL?user=${username}&theme=Cloud-calendar"> <img src = "./get?user=${username}&theme=Cloud-calendar"></a>
+            <a href = "./displayURL?user=${username}&theme=Emerald-calendar"> <img src = "./get?user=${username}&theme=Emerald-calendar"></a>
+            <a href = "./displayURL?user=${username}&theme=Depths-calendar"> <img src = "./get?user=${username}&theme=Depths-calendar"></a>
         </div>
     </body>
 </html>

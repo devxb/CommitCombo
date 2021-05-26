@@ -4,7 +4,7 @@
     <style>
         <![CDATA[
         
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Sarala:wght@400;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=block');
             
             @keyframes fadeInAnimation{
                 0%{
@@ -62,7 +62,7 @@
             }
             
             text{
-                font-family : 'sarala', sans-serif;
+                font-family : 'Noto Sans KR', sans-serif;
                 fill : ${nameTagFill};
                 stroke-dasharray : 150px;
                 animation : fadeInAnimation 1.5s ease-in-out;
@@ -80,7 +80,6 @@
             }
             
             text.comboCnt{
-                font-family : 'Roboto', sans-serif;
                 fill : ${comboCntFill};
                 font-weight : 700;
                 font-size : ${fontSize};

@@ -29,6 +29,12 @@ public class Themes{
             ThemeList.add(new BasicDark());
             ThemeList.add(new Abocado());
             ThemeList.add(new Sunset());
+            ThemeList.add(new DeepOcean());
+            ThemeList.add(new Ocean());
+            ThemeList.add(new Lake());
+            ThemeList.add(new Emerald());
+            ThemeList.add(new Depths());
+            ThemeList.add(new Cloud());
         }
         return themes;
     }
