@@ -243,3 +243,7 @@ It is identified as the same cause as the above reason.
 <br> : Ctrl + Shift + R
 </li>
 </ul>
+	
+<h2></h2>
+<p>do not distribute the code without permission.<br>
+do not redistribute after modifying code or design.</p>
