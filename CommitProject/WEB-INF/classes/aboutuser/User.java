@@ -15,8 +15,7 @@ public class User{ // User정보 총괄 클래스
     }
     
     public String getFontSize(String username){
-        if(username.length() > 13) return "0.5625em";
-        if(username.length() > 10) return "0.6875em";
+        if(username.length() >= 10) return "0.6800em";
         if(username.length() > 7) return "0.8125em";
         return "0.9375em"; // default : 15px
     }

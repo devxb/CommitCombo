@@ -5,46 +5,43 @@ import java.util.ArrayList;
 public class Themes{
     
     private static Themes themes= new Themes();
-    private static ArrayList<Theme> ThemeList= new ArrayList<Theme>();
+    private static ArrayList<Theme> themeList;
     
     private Themes(){}
     
-    public static void addTheme(Theme theme){
-        ThemeList.add(theme);
-    }
-    
     public static Themes getThemes(){
-        if(ThemeList.isEmpty()){
-            ThemeList.add(new MintChocolate());
-            ThemeList.add(new Perfume());
-            ThemeList.add(new Peach());
-            ThemeList.add(new Orange());
-            ThemeList.add(new Mocha());
-            ThemeList.add(new Indigo());
-            ThemeList.add(new Grass());
-            ThemeList.add(new Grape());
-            ThemeList.add(new CottonCandy());
-            ThemeList.add(new BasicWhite());
-            ThemeList.add(new BasicGray());
-            ThemeList.add(new BasicDark());
-            ThemeList.add(new Abocado());
-            ThemeList.add(new Sunset());
-            ThemeList.add(new DeepOcean());
-            ThemeList.add(new Ocean());
-            ThemeList.add(new Lake());
-            ThemeList.add(new Emerald());
-            ThemeList.add(new Depths());
-            ThemeList.add(new Cloud());
+        if(themeList == null){
+            themeList= new ArrayList<Theme>();
+            themeList.add(new MintChocolate());
+            themeList.add(new Perfume());
+            themeList.add(new Peach());
+            themeList.add(new Orange());
+            themeList.add(new Mocha());
+            themeList.add(new Indigo());
+            themeList.add(new Grass());
+            themeList.add(new Grape());
+            themeList.add(new CottonCandy());
+            themeList.add(new BasicWhite());
+            themeList.add(new BasicGray());
+            themeList.add(new BasicDark());
+            themeList.add(new Abocado());
+            themeList.add(new Sunset());
+            themeList.add(new DeepOcean());
+            themeList.add(new Ocean());
+            themeList.add(new Lake());
+            themeList.add(new Emerald());
+            themeList.add(new Depths());
+            themeList.add(new Cloud());
         }
         return themes;
     }
     
-    public Theme getTheme(String theme){
-        if(theme == null) return new BasicWhite();
-        for(int i = 0; i < ThemeList.size(); i++){
-            if(theme.contains(ThemeList.get(i).themeName)) return ThemeList.get(i);
-        }
-        return new BasicWhite();
+    public int getThemeListSize(){
+        return themeList.size();
+    }
+    
+    public Theme getTheme(int idx){
+        return themeList.get(idx);
     }
     
 }

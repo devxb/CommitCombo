@@ -50,7 +50,7 @@ Contribution setting에서 Private contributions를 체크하세요
 <div align = "center">
 <h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
 </div>
-	
+
 <h3>mini theme</h3>
 
 [![commitcombo](https://user-images.githubusercontent.com/62425964/119669871-5dd9bf80-be73-11eb-92e6-44b8b377da69.PNG)](http://commitcombo.com/maker)
@@ -137,15 +137,22 @@ Emerald-mini, calendar
 <h2></h2>
 <h3> <a name = "manual"></a>사용법 및 예시</h3>
 
-<p>미니 테마</p>
+<p>
+아래 링크를 자신의 README.md파일에 복사 붙여넣기 하시면 됩니다. <br> 
+{username}에는 자신의 깃허브 이름, <br>
+{theme}에는 자신이 원하는 테마를 넣으시면 됩니다.
+</p>
 
 	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
-<p> 예제 </p>
+<p> 예제 <br>
+{username} : Devxb, <br>
+{theme} : DeepOcean-mini 일때.
+</p>
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini])(https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
@@ -214,6 +221,13 @@ Emerald-mini, calendar
 </li>
 <br>
 <li>
+<b> 서버에 요청이 동시에 발생할경우 요청내용이 꼬이는 문제점이 발견되었습니다.</b>
+<br> - 싱글톤 패턴으로 구현된 클래스안에서 색상값을 가져오는 메소드를 수행하기때문에 생기는 문제점으로 파악됩니다.
+<br> - (쉽게말해 스태틱 메소드를 여러 쓰레드에서 동시에 호출해서 이전 쿼리가 무시되는것 같습니다.)
+<br> - 현재 메소드를 밖으로 빼내고 스태틱을 없애긴 했으나 이게 문제점인지는 불분명 하기때문에, 해결되는지는 조금 더 지켜봐야할것같습니다.
+</li>
+<br>
+<li>
 <b> (해결) 폰트가 적용되지않고있습니다. </b>
 </li>
 <br>
@@ -236,6 +250,6 @@ Emerald-mini, calendar
 </ul>
 
 <h2></h2>
-	
+
 <p>코드, 디자인 배포및, 수정후 재배포 하지말아주세요.</p>
-	
+

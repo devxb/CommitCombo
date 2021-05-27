@@ -1,6 +1,6 @@
 <%@ page language = "java" contentType="image/svg+xml; charset=utf-8" pageEncoding="utf-8"%>
 
-<svg width="796" height="110" viewBox="0 0 796 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="808" height="110" viewBox="0 0 808 110" fill="none" xmlns="http://www.w3.org/2000/svg">
     <%
         response.setHeader("Cache-Control","no-cache");
         response.addHeader("Cache-Control","no-store");
@@ -9,10 +9,10 @@
     %>
     <style>
     <![CDATA[
-        @import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
      
         text{
-            font-family : 'Sarala', sans-serif;
+            font-family : 'Noto Sans KR', sans-serif;
             font-weight : 400;
             font-size : 110px;
             fill : url(#Gradient);

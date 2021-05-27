@@ -53,7 +53,7 @@ Usage and examples</a>
 <div align = "center">
 <h3> <a name = "availableTheme"></a>Available themes</h3>
 </div>
-	
+
 <h3>mini theme</h3>
 
 [![commitcombo](https://user-images.githubusercontent.com/62425964/119669871-5dd9bf80-be73-11eb-92e6-44b8b377da69.PNG)](http://commitcombo.com/maker)
@@ -141,19 +141,26 @@ Click the picture below (<a href = "http://commitcombo.com/maker">link</a>), che
 <h2></h2>
 <h3> <a name = "manual"></a>Usage and examples</h3>
 
-<p>Mini theme</p>
+<p>Copy and paste the link below into your own README.md file. <br>
+{username} is your GitHub name, <br>
+{theme} Put the theme you want.</p>
 
 	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
 <p>   
-example </p>
+Example <br>
+{username} is Devxb, <br>
+{theme} is DeepOcean-mini. 
+</p>
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini])(https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
+
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
+
 <h3>Next update</h3>
 <ul> 
 <h4>version-1.5</h4>
@@ -180,7 +187,7 @@ Fixed fonts are not applied!!</b>
 <ul>
 <h4> version -1.3 / 2021.05.25 </h4>
 <li>
-	  
+
 Slight performance improvement
 </li>
 <li>
@@ -221,6 +228,13 @@ Slight performance improvement
 </li>
 <br>
 <li>
+<b> When requests are made to the server at the same time, the request contents are twisted. </b>
+<br> - It is identified as a problem that occurs because the method to get the color value is executed in the class implemented with the singleton pattern.
+<br> - (it seems that the previous query is ignored by calling the static method from multiple threads at the same time.)
+<br> - Currently, the method has been pulled out and static is removed, but it is unclear whether this is the problem, so I think we will have to watch a little more if this is resolved.
+</li>
+<br>
+<li>
 <b> (Fixed) Fonts are not applied. </b>
 </li>
 <br>
@@ -243,7 +257,7 @@ It is identified as the same cause as the above reason.
 <br> : Ctrl + Shift + R
 </li>
 </ul>
-	
+
 <h2></h2>
 <p>do not distribute the code without permission.<br>
 do not redistribute after modifying code or design.</p>

@@ -25,7 +25,8 @@
     
     theme = request.getParameter("theme");
     username = request.getParameter("user");
-    Theme userTheme = ThemeFactory.getTheme(theme);
+    ThemeFactory themeFactory = new ThemeFactory();
+    Theme userTheme = themeFactory.getTheme(theme);
     
     if(username == null) username = "nonamed"; // username null
     
@@ -61,12 +62,14 @@
     
     if(theme == null || theme.contains("mini")){ // theme null
         if(comboCnt > 999) request.setAttribute("comboCnt",999);
+        if(username.length() >= 12) request.setAttribute("nameTag", username.substring(0,9)+"..."); // maximum display name = 12
         pageContext.forward("minitheme");
     }
     else if(theme.contains("calendar")){
         // calendar theme need font-size
         if(comboCnt > 999) request.setAttribute("fontSize","3em");
         else request.setAttribute("fontSize","4.375em");
+        if(username.length() >= 14) request.setAttribute("nameTag", username.substring(0,11)+"..."); // maximum display name = 14
         
         pageContext.forward("calendartheme");
     }
