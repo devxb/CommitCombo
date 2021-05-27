@@ -234,3 +234,8 @@ Emerald-mini, calendar
 <br> : Ctrl + Shift + R
 </li>
 </ul>
+
+<h2></h2>
+	
+<p>코드, 디자인 배포및, 수정후 재배포 하지말아주세요.</p>
+	
