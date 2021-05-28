@@ -154,6 +154,7 @@ Emerald-mini, calendar
 {username}에는 자신의 깃허브 이름, <br>
 {theme}에는 자신이 원하는 테마를 넣으시면 됩니다.
 </p>
+	
 	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
 <p> 예제 <br>
