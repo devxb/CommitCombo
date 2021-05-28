@@ -9,7 +9,6 @@
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br>
   <h2></h2>
-  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
 <div align = "center">  ⭐스타를 눌러주세요 개발에 큰 도움이 됩니다!⭐️</div>
 <div align="center"><a href="./ENG.md"> English </a></div>
@@ -18,12 +17,23 @@
 <p> 아이디어나 발견 한 버그가 있다면 제보 해주세요<br><br>
 <b><i>Contact : develxb@gmail.com</i></b></p>
 
+
+
 <p align = "center">
 private repository 커밋기록이 잘 반영되지 않고있다면, <br>
 Contribution setting에서 Private contributions를 체크하세요
 </p>
+<div align = "center"> 
+    <img src = "http://commitcombo.com/serverClock"/>
+    <br/>
+    <p>
+        <b>커밋기록은 서버시간 하루전날을 기준으로 반영됩니다.</b> <br>
+        커밋기록이 반영되는데 약간의 시간이 필요할수있습니다.(최대 3시간)
+    </p>
+</div>
 
 </div>
+
 <div>
 <ul>
 목록
@@ -138,22 +148,15 @@ Emerald-mini, calendar
 <h2></h2>
 <h3> <a name = "manual"></a>사용법 및 예시</h3>
 
-<p>
-아래 링크를 자신의 README.md파일에 복사 붙여넣기 하시면 됩니다. <br> 
-{username}에는 자신의 깃허브 이름, <br>
-{theme}에는 자신이 원하는 테마를 넣으시면 됩니다.
-</p>
+<p>미니 테마</p>
 
 	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
-<p> 예제 <br>
-{username} : Devxb, <br>
-{theme} : DeepOcean-mini 일때.
-</p>
+<p> 예제 </p>
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini])(https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>

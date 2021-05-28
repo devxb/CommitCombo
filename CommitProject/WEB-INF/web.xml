@@ -64,7 +64,7 @@
   
   <servlet>
     <servlet-name> select-theme </servlet-name>
-    <jsp-file> /select-theme.jsp </jsp-file>
+    <jsp-file> /selectTheme.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> select-theme </servlet-name>
@@ -89,4 +89,12 @@
     <url-pattern> /logo </url-pattern>
   </servlet-mapping>
   
+  <servlet>
+    <servlet-name> serverClock </servlet-name>
+    <jsp-file> /serverClock.jsp </jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name> serverClock </servlet-name>
+    <url-pattern> /serverClock </url-pattern>
+  </servlet-mapping>
 </web-app>

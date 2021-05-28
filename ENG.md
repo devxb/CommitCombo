@@ -8,7 +8,6 @@
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br>
   <h2></h2>
-	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
 <div align = "center">  ⭐Hit the star is a great help in development!⭐️</div>
 <div align="center"><a href="./README.md"> 한국어 </a></div>
@@ -24,8 +23,19 @@ If you don't commit for a day, the number is reset.</h4>
 Private repository commit history not reflected? <br>
 Check Private Contributions in Contribution Settings
 </p>
+<div align = "center"> 
+    <img src = "http://commitcombo.com/serverClock"/>
+    <br/>
+    <p>
+        <b>commit history is reflected as of the day before the server time.</b> <br>
+        It may take some time for the commit history to be reflected (maximum 3 hours).
+    </p>
+</div>
+
+
 
 </div>
+
 <div>
 <ul>
 menu
@@ -142,26 +152,19 @@ Click the picture below (<a href = "http://commitcombo.com/maker">link</a>), che
 <h2></h2>
 <h3> <a name = "manual"></a>Usage and examples</h3>
 
-<p>Copy and paste the link below into your own README.md file. <br>
-{username} is your GitHub name, <br>
-{theme} Put the theme you want.</p>
+<p>Mini theme</p>
 
 	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
 <p>   
-Example <br>
-{username} is Devxb, <br>
-{theme} is DeepOcean-mini. 
-</p>
+example </p>
 
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini])(https://github.com/devxb/CommitCombo)
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
-
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
-
 <h3>Next update</h3>
 <ul> 
 <h4>version-1.5</h4>

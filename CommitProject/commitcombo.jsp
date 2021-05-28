@@ -24,12 +24,12 @@
     // camo
     
     theme = request.getParameter("theme");
+    if(theme == null) theme = "MintChocolate-mini"; // theme null
     username = request.getParameter("user");
     ThemeFactory themeFactory = new ThemeFactory();
     Theme userTheme = themeFactory.getTheme(theme);
     
     if(username == null) username = "nonamed"; // username null
-    
     if(session.getAttribute(username) == null){ // check and make session
         //To avoid burdening GitHub server!
         session.setAttribute(username, HTMLParser.getCommitCombo(username));
@@ -60,12 +60,12 @@
     request.setAttribute("extraAnimation", userTheme.getExtraAnimation()); // setting extra animation
     // end extra animation
     
-    if(theme == null || theme.contains("mini")){ // theme null
+    if(theme.contains("mini")){ // option - mini theme 
         if(comboCnt > 999) request.setAttribute("comboCnt",999);
         if(username.length() >= 12) request.setAttribute("nameTag", username.substring(0,9)+"..."); // maximum display name = 12
         pageContext.forward("minitheme");
     }
-    else if(theme.contains("calendar")){
+    else if(theme.contains("calendar")){ // option - calendar theme
         // calendar theme need font-size
         if(comboCnt > 999) request.setAttribute("fontSize","3em");
         else request.setAttribute("fontSize","4.375em");
