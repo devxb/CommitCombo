@@ -153,16 +153,21 @@ Click the picture below (<a href = "http://commitcombo.com/maker">link</a>), che
 <h2></h2>
 <h3> <a name = "manual"></a>Usage and examples</h3>
 
-<p>Mini theme</p>
+<p>Copy and paste the link below into your own README.md file. <br>
+{username} is your GitHub name, <br>
+{theme} Put the theme you want.</p>
 
 	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
 <p>   
-example </p>
+Example <br>
+{username} = Devxb, <br>
+{theme} = DeepOcean-mini. 
+</p>
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini])(https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
