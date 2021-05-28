@@ -149,15 +149,20 @@ Emerald-mini, calendar
 <h2></h2>
 <h3> <a name = "manual"></a>사용법 및 예시</h3>
 
-<p>미니 테마</p>
-
+<p>
+아래 링크를 자신의 README.md파일에 복사 붙여넣기 하시면 됩니다. <br> 
+{username}에는 자신의 깃허브 이름, <br>
+{theme}에는 자신이 원하는 테마를 넣으시면 됩니다.
+</p>
 	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
-<p> 예제 </p>
+<p> 예제 <br>
+{username} : Devxb, <br>
+{theme} : DeepOcean-mini 일때.
+</p>
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini])(https://github.com/devxb/CommitCombo)
-
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
 
 <h2></h2>
 <a name = "nextUpdate"></a>
