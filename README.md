@@ -9,6 +9,7 @@
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br>
   <h2></h2>
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
 <div align = "center">  ⭐스타를 눌러주세요 개발에 큰 도움이 됩니다!⭐️</div>
 <div align="center"><a href="./ENG.md"> English </a></div>
