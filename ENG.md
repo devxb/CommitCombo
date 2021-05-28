@@ -6,9 +6,9 @@
   <a href="https://github.com/devxb/CommitCombo"><img src = "http://commitcombo.com/logo" align="center"/></a> <br><br><br>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Lake-mini" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Github Commit Combo"/>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br><br>
-	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
+  <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br>
   <h2></h2>
+	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
 <div align = "center">  ⭐Hit the star is a great help in development!⭐️</div>
 <div align="center"><a href="./README.md"> 한국어 </a></div>
