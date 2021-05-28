@@ -6,7 +6,7 @@
   <a href="https://github.com/devxb/CommitCombo"><img src = "http://commitcombo.com/logo" align="center"/></a> <br><br><br>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Lake-mini" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Github Commit Combo"/>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br>
+  <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br><br>
 	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
   <h2></h2>
 </div>
