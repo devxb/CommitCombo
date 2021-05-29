@@ -63,80 +63,87 @@ Contribution setting에서 Private contributions를 체크하세요
 <h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
 </div>
 
-<h3>mini theme</h3>
-
-[![commitcombo](https://user-images.githubusercontent.com/62425964/119669871-5dd9bf80-be73-11eb-92e6-44b8b377da69.PNG)](http://commitcombo.com/maker)
-<!-- [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicWhite-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicDark-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=BasicGray-mini)](https://github.com/devxb/CommitCombo)
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Mocha-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grape-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=MintChocolate-mini)](https://github.com/devxb/CommitCombo)
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Orange-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Abocado-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Perfume-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=CottonCandy-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Grass-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Peach-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Indigo-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=Sunset-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb7theme=Lake-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb7theme=Ocean-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb7theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb7theme=Depths-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb7theme=Cloud-mini)](https://github.com/devxb/CommitCombo) [![commitcombo](http://commitcombo.com/get?user=Devxb7theme=Emerald-mini)](https://github.com/devxb/CommitCombo) -->
-
-<h2></h2>
-<h3>calendar theme </h3>
-
-[![commitcombo](https://user-images.githubusercontent.com/62425964/119518275-57840e80-bdb3-11eb-86ea-9345f953f654.jpg)](http://commitcombo.com/maker)
-[![commitcombo](https://user-images.githubusercontent.com/62425964/119667178-00447380-be71-11eb-9c28-1579b7461e69.PNG)](http://commitcombo.com/maker)
-
 <h3>theme</h3> 
 <ul>
 <li>
-BasicWhite-mini
+BasicWhite-mini , BasicWhite-mini-v2 <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058745-1aa46a00-c088-11eb-98eb-bb9dd20241a2.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058746-1aa46a00-c088-11eb-95ca-2782984a0a2c.png"/>
 </li>
 <li>
-BasicDark-mini
+BasicDark-mini , BasicDark-mini-v2 <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058741-19733d00-c088-11eb-9ebe-754ab3cec85f.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058742-19733d00-c088-11eb-8cd2-723bf5faafe4.png"/>
 </li>
 <li>
-BasicGray-mini
+BasicGray-mini , BasicGray-mini-v2 <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058743-1a0bd380-c088-11eb-82cd-b0e474f4d5ef.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058744-1a0bd380-c088-11eb-9860-e2e909464ae0.png"/>
 </li>
 <li>
-Mocha-mini
+Mocha-mini , Mocha-mini-v2 <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058772-2132e180-c088-11eb-95d8-f5907bfaa8d4.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058773-2132e180-c088-11eb-84db-82b060014521.png"/>
 </li>
 <li>
-Grape-mini
+Grape-mini , Grape-mini-v2 <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058760-1d9f5a80-c088-11eb-92c2-bb6ae3168738.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058761-1e37f100-c088-11eb-9b97-c759712fc9e7.png"/>
 </li>
 <li>
-MintChocolate-mini
+MintChocolate-mini , MintChocolate-mini-v2 <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058974-673c7500-c089-11eb-98fd-08a1c66deeba.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058963-4c6a0080-c089-11eb-9730-cb9fdbedde30.png"/>
 </li>
 <li>
-Orange-mini
+Orange-mini , Orange-mini-v2 <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058778-22fca500-c088-11eb-9a8f-d683fff8b809.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058779-22fca500-c088-11eb-90f2-238e6ad3f9fb.png"/>
 </li>
 <li>
-Abocado-mini
+Abocado-mini , Abocado-mini-v2 <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058738-18421000-c088-11eb-96b8-02312fc86b1b.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058740-18daa680-c088-11eb-8ac6-120853dbc4c6.png"/>
 </li>
 <li>
-Perfume-mini , calendar
+Perfume-mini , Perfume-mini-v2 , Perfume-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058782-242dd200-c088-11eb-90c5-e389092dd26a.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058783-242dd200-c088-11eb-97ae-fd595834560f.png"/>
 </li>
 <li>
-CottonCandy-mini , calendar
+CottonCandy-mini , CottonCandy-mini-v2 , CottonCandy-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058750-1bd59700-c088-11eb-9155-a19d8b738bc9.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058751-1bd59700-c088-11eb-9dd7-1edc732fe6e3.png"/>
 </li>
 <li>
-Grass-mini , calendar
+Grass-mini , Grass-mini-v2 , Grass-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058762-1e37f100-c088-11eb-87bc-db836561e465.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058763-1ed08780-c088-11eb-9f9f-7e4aeaffe8a0.png"/>
 </li>
 <li>
-Peach-mini , calendar
+Peach-mini , Peach-mini-v2 , Peach-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058780-23953b80-c088-11eb-82df-7231cc8ea1f6.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058781-23953b80-c088-11eb-90cd-5867474c0c1f.png"/>
 </li>
 <li>
-Indigo-mini , calendar
+Indigo-mini , Indigo-mini-v2 , Indigo-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058765-1f691e00-c088-11eb-9dac-5da0e3e1aece.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058767-1f691e00-c088-11eb-89ad-f7b0a65070d9.png"/>
 </li>
 <li>
-Sunset-mini , calendar
+Sunset-mini , Sunset-mini-v2 , Sunset-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058768-2001b480-c088-11eb-8b35-ec77af497057.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058769-2001b480-c088-11eb-9559-138d8831f9b7.png"/>
 </li>
 <li>
-Lake-mini, calendar
+Lake-mini, Lake-mini-v2 , Lake-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058774-21cb7800-c088-11eb-9928-b7b9df6a9006.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058775-21cb7800-c088-11eb-8c57-b47bacb06a9b.png"/>
 </li>
 <li>
-Ocean-mini, calendar
+Ocean-mini, Ocean-mini-v2 , Ocean-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058776-22640e80-c088-11eb-9288-5cbd0f126051.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058777-22640e80-c088-11eb-9d4a-f5cbae3ee19a.png"/>
 </li>
 <li>
-DeepOcean-mini, calendar
+DeepOcean-mini, DeepOcean-mini-v2 DeepOcean-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058752-1c6e2d80-c088-11eb-9454-e04afabf24b4.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058753-1c6e2d80-c088-11eb-9168-3ff041cbbac9.png"/>
 </li>
 <li>
-Depths-mini, calendar
+Depths-mini, Depths-mini-v2 , Depths-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058754-1c6e2d80-c088-11eb-8cc9-303e89d17143.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058755-1d06c400-c088-11eb-9429-86f07f59f77c.png"/>
 </li>
 <li>
-Cloud-mini, calendar
+Cloud-mini, Cloud-mini-v2 , Cloud-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058747-1b3d0080-c088-11eb-983d-5d0872aa364b.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058749-1b3d0080-c088-11eb-9a0c-61a7e416db2a.png"/>
 </li>
 <li>
-Emerald-mini, calendar
+Emerald-mini, Emerald-mini-v2 , Emerald-calendar <br>
+<img src = "https://user-images.githubusercontent.com/62425964/120058757-1d06c400-c088-11eb-9f58-8ae8658cbee7.png"/> <img src = "https://user-images.githubusercontent.com/62425964/120058759-1d9f5a80-c088-11eb-9249-3cbc1c12314a.png"/>
 </li>
 </ul>
 <h2></h2>
@@ -170,15 +177,25 @@ Emerald-mini, calendar
 <a name = "nextUpdate"></a>
 <h3>다음 업데이트</h3>
 <ul> 
-<h4>version-1.5</h4>
+<h4>version-1.6</h4>
 	<li>
-	새로운 테마 추가 (중간사이즈)
+	New theme added (medium size)
 	</li>
 </ul>
 
 <h2></h2>
 <a name = "history"></a>
-<h3> 버전기록 </h3>
+<h3> Version history </h3>
+
+<ul>
+<h4> version -1.5 /2021.05.29</h4>
+<li>
+ Add minitheme-v2
+</li>
+<li>
+ 유저이름이 긴 경우 보여지는 방식을 변경했습니다.
+</li>
+</ul>
 
 <ul>
 <h4> version -1.4 / 2021.05.26</h4>

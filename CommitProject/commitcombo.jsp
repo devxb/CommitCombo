@@ -7,14 +7,13 @@
 <%@ page language="java" contentType="image/svg+xml; charset=utf-8" pageEncoding = "utf-8"%>
 <%@ page import="commitcombo.*" %>
 <%@ page import="aboutuser.*" %>
-<%! 
-    String theme = "BasicDark-mini";
-    String username = "nonamed";
-    long comboCnt;
-%>
 
 <% 
     //server
+    
+    String theme = "BasicDark-mini";
+    String username = "nonamed";
+    long comboCnt;
     
     // camo cache-control
     response.setHeader("Cache-Control","no-cache");
@@ -59,9 +58,16 @@
     // start extra animaiton
     request.setAttribute("extraAnimation", userTheme.getExtraAnimation()); // setting extra animation
     // end extra animation
-    
-    if(theme.contains("mini")){ // option - mini theme 
-        if(comboCnt > 999) request.setAttribute("comboCnt",999);
+    if(theme.contains("mini-v2")){
+        request.setAttribute("fontSize","2.1875em");
+        if(comboCnt > 99) request.setAttribute("fontSize","1.875em");
+        if(comboCnt > 999) request.setAttribute("fontSize","1.4625em");
+        if(username.length() >= 12) request.setAttribute("nameTag", username.substring(0,9)+"..."); // maximum display name = 12
+        pageContext.forward("minitheme-v2");
+    }
+    else if(theme.contains("mini")){ // option - mini theme 
+        request.setAttribute("fontSize","1.688em");
+        if(comboCnt > 999) request.setAttribute("fontSize","1.3625em");
         if(username.length() >= 12) request.setAttribute("nameTag", username.substring(0,9)+"..."); // maximum display name = 12
         pageContext.forward("minitheme");
     }

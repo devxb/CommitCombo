@@ -27,13 +27,15 @@
                 }
             }
 
-            .divtheme{
+            div{
                 position:absolute;
                 background-color : rgb(255,255,255,0);
                 /*border-style:solid;*/
                 /*border-image : repeating-linear-gradient(0.25turn, #FFBC50, #AA31BD) 10;*/
                 text-align: center;
                 vertical-align: center;
+                width: 100vw;
+                height: 100vh;
                 /*animation : delayfadeInAnimation 1s ease-in-out;*/
             }
             
@@ -49,32 +51,75 @@
         pageContext.setAttribute("username",name);
     %>
 
-        <div class = "divtheme">
-         <img src = "./projectCC/logo/Choose-your-theme.svg" style="animation: fadeInAnimation 1s ease-in-out"> <br> <br> <br> <br> <br> <br> <br> <br>
-            <a href = "./displayURL?user=${username}&theme=BasicWhite-mini"> <img src = "./get?user=${username}&theme=BasicWhite-mini"></img></a>
-            <a href = "./displayURL?user=${username}&theme=BasicDark-mini"> <img src = "./get?user=${username}&theme=BasicDark-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=BasicGray-mini"> <img src = "./get?user=${username}&theme=BasicGray-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Mocha-mini"> <img src = "./get?user=${username}&theme=Mocha-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Grape-mini"> <img src = "./get?user=${username}&theme=Grape-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=MintChocolate-mini"> <img src = "./get?user=${username}&theme=MintChocolate-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Orange-mini"> <img src = "./get?user=${username}&theme=Orange-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Abocado-mini"> <img src = "./get?user=${username}&theme=Abocado-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Perfume-mini"> <img src = "./get?user=${username}&theme=Perfume-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=CottonCandy-mini"> <img src = "./get?user=${username}&theme=CottonCandy-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Grass-mini"> <img src = "./get?user=${username}&theme=Grass-mini"></a>
+        <div>
+         <img src = "./projectCC/logo/Choose-your-theme.svg" style="animation: fadeInAnimation 1s ease-in-out"> <br>
+         
+         <p> 
+            <span style="color:#FFFFFF">If you see more than one of the same theme, please refresh.</span> <br>
+            <span style="color:#C4C4C4"> I will fix it as soon as possible. </span> <br>
+         </p>
+         <br>
+            <a href = "./displayURL?user=${username}&theme=BasicWhite-mini"> <img src = "./get?user=${username}&theme=BasicWhite-mini"></img></a> 
+            <a href = "./displayURL?user=${username}&theme=BasicWhite-mini-v2"><img src = "./get?user=${username}&theme=BasicWhite-mini-v2"></img></a> 
+            <a href = "./displayURL?user=${username}&theme=MintChocolate-mini"> <img src = "./get?user=${username}&theme=MintChocolate-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=MintChocolate-mini-v2"><img src = "./get?user=${username}&theme=MintChocolate-mini-v2"></img></a>
+            
+            
+            <a href = "./displayURL?user=${username}&theme=BasicDark-mini"> <img src = "./get?user=${username}&theme=BasicDark-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=BasicDark-mini-v2"><img src = "./get?user=${username}&theme=BasicDark-mini-v2"></img></a> 
+            <a href = "./displayURL?user=${username}&theme=Orange-mini"> <img src = "./get?user=${username}&theme=Orange-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Orange-mini-v2"><img src = "./get?user=${username}&theme=Orange-mini-v2"></a><br>
+            
+            
+            <a href = "./displayURL?user=${username}&theme=BasicGray-mini"> <img src = "./get?user=${username}&theme=BasicGray-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=BasicGray-mini-v2"><img src = "./get?user=${username}&theme=BasicGray-mini-v2"></img></a> 
+            <a href = "./displayURL?user=${username}&theme=Abocado-mini"> <img src = "./get?user=${username}&theme=Abocado-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Abocado-mini-v2"><img src = "./get?user=${username}&theme=Abocado-mini-v2"></a>
+            
+            
+            <a href = "./displayURL?user=${username}&theme=Mocha-mini"> <img src = "./get?user=${username}&theme=Mocha-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Mocha-mini-v2"><img src = "./get?user=${username}&theme=Mocha-mini-v2"></img></a> 
+            <a href = "./displayURL?user=${username}&theme=Perfume-mini"> <img src = "./get?user=${username}&theme=Perfume-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Perfume-mini-v2"><img src = "./get?user=${username}&theme=Perfume-mini-v2"></a><br>
+            
+            
+            <a href = "./displayURL?user=${username}&theme=Grape-mini"> <img src = "./get?user=${username}&theme=Grape-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Grape-mini-v2"><img src = "./get?user=${username}&theme=Grape-mini-v2"></img></a> 
+            <a href = "./displayURL?user=${username}&theme=CottonCandy-mini"> <img src = "./get?user=${username}&theme=CottonCandy-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=CottonCandy-mini-v2"><img src = "./get?user=${username}&theme=CottonCandy-mini-v2"></a>
+            
+            
+            
+            <a href = "./displayURL?user=${username}&theme=Grass-mini"> <img src = "./get?user=${username}&theme=Grass-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Grass-mini-v2"><img src = "./get?user=${username}&theme=Grass-mini-v2"></a> 
             <a href = "./displayURL?user=${username}&theme=Peach-mini"> <img src = "./get?user=${username}&theme=Peach-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Indigo-mini"> <img src = "./get?user=${username}&theme=Indigo-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Sunset-mini"> <img src = "./get?user=${username}&theme=Sunset-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Peach-mini-v2"><img src = "./get?user=${username}&theme=Peach-mini-v2"></a><br>
             
-            <a href = "./displayURL?user=${username}&theme=Lake-mini"> <img src = "./get?user=${username}&theme=Lake-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Ocean-mini"> <img src = "./get?user=${username}&theme=Ocean-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=DeepOcean-mini"> <img src = "./get?user=${username}&theme=DeepOcean-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Cloud-mini"> <img src = "./get?user=${username}&theme=Cloud-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Emerald-mini"> <img src = "./get?user=${username}&theme=Emerald-mini"></a>
-            <a href = "./displayURL?user=${username}&theme=Depths-mini"> <img src = "./get?user=${username}&theme=Depths-mini"></a>
             
-            <br><br>
+            <a href = "./displayURL?user=${username}&theme=Indigo-mini"> <img src = "./get?user=${username}&theme=Indigo-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Indigo-mini-v2"><img src = "./get?user=${username}&theme=Indigo-mini-v2"></a> 
+            <a href = "./displayURL?user=${username}&theme=Sunset-mini"> <img src = "./get?user=${username}&theme=Sunset-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Sunset-mini-v2"><img src = "./get?user=${username}&theme=Sunset-mini-v2"></a>
             
+            
+            <a href = "./displayURL?user=${username}&theme=Lake-mini"> <img src = "./get?user=${username}&theme=Lake-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Lake-mini-v2"><img src = "./get?user=${username}&theme=Lake-mini-v2"></a>
+             <a href = "./displayURL?user=${username}&theme=Ocean-mini"> <img src = "./get?user=${username}&theme=Ocean-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Ocean-mini-v2"><img src = "./get?user=${username}&theme=Ocean-mini-v2"></a><br>
+            
+            
+            <a href = "./displayURL?user=${username}&theme=DeepOcean-mini"> <img src = "./get?user=${username}&theme=DeepOcean-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=DeepOcean-mini-v2"><img src = "./get?user=${username}&theme=DeepOcean-mini-v2"></a>
+            <a href = "./displayURL?user=${username}&theme=Cloud-mini"> <img src = "./get?user=${username}&theme=Cloud-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Cloud-mini-v2"><img src = "./get?user=${username}&theme=Cloud-mini-v2"></a>
+            
+            
+            <a href = "./displayURL?user=${username}&theme=Emerald-mini"> <img src = "./get?user=${username}&theme=Emerald-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Emerald-mini-v2"><img src = "./get?user=${username}&theme=Emerald-mini-v2"></a>
+            <a href = "./displayURL?user=${username}&theme=Depths-mini"> <img src = "./get?user=${username}&theme=Depths-mini"></a> 
+            <a href = "./displayURL?user=${username}&theme=Depths-mini-v2"><img src = "./get?user=${username}&theme=Depths-mini-v2"></a><br>
+            
+            <br>
             <!--
             Not pretty
             <a href = "./displayURL?user=${username}&theme=BasicWhite-calendar"> <img src = "./get?user=${username}&theme=BasicWhite-calendar"></img></a>
@@ -99,6 +144,8 @@
             <a href = "./displayURL?user=${username}&theme=Cloud-calendar"> <img src = "./get?user=${username}&theme=Cloud-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=Emerald-calendar"> <img src = "./get?user=${username}&theme=Emerald-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=Depths-calendar"> <img src = "./get?user=${username}&theme=Depths-calendar"></a>
+            
         </div>
+        
     </body>
 </html>

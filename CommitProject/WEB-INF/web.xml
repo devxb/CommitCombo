@@ -37,6 +37,15 @@
   </servlet-mapping>
   
   <servlet>
+    <servlet-name> minitheme-v2 </servlet-name>
+    <jsp-file> /minithemeV2.jsp </jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name> minitheme-v2 </servlet-name>
+    <url-pattern> /minitheme-v2 </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
     <servlet-name>calendartheme</servlet-name>
     <jsp-file>/calendartheme.jsp</jsp-file>
   </servlet>
@@ -44,6 +53,7 @@
     <servlet-name>calendartheme</servlet-name>
     <url-pattern>/calendartheme</url-pattern>
   </servlet-mapping>
+  
   <servlet>
     <servlet-name> commitcombo-main </servlet-name>
     <jsp-file> /main.jsp </jsp-file>
