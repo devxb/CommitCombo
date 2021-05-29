@@ -11,7 +11,7 @@
   <h2></h2>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
-<div align = "center">  ⭐Hit the star is a great help in development!⭐️</div>
+<div align = "center">  ⭐Hit the star is a great help to development!⭐️</div>
 <div align="center"><a href="./README.md"> 한국어 </a></div>
 <div align = "center"> 
 <h3>  
