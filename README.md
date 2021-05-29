@@ -155,7 +155,11 @@ Emerald-mini, Emerald-mini-v2 , Emerald-calendar <br>
 
 <h2></h2>
 <h3> <a name = "manual"></a>사용법 및 예시</h3>
-
+<p>
+유저 이름이 길경우 슬라이딩해서 보여줍니다. 원하지않을시 URL끝에 &animation=false를 적어서 요청하세요.
+</p>
+<img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate-mini"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate-mini-v2"/> 
+<br>
 <p>
 아래 링크를 자신의 README.md파일에 복사 붙여넣기 하시면 됩니다. <br> 
 {username}에는 자신의 깃허브 이름, <br>
@@ -194,6 +198,10 @@ Emerald-mini, Emerald-mini-v2 , Emerald-calendar <br>
 </li>
 <li>
  유저이름이 긴 경우 보여지는 방식을 변경했습니다.
+</li>
+<li>
+ 이제 유저 이름이 짤릴경우, 옆으로 슬라이딩 하며 유저이름을 보여줍니다. 원하지않을시 &animation = false를 추가 하면됩니다.<br>
+ <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate-mini"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate-mini-v2"/>
 </li>
 </ul>
 

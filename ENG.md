@@ -160,7 +160,11 @@ Click the picture below (<a href = "http://commitcombo.com/maker">link</a>), che
 
 <h2></h2>
 <h3> <a name = "manual"></a>Usage and examples</h3>
-
+<p>
+If the user name is too long, it slides to show it. If you don't want to, write &animation=false at the end of the URL to request it.
+</p>
+<img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate-mini"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate-mini-v2"/> 
+<br>
 <p>Copy and paste the link below into your own README.md file. <br>
 {username} is your GitHub name, <br>
 {theme} Put the theme you want.</p>
@@ -209,6 +213,10 @@ Fixed fonts are not applied!!</b>
 </li>
 <li>
   Add blue theme <br> <img src = "http://commitcombo.com/get?user=Devxb&theme=Lake-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=Ocean-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=Depths-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini"/> <img src = "http://commitcombo.com/get?user=Devxb&theme=Emerald-mini"/> 
+</li>
+<li>
+ Now when the username is cut, it slides sideways to show the username. If you don't want it, just add &animation = false.<br>
+ <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate-mini"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate-mini-v2" />
 </li>
 </ul>
 

@@ -40,14 +40,6 @@
             
             ${extraAnimaiton}
             
-            .nameTag{
-                font-family: 'Noto Sans KR', sans-serif;
-                font-size: ${userNameSize};
-                fill: ${nameTagFill};
-                font-weight: 700;
-                animation: fadeInAnimation 0.8s ease-in-out;
-            }
-            
             .commitCombo{
                 font-family: 'Noto Sans KR', sans-serif;
                 font-size: 0.625em;
@@ -71,8 +63,8 @@
     </defs>
     <rect width="153" height="66.5217" rx="5" fill="${backgroundFill}"/>
     <rect x="93.2926" y="6.21948" width="53.5419" height="53.5419" rx="5" fill="${comboBoxFill}"/>
-    <g transform="translate(11,27)">
-        <text text-anchor="left" dominant-baseline="middle" class='nameTag'>${nameTag}</text>
+    <g style = "animation: fadeInAnimation 0.8s ease-in-out" transform="translate(11,0)">
+        <%@ include file="nameTag.jsp" %>
     </g>
     <g transform="translate(11,43)">
         <text text-anchor="left" dominant-baseline="middle" class="commitCombo">Commit Combo</text>

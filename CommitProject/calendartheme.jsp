@@ -73,12 +73,6 @@
                 font-weight : 400;
             }
             
-            text.nameTag{
-                font-size : ${userNameSize};
-                font-weight : 700;
-                animation : delayfadeInAnimation 1.5s ease-in-out;
-            }
-            
             text.comboCnt{
                 fill : ${comboCntFill};
                 font-weight : 700;
@@ -97,8 +91,8 @@
     <g transform="translate(22.5,11)">
         <text class = "label"> github commit combo </text>
     </g>
-    <g transform="translate(74,39)">
-        <text text-anchor="middle" class="nameTag"> ${nameTag} </text>
+    <g style = "animation: fadeInAnimation 1.5s ease-in-out" transform="translate(40,8)">
+        <%@ include file="nameTag.jsp" %>
     </g>
     <g transform="translate(74,115)">
         <text dominant-baseline="middle" text-anchor="middle" class="comboCnt"> ${comboCnt} </text>
