@@ -183,7 +183,7 @@ Emerald-mini, Emerald-mini-v2 , Emerald-calendar <br>
 <ul> 
 <h4>version-1.6</h4>
 	<li>
-	New theme added (medium size)
+	rank system
 	</li>
 </ul>
 
