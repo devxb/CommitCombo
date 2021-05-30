@@ -15,7 +15,7 @@
 <div align="center"><a href="./README.md"> 한국어 </a></div>
 <div align = "center"> 
 <h3>  
-Beautifully manage your continuous commit history<h3> <h4>   
+Manage your continuous commit history beautifully<h3> <h4>   
 commit record does not break, the number goes up.<br>  
 If you don't commit for a day, the number is reset.</h4>
 <p> Please report any ideas or bugs you find<br><br>
