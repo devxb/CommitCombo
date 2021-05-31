@@ -50,9 +50,6 @@ Contribution setting에서 Private contributions를 체크하세요
 	<a href = "#manual"> 사용법 및 예시</a>
 </li>
 <li>
-	<a href = "#nextUpdate"> 다음 업데이트에 추가될 내용</a>
-</li>
-<li>
 	<a href = "#history"> 버전기록</a>
 </li>
 <li>
