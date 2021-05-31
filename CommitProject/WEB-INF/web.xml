@@ -10,7 +10,7 @@
   <!-- for version 1.0 - 1.3 -->
   <servlet>
     <servlet-name> commitcombo-mini </servlet-name>
-    <jsp-file> /commitcombo.jsp </jsp-file>
+    <jsp-file> /Application/Controller/commitcombo.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> commitcombo-mini </servlet-name>
@@ -20,7 +20,7 @@
   
   <servlet>
     <servlet-name> commitcombo </servlet-name>
-    <jsp-file> /commitcombo.jsp </jsp-file>
+    <jsp-file> /Application/Controller/commitcombo.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> commitcombo </servlet-name>
@@ -29,7 +29,7 @@
   
   <servlet>
     <servlet-name> minitheme </servlet-name>
-    <jsp-file> /minitheme.jsp </jsp-file>
+    <jsp-file> /Application/Viewer/minitheme.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> minitheme </servlet-name>
@@ -38,7 +38,7 @@
   
   <servlet>
     <servlet-name> minitheme-v2 </servlet-name>
-    <jsp-file> /minithemeV2.jsp </jsp-file>
+    <jsp-file> /Application/Viewer/minithemeV2.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> minitheme-v2 </servlet-name>
@@ -47,7 +47,7 @@
   
   <servlet>
     <servlet-name>calendartheme</servlet-name>
-    <jsp-file>/calendartheme.jsp</jsp-file>
+    <jsp-file>/Application/Viewer/calendartheme.jsp</jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name>calendartheme</servlet-name>
@@ -56,7 +56,7 @@
   
   <servlet>
     <servlet-name> commitcombo-main </servlet-name>
-    <jsp-file> /main.jsp </jsp-file>
+    <jsp-file> /Application/ETC/main.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> commitcombo-main </servlet-name>
@@ -65,7 +65,7 @@
   
   <servlet>
     <servlet-name> commitcombo-maker </servlet-name>
-    <jsp-file> /commitcombo-maker.jsp </jsp-file>
+    <jsp-file> /Application/Maker/commitcombo-maker.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> commitcombo-maker </servlet-name>
@@ -74,7 +74,7 @@
   
   <servlet>
     <servlet-name> select-theme </servlet-name>
-    <jsp-file> /selectTheme.jsp </jsp-file>
+    <jsp-file> /Application/Maker/selectTheme.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> select-theme </servlet-name>
@@ -83,7 +83,7 @@
   
   <servlet>
     <servlet-name> display-userURL </servlet-name>
-    <jsp-file> /displayUserURL.jsp </jsp-file>
+    <jsp-file> /Application/Maker/displayUserURL.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> display-userURL </servlet-name>
@@ -92,7 +92,7 @@
   
   <servlet>
     <servlet-name> logo </servlet-name>
-    <jsp-file> /logo.jsp </jsp-file>
+    <jsp-file> /Application/ETC/logo.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> logo </servlet-name>
@@ -101,7 +101,7 @@
   
   <servlet>
     <servlet-name> serverClock </servlet-name>
-    <jsp-file> /serverClock.jsp </jsp-file>
+    <jsp-file> /Application/ETC/serverClock.jsp </jsp-file>
   </servlet>
   <servlet-mapping>
     <servlet-name> serverClock </servlet-name>
