@@ -54,9 +54,6 @@ menu
 Usage and examples</a>
 </li>
 <li>
-	<a href = "#nextUpdate"> Next update</a>
-</li>
-<li>
 	<a href = "#history"> Version history</a>
 </li>
 <li>
