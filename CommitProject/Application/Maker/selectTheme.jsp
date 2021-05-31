@@ -119,6 +119,38 @@
             <a href = "./displayURL?user=${username}&theme=Depths-mini"> <img src = "./get?user=${username}&theme=Depths-mini"></a> 
             <a href = "./displayURL?user=${username}&theme=Depths-mini-v2"><img src = "./get?user=${username}&theme=Depths-mini-v2"></a><br>
             
+            <a href = "./displayURL?user=${username}&theme=DarkBlue-mini"> <img src = "./get?user=${username}&theme=DarkBlue-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=DarkBlue-mini-v2"> <img src = "./get?user=${username}&theme=DarkBlue-mini-v2"></a>
+            <a href = "./displayURL?user=${username}&theme=DarkGray-mini"> <img src = "./get?user=${username}&theme=DarkGray-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=DarkGray-mini-v2"> <img src = "./get?user=${username}&theme=DarkGray-mini-v2"></a>
+            
+            
+            <a href = "./displayURL?user=${username}&theme=RoyalWhite-mini"> <img src = "./get?user=${username}&theme=RoyalWhite-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalWhite-mini-v2"> <img src = "./get?user=${username}&theme=RoyalWhite-mini-v2"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalPurple-mini"> <img src = "./get?user=${username}&theme=RoyalPurple-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalPurple-mini-v2"> <img src = "./get?user=${username}&theme=RoyalPurple-mini-v2"></a>
+            <br>
+            
+            <a href = "./displayURL?user=${username}&theme=RoyalBrown-mini"> <img src = "./get?user=${username}&theme=RoyalBrown-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalBrown-mini-v2"> <img src = "./get?user=${username}&theme=RoyalBrown-mini-v2"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalBlack-mini"> <img src = "./get?user=${username}&theme=RoyalBlack-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalBlack-mini-v2"> <img src = "./get?user=${username}&theme=RoyalBlack-mini-v2"></a>
+            
+            
+            <a href = "./displayURL?user=${username}&theme=DeepPurple-mini"> <img src = "./get?user=${username}&theme=DeepPurple-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=DeepPurple-mini-v2"> <img src = "./get?user=${username}&theme=DeepPurple-mini-v2"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalPink-mini"> <img src = "./get?user=${username}&theme=RoyalPink-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalPink-mini-v2"> <img src = "./get?user=${username}&theme=RoyalPink-mini-v2"></a>
+            <br>
+            
+            <a href = "./displayURL?user=${username}&theme=RoyalRed-mini"> <img src = "./get?user=${username}&theme=RoyalRed-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=RoyalRed-mini-v2"> <img src = "./get?user=${username}&theme=RoyalRed-mini-v2"></a>
+            <a href = "./displayURL?user=${username}&theme=Apricot-mini"> <img src = "./get?user=${username}&theme=Apricot-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Apricot-mini-v2"> <img src = "./get?user=${username}&theme=Apricot-mini-v2"></a> 
+           
+            
+            <a href = "./displayURL?user=${username}&theme=Pink-mini"> <img src = "./get?user=${username}&theme=Pink-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Pink-mini-v2"> <img src = "./get?user=${username}&theme=Pink-mini-v2"></a>
             <br>
             <!--
             Not pretty
@@ -131,7 +163,7 @@
             <a href = "./displayURL?user=${username}&theme=Orange-calendar"> <img src = "./get?user=${username}&theme=Orange-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=Abocado-calendar"> <img src = "./get?user=${username}&theme=Abocado-calendar"></a>
             -->
-            
+            <!--
             <a href = "./displayURL?user=${username}&theme=Perfume-calendar"> <img src = "./get?user=${username}&theme=Perfume-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=CottonCandy-calendar"> <img src = "./get?user=${username}&theme=CottonCandy-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=Grass-calendar"> <img src = "./get?user=${username}&theme=Grass-calendar"></a>
@@ -144,7 +176,7 @@
             <a href = "./displayURL?user=${username}&theme=Cloud-calendar"> <img src = "./get?user=${username}&theme=Cloud-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=Emerald-calendar"> <img src = "./get?user=${username}&theme=Emerald-calendar"></a>
             <a href = "./displayURL?user=${username}&theme=Depths-calendar"> <img src = "./get?user=${username}&theme=Depths-calendar"></a>
-            
+            -->
         </div>
         
     </body>

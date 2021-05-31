@@ -32,6 +32,17 @@ public class Themes{
             themeList.add(new Emerald());
             themeList.add(new Depths());
             themeList.add(new Cloud());
+            themeList.add(new RoyalRed());
+            themeList.add(new RoyalPink());
+            themeList.add(new Pink());
+            themeList.add(new Apricot());
+            themeList.add(new DeepPurple());
+            themeList.add(new DarkBlue());
+            themeList.add(new DarkGray());
+            themeList.add(new RoyalWhite());
+            themeList.add(new RoyalPurple());
+            themeList.add(new RoyalBlack());
+            themeList.add(new RoyalBrown());
         }
         return themes;
     }
