@@ -102,9 +102,30 @@ Example <br>
 	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
 
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
+	
+	
+	
+set with sort?
+	
+- align : (left, center, right)
+-img? user = your github username
+
+```html
+<p align="center">
+  <a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini"/>
+  </a>
+</p>
+```
+<p align="center">
+  <a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini"/>
+  </a>
+</p>
+
+
 
 <h2></h2>
-
 <a name = "history"></a>
 <h3> Version history </h3>
 
