@@ -103,8 +103,8 @@ Contribution setting에서 Private contributions를 체크하세요
 
 정렬하면서 적용하는법
 	
-- align 에 정렬위치를 지정합니다 (left, center, right)
--img 의 ?user 뒤에 자신의 깃허브 이름을 지정합니다.
+- align 에 정렬위치를 지정합니다 (left, center, right)    
+- img 의 ?user 뒤에 자신의 깃허브 이름을 지정합니다.
 
 ```html
 <p align="center">
