@@ -101,11 +101,10 @@ Contribution setting에서 Private contributions를 체크하세요
 
 
 
-정렬방법
-
-- align 에 정렬 방향(left, center, right)
-- a 태그에 아이콘을 누르면 이동할 위치 설정
-- img 에 ?user= 부분 자신의 github username으로 바꾸기
+set with sort?
+	
+- align : (left, center, right)
+-img? user = your github username
 
 ```html
 <p align="center">
