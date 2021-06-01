@@ -87,21 +87,44 @@ Contribution setting에서 Private contributions를 체크하세요
 {username}에는 자신의 깃허브 이름, <br>
 {theme}에는 자신이 원하는 테마를 넣으시면 됩니다.
 </p>
-	
+
 	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme})](https://github.com/devxb/CommitCombo)
 
 <p> 예제 <br>
 {username} : Devxb, <br>
 {theme} : DeepOcean-mini 일때.
 </p>
-	
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
+
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
 
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
 
-<h2></h2>
+
+
+정렬방법
+
+- align 에 정렬 방향(left, center, right)
+- a 태그에 아이콘을 누르면 이동할 위치 설정
+- img 에 ?user= 부분 자신의 github username으로 바꾸기
+
+```html
+<p align="center">
+  <a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini"/>
+  </a>
+</p>
+```
+<p align="center">
+  <a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini"/>
+  </a>
+</p>
+
+
+
 
 <a name = "history"></a>
+
 <h3> Version history </h3>
 
 <ul>
