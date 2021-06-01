@@ -107,8 +107,8 @@ Example <br>
 	
 set with sort?
 	
-- align : (left, center, right)
--img? user = your github username
+- align : (left, center, right)     
+- Write your github name after user? in img.
 
 ```html
 <p align="center">
