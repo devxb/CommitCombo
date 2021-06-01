@@ -8,8 +8,6 @@
   <img src = "http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=RoyalRed-mini-v2" align="center" alt="Github Commit Combo"/>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=RoyalBlack-mini-v2" align="center" alt="Github Commit Combo"/><br>
   <h2></h2>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
@@ -52,6 +50,9 @@ menu
 <li>
 	<a href = "#manual">   
 Usage and examples</a>
+</li>
+<li>
+	<a href = "#nextUpdate"> Next update</a>
 </li>
 <li>
 	<a href = "#history"> Version history</a>
@@ -106,6 +107,19 @@ Example <br>
 
 <a name = "history"></a>
 <h3> Version history </h3>
+
+<ul>
+<h4> version -1.6 / 2021.06.01 </h4>
+<li>
+ Fixed logic
+</li>
+<li>
+ Controller change jsp -> servlet
+</li>
+<li>
+ Change the saving method Save to internal storage instead of saving in session (temporary)
+</li>
+</ul>
 
 <ul>
 <h4> version -1.5 /2021.05.29</h4>
@@ -176,10 +190,8 @@ Slight performance improvement
 </li>
 <br>
 <li>
-<b> When requests are made to the server at the same time, the request contents are twisted. </b>
-<br> - It is identified as a problem that occurs because the method to get the color value is executed in the class implemented with the singleton pattern.
-<br> - (it seems that the previous query is ignored by calling the static method from multiple threads at the same time.)
-<br> - Currently, the method has been pulled out and static is removed, but it is unclear whether this is the problem, so I think we will have to watch a little more if this is resolved.
+<b> (Fixed) When requests are made to the server at the same time, the request contents are twisted. </b>
+<br> - Removed the (problematic) static variable in the singleton pattern, and changed the logic to return a variable.
 </li>
 <br>
 <li>

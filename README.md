@@ -8,8 +8,6 @@
   <img src = "http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=RoyalRed-mini-v2" align="center" alt="Github Commit Combo"/>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=RoyalBlack-mini-v2" align="center" alt="Github Commit Combo"/><br>
   <h2></h2>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
@@ -48,6 +46,9 @@ Contribution setting에서 Private contributions를 체크하세요
 </li>
 <li>
 	<a href = "#manual"> 사용법 및 예시</a>
+</li>
+<li>
+	<a href = "#nextUpdate"> 다음 업데이트에 추가될 내용</a>
 </li>
 <li>
 	<a href = "#history"> 버전기록</a>
@@ -102,6 +103,19 @@ Contribution setting에서 Private contributions를 체크하세요
 
 <a name = "history"></a>
 <h3> Version history </h3>
+
+<ul>
+<h4> version -1.6 / 2021.06.01 </h4>
+<li>
+ 로직 수정
+</li>
+<li>
+ 컨트롤러 jsp에서 servlet으로 변경
+</li>
+<li>
+ 저장 방식 변경 세션에 저장하지않고, 내부 저장소에 저장(임시)
+</li>
+</ul>
 
 <ul>
 <h4> version -1.5 /2021.05.29</h4>
@@ -166,14 +180,13 @@ Contribution setting에서 Private contributions를 체크하세요
 
 <ul>
 <li>
-<b> 3~4년간 끊기지않고 커밋한경우 초기 데이터를 얻어오는데 너무 오래걸림 해결책 생각중입니다 </b>
+<b> (해결?) 3~4년간 끊기지않고 커밋한경우 초기 데이터를 얻어오는데 너무 오래걸림 해결책 생각중입니다 </b>
+<br> - 내부저장소를 만들어서 1회 로딩시 그 다음부터는 빠르게 얻어옴
 </li>
 <br>
 <li>
-<b> 서버에 요청이 동시에 발생할경우 요청내용이 꼬이는 문제점이 발견되었습니다.</b>
-<br> - 싱글톤 패턴으로 구현된 클래스안에서 색상값을 가져오는 메소드를 수행하기때문에 생기는 문제점으로 파악됩니다.
-<br> - (쉽게말해 스태틱 메소드를 여러 쓰레드에서 동시에 호출해서 이전 쿼리가 무시되는것 같습니다.)
-<br> - 현재 메소드를 밖으로 빼내고 스태틱을 없애긴 했으나 이게 문제점인지는 불분명 하기때문에, 해결되는지는 조금 더 지켜봐야할것같습니다.
+<b> (해결) 서버에 요청이 동시에 발생할경우 요청내용이 꼬이는 문제점이 발견되었습니다.</b>
+<br> - 싱글톤패턴안에 (문제가되는)스태틱변수를 없애고, 변수를 반환해주는식의 로직으로 변경했습니다.
 </li>
 <br>
 <li>
