@@ -99,7 +99,7 @@ Example <br>
 {theme} = DeepOcean-mini. 
 </p>
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini])(https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
 
 [![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini)](https://github.com/devxb/CommitCombo)
 	
