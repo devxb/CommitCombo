@@ -42,3 +42,4 @@ public Apricot(){
 
 }
 ```
+### 모든 pull request 다른사람에의해 사용될수있습니다.
