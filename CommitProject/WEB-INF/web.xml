@@ -7,26 +7,35 @@
   version="4.0"
   metadata-complete="true">
   
+  <!-- controller -->
+  
   <!-- for version 1.0 - 1.3 -->
-  <servlet>
-    <servlet-name> commitcombo-mini </servlet-name>
-    <jsp-file> /Application/Controller/commitcombo.jsp </jsp-file>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name> commitcombo-mini </servlet-name>
-    <url-pattern> /combo-mini </url-pattern>
-  </servlet-mapping>
+  <!--<servlet>-->
+  <!--  <servlet-name> commitcombo-mini </servlet-name>-->
+  <!--  <jsp-file> controller.Controller </jsp-file>-->
+  <!--</servlet>-->
+  <!--<servlet-mapping>-->
+  <!--  <servlet-name> commitcombo-mini </servlet-name>-->
+  <!--  <url-pattern> /combo-mini </url-pattern>-->
+  <!--</servlet-mapping>-->
   <!-- for version 1.0 - 1.3 -->
   
   <servlet>
-    <servlet-name> commitcombo </servlet-name>
-    <jsp-file> /Application/Controller/commitcombo.jsp </jsp-file>
+    <servlet-name> main-controller </servlet-name>
+    <servlet-class> controller.Controller </servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name> commitcombo </servlet-name>
+    <servlet-name> main-controller </servlet-name>
     <url-pattern> /get </url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name> main-controller </servlet-name>
+    <url-pattern> /combo-mini </url-pattern>
+  </servlet-mapping>
+  <!-- controller end -->
   
+  
+  <!-- themes -->
   <servlet>
     <servlet-name> minitheme </servlet-name>
     <jsp-file> /Application/Viewer/minitheme.jsp </jsp-file>
@@ -54,6 +63,10 @@
     <url-pattern>/calendartheme</url-pattern>
   </servlet-mapping>
   
+  <!-- themes end -->
+  
+  
+  <!-- maker -->
   <servlet>
     <servlet-name> commitcombo-main </servlet-name>
     <jsp-file> /Application/ETC/main.jsp </jsp-file>
@@ -90,6 +103,10 @@
     <url-pattern> /displayURL </url-pattern>
   </servlet-mapping>
   
+  <!-- maker end -->
+  
+  
+  <!-- ETC -->
   <servlet>
     <servlet-name> logo </servlet-name>
     <jsp-file> /Application/ETC/logo.jsp </jsp-file>
@@ -107,4 +124,12 @@
     <servlet-name> serverClock </servlet-name>
     <url-pattern> /serverClock </url-pattern>
   </servlet-mapping>
+  <!-- ETC end -->
+  
+  <!-- session -->
+  <session-config>
+    <session-timeout> -1 </session-timeout>
+  </session-config>
+  <!-- session end -->
+  
 </web-app>

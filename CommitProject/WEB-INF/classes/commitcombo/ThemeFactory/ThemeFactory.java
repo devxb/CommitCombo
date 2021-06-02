@@ -1,14 +1,17 @@
 package commitcombo;
 
+import java.util.*;
+
 public class ThemeFactory{
     
     public Theme getTheme(String target){
         Themes themes = Themes.getThemes();
-        for(int i = 0; i < themes.getThemeListSize(); i++){
-            Theme nowTheme = themes.getTheme(i);
+        ArrayList<Theme> themeList = themes.makeTheme();
+        for(int i = 0; i < themeList.size(); i++){
+            Theme nowTheme = themeList.get(i);
             if(target.contains(nowTheme.themeName)) return nowTheme;
         }
-        return themes.getTheme(0);
+        return themeList.get(0);
     }
     
 }

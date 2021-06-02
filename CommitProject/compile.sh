@@ -1,2 +1,2 @@
 cd WEB-INF/classes
-javac -cp . -d . $(find . -name *.java)
+sudo javac -cp . -d . $(find . -name *.java)

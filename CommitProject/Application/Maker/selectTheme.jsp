@@ -53,11 +53,14 @@
 
         <div>
          <img src = "./Application/Maker/logo/Choose-your-theme.svg" style="animation: fadeInAnimation 1s ease-in-out"> <br>
-         
+         <!--
          <p> 
             <span style="color:#FFFFFF">If you see more than one of the same theme, please refresh.</span> <br>
             <span style="color:#C4C4C4"> I will fix it as soon as possible. </span> <br>
          </p>
+         -->
+         <br>
+         <br>
          <br>
             <a href = "./displayURL?user=${username}&theme=BasicWhite-mini"> <img src = "./get?user=${username}&theme=BasicWhite-mini"></img></a> 
             <a href = "./displayURL?user=${username}&theme=BasicWhite-mini-v2"><img src = "./get?user=${username}&theme=BasicWhite-mini-v2"></img></a> 
@@ -104,7 +107,7 @@
             
             <a href = "./displayURL?user=${username}&theme=Lake-mini"> <img src = "./get?user=${username}&theme=Lake-mini"></a> 
             <a href = "./displayURL?user=${username}&theme=Lake-mini-v2"><img src = "./get?user=${username}&theme=Lake-mini-v2"></a>
-             <a href = "./displayURL?user=${username}&theme=Ocean-mini"> <img src = "./get?user=${username}&theme=Ocean-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Ocean-mini"> <img src = "./get?user=${username}&theme=Ocean-mini"></a>
             <a href = "./displayURL?user=${username}&theme=Ocean-mini-v2"><img src = "./get?user=${username}&theme=Ocean-mini-v2"></a><br>
             
             

@@ -4,6 +4,7 @@ public class User{ // User정보 총괄 클래스
     
     private String username;
     private String defaultFontSize = "15px";
+    
     public User(String username){
         this.username = username;
         defaultSet();
@@ -30,9 +31,10 @@ public class User{ // User정보 총괄 클래스
         double ans = 0;
         double em = getFontSize(username);
         for(int i = 0; i < username.length(); i++){
-            if((int)username.charAt(i) >= (int)'a') ans += alph[(int)username.charAt(i)-(int)'a']*em;
-            else if((int)username.charAt(i) <= (int)'9') ans += numb[(int)username.charAt(i)-(int)'0']*em;
-            else ans += Alph[(int)username.charAt(i)-(int)'A']*em;
+            if((int)username.charAt(i) >= (int)'a' && (int)username.charAt(i) <= (int)'z') ans += alph[(int)username.charAt(i)-(int)'a']*em;
+            else if((int)username.charAt(i) >= (int)'0' && (int)username.charAt(i) <= (int)'9') ans += numb[(int)username.charAt(i)-(int)'0']*em;
+            else if((int)username.charAt(i) >= (int)'A' && (int)username.charAt(i) <= 'Z') ans += Alph[(int)username.charAt(i)-(int)'A']*em;
+            else ans += 10*em;
             ans += 1; // jump 1px;
         }
         ans = ans-79;

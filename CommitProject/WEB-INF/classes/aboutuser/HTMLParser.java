@@ -7,19 +7,12 @@ import java.text.SimpleDateFormat;
 
 public class HTMLParser{
     
-    private static final int[] daysOfMonth = {-1, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    private static final SimpleDateFormat y = new SimpleDateFormat("yyyy");
-    private static final SimpleDateFormat m = new SimpleDateFormat("MM");
-    private static final SimpleDateFormat d = new SimpleDateFormat("dd");
-    
-    public static int getCommitCombo(String user){
-        String year = y.format(new Date());
-        String month = m.format(new Date());
-        String day = d.format(new Date());
-        return calcCommitCombo(user, year+"-01-01", year+"-"+month+"-"+day,true);
+    public int getCommitCombo(String user, boolean recursion){
+        return calcCommitCombo(user, GetDate.getYear()+"-01-01", GetDate.getNowDate(), true, recursion);
     }
     
-    private static int calcCommitCombo(String user, String fromDate, String toDate, boolean trig){
+    private int calcCommitCombo(String user, String fromDate, String toDate, boolean trig, boolean recursion){
+        int[] daysOfMonth = GetDate.getDaysOfMonth();
         int ans = 0;
         ArrayList<Integer> ansList = new ArrayList<Integer>();
         try{
@@ -32,13 +25,7 @@ public class HTMLParser{
             BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()));
             
             String line = null;
-            int skip = 0;
-            while(true){
-                if(skip < 1000){ 
-                    skip++; 
-                    continue;
-                }
-                if((line = br.readLine()) == null) break;
+            while((line = br.readLine()) != null){
                 if(line.contains("data-count")){
                     int idx = line.lastIndexOf("data-count");
                     idx += 12;
@@ -61,16 +48,16 @@ public class HTMLParser{
             }
         }
         
-        if(trig == true) countingDate--;
+        if(trig == true) countingDate--; // 하루전 까지만 계산 
         
         for(int i = countingDate-1; i >= 0; i--){
             if(ansList.get(i) == 0) break;
             ans++;
         }
-        
-        return ans + (countingDate == ans ? calcCommitCombo(user, (year-1)+"-01-01", (year-1)+"-12-31", false) : 0);
+        if(recursion == false){ // 재귀가 비허용일시 바로 종료
+            return ans;
+        }
+        return ans + (countingDate == ans ? calcCommitCombo(user, (year-1)+"-01-01", (year-1)+"-12-31", false, recursion) : 0); // 만약 1년동안 커밋했다면, 전년도 확인함
     }
-    
-    
     
 }
