@@ -245,5 +245,4 @@ It is identified as the same cause as the above reason.
 </ul>
 
 <h2></h2>
-<p>do not distribute the code without permission.<br>
-do not redistribute after modifying code or design.</p>
+<p><a href = "https://github.com/devxb/CommitCombo/blob/main/LICENSE"> License </p>
