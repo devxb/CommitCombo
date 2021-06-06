@@ -52,9 +52,6 @@ menu
 Usage and examples</a>
 </li>
 <li>
-	<a href = "#nextUpdate"> Next update</a>
-</li>
-<li>
 	<a href = "#history"> Version history</a>
 </li>
 <li>
@@ -128,6 +125,14 @@ set with sort?
 <h2></h2>
 <a name = "history"></a>
 <h3> Version history </h3>
+
+<ul>
+<h4> version -1.7 / 2021.06.06</h4>
+<li>
+ Logic fix
+ The contribution has been changed to a way to call the github graphql api.
+</li>
+</ul>
 
 <ul>
 <h4> version -1.6 / 2021.06.01 </h4>

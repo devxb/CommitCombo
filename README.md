@@ -11,7 +11,6 @@
   <h2></h2>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
-<div align = "center"> *현재 html 파싱에서 github graphql api요청 방식으로 변경하고있습니다!* </div>
 <div align = "center">  ⭐스타를 눌러주세요 개발에 큰 도움이 됩니다!⭐️</div>
 <div align="center"><a href="./ENG.md"> English </a></div>
 <div align = "center"> 
@@ -29,8 +28,7 @@ Contribution setting에서 Private contributions를 체크하세요
     <img src = "http://commitcombo.com/serverClock"/>
     <br/>
     <p>
-        <b>커밋기록은 서버시간 하루전날을 기준으로 반영됩니다.</b> <br>
-        커밋기록이 반영되는데 약간의 시간이 필요할수있습니다.(최대 3시간)
+        <b>커밋기록은 서버시간 하루전날을 기준으로 반영됩니다.</b>
     </p>
 </div>
 
@@ -47,9 +45,6 @@ Contribution setting에서 Private contributions를 체크하세요
 </li>
 <li>
 	<a href = "#manual"> 사용법 및 예시</a>
-</li>
-<li>
-	<a href = "#nextUpdate"> 다음 업데이트에 추가될 내용</a>
 </li>
 <li>
 	<a href = "#history"> 버전기록</a>
@@ -126,6 +121,14 @@ Contribution setting에서 Private contributions를 체크하세요
 <a name = "history"></a>
 
 <h3> Version history </h3>
+
+<ul>
+<h4> version -1.7 / 2021.06.06</h4>
+<li>
+ 로직 수정
+ contribution을 github graphql api호출하는방식으로 변경했습니다.
+</li>
+</ul>
 
 <ul>
 <h4> version -1.6 / 2021.06.01 </h4>

@@ -52,7 +52,7 @@ public class Controller extends HttpServlet{
         username = request.getParameter("user");
         ThemeFactory themeFactory = new ThemeFactory();
         Theme userTheme = themeFactory.getTheme(theme);
-        HTMLParser htmlParser = new HTMLParser();
+        UserContribution userContribution = new UserContribution();
         // END-logic
 
         // storage
@@ -72,7 +72,7 @@ public class Controller extends HttpServlet{
             }
         }
         if(!existUser){
-            Storage user = new StorageUser(lowerCaseUserName, htmlParser.getCommitCombo(lowerCaseUserName, true),GetDate.getNowDate());
+            Storage user = new StorageUser(lowerCaseUserName, userContribution.getContributions(username),GetDate.getNowDate());
             storageList.addStorage(user);
             comboCnt = user.getUserCommitCnt();
         }
