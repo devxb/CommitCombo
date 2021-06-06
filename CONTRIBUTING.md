@@ -42,4 +42,4 @@ public Apricot(){
 
 }
 ```
-### 모든 pull request 다른사람에의해 사용될수있습니다.
+<h3> 모든 contribution은  <a href = "https://github.com/devxb/CommitCombo/blob/main/LICENSE"> MIT 라이선스</a>가 부여됩니다. </h3>
