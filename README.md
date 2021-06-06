@@ -239,5 +239,5 @@ Contribution setting에서 Private contributions를 체크하세요
 
 <h2></h2>
 
-<p>코드, 디자인 배포및, 수정후 재배포 하지말아주세요.</p>
+<p><a href = "https://github.com/devxb/CommitCombo/blob/main/LICENSE"> License </p>
 
