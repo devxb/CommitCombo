@@ -212,7 +212,8 @@ Slight performance improvement
 
 <ul>
 <li>
-<b> commit without break for 3-4 years, it takes too long to get the initial data </b>
+<b> (Fixed) commit without break for 3-4 years, it takes too long to get the initial data </b>
+<br> - use github graphql api
 </li>
 <br>
 <li>
