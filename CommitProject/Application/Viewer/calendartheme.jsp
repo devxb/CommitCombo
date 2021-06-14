@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="image/svg+xml; charset=utf-8" pageEncoding="utf-8"%>
+<%@ page language="java" contentType="image/svg+xml; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <svg width="147" height="180" viewBox="0 0 147 180" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>

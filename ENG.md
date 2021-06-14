@@ -127,6 +127,14 @@ set with sort?
 <h3> Version history </h3>
 
 <ul>
+<h4> version -1.8 / 2021.06.14</h4>
+<li>
+ bug fix
+ Fixed a bug where dragging was not possible in Safari.
+</li>
+</ul>
+
+<ul>
 <h4> version -1.7 / 2021.06.06</h4>
 <li>
  Logic fix
@@ -246,4 +254,5 @@ It is identified as the same cause as the above reason.
 </ul>
 
 <h2></h2>
-<p><a href = "https://github.com/devxb/CommitCombo/blob/main/LICENSE"> License </p>
+<p>do not distribute the code without permission.<br>
+do not redistribute after modifying code or design.</p>

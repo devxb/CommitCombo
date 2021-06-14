@@ -1,25 +1,26 @@
-<%@ page language="java" contentType="image/svg+xml; charset=utf-8" pageEncoding="utf-8"%>
+<%@ page language="java" contentType="image/svg+xml; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <svg width="79" height="67" viewBox="0 0 79 67" overflow = "Scroll" xmlns="http://www.w3.org/2000/svg">
     <style>
+    
         <![CDATA[ 
         
             @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
             
             @keyframes dragUsername{
                 0%{
-                    -webkit-transform : translate(0px,0px);
-                    -ms-transform : translate(0px,0px);
-                    -o-transform : translate(0px,0px);
-                    -moz-transform : translate(0px,0px);
+                    -webkit-transform: translate(0px, 0px);
+                    -ms-transform: translate(0px, 0px);
+                    -o-transform: translate(0px, 0px);
+                    -moz-transform: translate(0px, 0px);
+                    transform: translate(0px, 0px);
                 }
                 100%{
-                
-                    -webkit-transform : translate(${dragLength}px,0px);
-                    -ms-transform : translate(${dragLength}px,0px);
-                    -o-transform : translate(${dragLength}px,0px);
-                    -moz-transform : translate(${dragLength}px,0px);
-                    
+                    -webkit-transform: translate(${dragLength}px, 0px);
+                    -ms-transform: translate(${dragLength}px, 0px);
+                    -o-transform: translate(${dragLength}px, 0px);
+                    -moz-transform: translate(${dragLength}px, 0px);
+                    transform: translate(${dragLength}px, 0px);
                 }
             }
             
@@ -33,8 +34,11 @@
             }
             
         ]]>
+        
     </style>
         <g transform="translate(0,27)">
-            <text text-anchor="left" dominant-baseline="middle" class='nameTag'>${nameTag}</text>
+            <g class='nameTag'>
+                <text text-anchor="left" dominant-baseline="middle">${nameTag}</text>
+            </g>
         </g>
 </svg>

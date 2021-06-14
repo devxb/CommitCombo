@@ -123,6 +123,14 @@ Contribution setting에서 Private contributions를 체크하세요
 <h3> Version history </h3>
 
 <ul>
+<h4> version -1.8 / 2021.06.14</h4>
+<li>
+ 버그 픽스
+ 사파리에서 이름 드래그가 안되는 버그를 고쳤습니다.
+</li>
+</ul>
+
+<ul>
 <h4> version -1.7 / 2021.06.06</h4>
 <li>
  로직 수정
@@ -206,7 +214,7 @@ Contribution setting에서 Private contributions를 체크하세요
 
 <ul>
 <li>
-<b> (해결) 3~4년간 끊기지않고 커밋한경우 초기 데이터를 얻어오는데 너무 오래걸림 해결책 생각중입니다 </b>
+<b> (해결) 3~4년간 끊기지않고 커밋한경우 초기 데이터를 얻어오는데 너무 오래걸림 </b>
 <br> - 깃허브 api 사용
 </li>
 <br>
@@ -239,5 +247,5 @@ Contribution setting에서 Private contributions를 체크하세요
 
 <h2></h2>
 
-<p><a href = "https://github.com/devxb/CommitCombo/blob/main/LICENSE"> License </p>
+<p>코드, 디자인 배포및, 수정후 재배포 하지말아주세요.</p>
 

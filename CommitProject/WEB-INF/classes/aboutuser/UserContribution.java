@@ -1,5 +1,7 @@
 package aboutuser;
 
+import storage.*;
+
 import java.util.*;
 import java.net.*;
 import java.io.*;
@@ -15,11 +17,25 @@ public class UserContribution{
     
     private boolean[] checkCalendar;
     private String userName;
+    private String contributionDate; // "YYYY MM DD ~ YYYY MM DD"  contributionDate format
+    private Storage user;
     
-    public int getContributions(String user){
+    public int getContributions(Storage user){
+        this.user = user;
         String serverDate = GetDate.getNowDate();
-        setter(user, serverDate);
-        return getContributionCount(serverDate);
+        setter(user.getUserName(), serverDate);
+        int ret = getContributionCount(serverDate); 
+        return ret;
+    }
+    
+    public String getContributionDate(){
+        return this.contributionDate;
+    }
+    
+    private void setContributionDate(String date){
+        date = GetDate.deDateOptimizer(date);
+        if(contributionDate == null) contributionDate = date + contributionDate.substring(10, contributionDate.length());
+        contributionDate = contributionDate.substring(0,10) + " ~ " + date;
     }
     
     private void setter(String user, String date){
@@ -29,7 +45,8 @@ public class UserContribution{
         checkCalendar[standardDay] = true; // 오늘날짜는 체크하지않으므로, true로 바꿔주고 시작
     }
     
-    private int getContributionCount(String date){
+    
+    private int getContributionCount(String date){ // calc caunt on getUserCalendar return value
         try{
             
             int contributionCount = 0;
@@ -73,7 +90,7 @@ public class UserContribution{
         return 0;
     }
     
-    private String getUserCalendar(String date){
+    private String getUserCalendar(String date){ // get user calendar info - JSON.
         try{
             
             int ret = 0;
@@ -82,7 +99,7 @@ public class UserContribution{
             HttpURLConnection con = (HttpURLConnection)url.openConnection();
             con.setRequestMethod("POST");
             con.setRequestProperty("Content-Type","application/json");
-            con.setRequestProperty("Authorization","bearer `none`");
+            con.setRequestProperty("Authorization","bearer ``");
             con.setDoOutput(true);
             //makeQuery
             
