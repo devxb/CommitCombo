@@ -4,12 +4,16 @@ import java.util.ArrayList;
 
 public class Themes{
     
-    private static Themes themes= new Themes();
+    private static Themes themes = new Themes();
     
     private Themes(){}
     
+    private static class SingletonHelper{
+        private static final Themes themes = new Themes();
+    }
+    
     public static Themes getThemes(){
-        return themes;
+        return SingletonHelper.themes;
     }
     
     public ArrayList<Theme> makeTheme(){
