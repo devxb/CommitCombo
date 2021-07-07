@@ -115,20 +115,19 @@ Contribution setting에서 Private contributions를 체크하세요
 
 크기 변경 하는방법
 
-- img태그안의 style의 width값을 원하는 크기로 변경합니다.
-- height값은 width값에 맞는 비율로 자동으로 증가합니다.
+- img태그안의 style의 width값과 height값을 원하는 크기로 변경합니다.
 
 ```html
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" style = "width : 250px; height : auto;"/>
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" width = "200" height = "100"/>
   </a>
 </p>
 ```
 
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" style = "width : 250px; height : auto;"/>
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" width = "200" height = "100"/>
   </a>
 </p>
 
