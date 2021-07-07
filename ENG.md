@@ -122,20 +122,19 @@ set with sort?
 
 set with change Size?
 
-- Change the width value of style in img tag to the desired size.
-- The height value automatically increases in proportion to the width value.
+- Change the width, height value of style in img tag to the desired size.
 
 ```html
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" style = "width : 250px; height : auto;"/>
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" width = "200" height = "100"/>
   </a>
 </p>
 ```
 
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" style = "width : 250px; height : auto;"/>
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" width = "200" height = "100"/>
   </a>
 </p>
 
