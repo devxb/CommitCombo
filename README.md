@@ -1,12 +1,10 @@
 
-
-
 <div align = "center">
   <br>
   <a href="https://github.com/devxb/CommitCombo"><img src = "http://commitcombo.com/logo" align="center"/></a> <br><br><br>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Lake-mini" align="center" alt="Github Commt Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini" align="center" alt="Github Commit Combo"/>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=Sunset-mini" align="center" alt="Github Commit Combo"/>
+  <img src = "http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" align="center" alt="Github Commit Combo"/>
   <img src = "http://commitcombo.com/get?user=Devxb&theme=Cloud-mini" align="center" alt="Github Commit Combo"/><br>
   <h2></h2>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
@@ -50,7 +48,7 @@ Contribution setting에서 Private contributions를 체크하세요
 	<a href = "#history"> 버전기록</a>
 </li>
 <li>
-	<a href = "#issue"> 발견된 이슈 </a>
+	<a href = ".ISSUELOG.md"> 발견된 이슈 </a>
 </li>
 </ul>
 </div>
@@ -61,8 +59,8 @@ Contribution setting에서 Private contributions를 체크하세요
 
 <h3>theme</h3> 
 
-<img src = "https://user-images.githubusercontent.com/62425964/120197420-e41f4880-c25b-11eb-99ea-cc93ad62628d.png"/><br>
-<img src = "https://user-images.githubusercontent.com/62425964/120197426-e5507580-c25b-11eb-8d33-215eebb3be38.png"/><br>
+<img src = "https://user-images.githubusercontent.com/62425964/124747878-6686e080-df5d-11eb-973b-7af0178a93fa.png"/><br>
+<img src = "https://user-images.githubusercontent.com/62425964/124747884-67b80d80-df5d-11eb-848b-23516c0b8157.png"/><br>
 
 <h2></h2>
 <h3> <a name = "maker"> </a> 빠른 만들기 및 모든 테마 보기</h3>
@@ -105,22 +103,50 @@ Contribution setting에서 Private contributions를 체크하세요
 ```html
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini"/>
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini"/>
   </a>
 </p>
 ```
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb&theme=DeepOcean-mini"/>
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini"/>
   </a>
 </p>
 
+크기 변경 하는방법
 
+- img태그안의 style의 width값을 원하는 크기로 변경합니다.
+- height값은 width값에 맞는 비율로 자동으로 증가합니다.
+
+```html
+<p align="center">
+  <a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" style = "width : 250px; height : auto;"/>
+  </a>
+</p>
+```
+
+<p align="center">
+  <a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" style = "width : 250px; height : auto;"/>
+  </a>
+</p>
 
 <h2></h2>
 <a name = "history"></a>
 
 <h3> Version history </h3>
+
+<ul>
+<h4> version -1.9 / 2021.07.07</h4>
+<li>
+ 업데이트 <br>
+ mysql 연동, 유저정보(커밋수, 마지막 커밋날짜 등) 저장 table추가 <br>
+ 새로운 테마 추가 <br>
+ <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=Rainbow-mini"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=Rainbow-mini-v2"/><br>
+ 
+</li>
+</ul>
 
 <ul>
 <h4> version -1.8 / 2021.06.14</h4>
@@ -178,7 +204,7 @@ Contribution setting에서 Private contributions를 체크하세요
 <ul>
 <h4> version -1.3 / 2021.05.25 </h4>
 <li>
-	약간의 성능 개선
+	성능 개선
 </li>
 <li>
 	이슈 해결
@@ -208,42 +234,6 @@ Contribution setting에서 Private contributions를 체크하세요
 <h4>version -1.0 / 2021.05.22</h4>
 	<li> 출시 </li>
 
-<h2></h2>
-<a name = "issue"></a>
-<h3> 발견된 이슈 </h3>
-
-<ul>
-<li>
-<b> (해결) 3~4년간 끊기지않고 커밋한경우 초기 데이터를 얻어오는데 너무 오래걸림 </b>
-<br> - 깃허브 api 사용
-</li>
-<br>
-<li>
-<b> (해결) 서버에 요청이 동시에 발생할경우 요청내용이 꼬이는 문제점이 발견되었습니다.</b>
-<br> - 싱글톤패턴안에 (문제가되는)스태틱변수를 없애고, 변수를 반환해주는식의 로직으로 변경했습니다.
-</li>
-<br>
-<li>
-<b> (해결) 폰트가 적용되지않고있습니다. </b>
-</li>
-<br>
-<li>
-<b> (해결) 1년이 넘은 커밋기록이 반영되지 않고있습니다. </b>
-</li>
-<br>
-<li>
-<b> (해결) 커밋기록이 실시간으로 반영되지 않고있습니다. </b>
-<br> - 깃허브가 캐시한 이미지가 깃허브 서버에 남아있는거로 보입니다. 
-<br> - 시간이 지나면 자동으로 해결되지만, 커널에 다음 명령어를 입력해서 바로 해결할수있습니다.   <br> : "curl -X PURGE [캐시된 url]"
-</li>
-<br>
-<li>
-<b> (해결) 애니메이션이 초기 1회만 재생되고 재생이 안됩니다. 해결 </b>
-<br> - 위 이유와 같은 원인으로 파악되며 해결책을 생각중입니다.
-<br> - [Ctrl + shift + R] 로 애니메이션을 강제 시작할수있습니다.
-<br> : Ctrl + Shift + R
-</li>
-</ul>
 
 <h2></h2>
 

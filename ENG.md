@@ -66,8 +66,8 @@ Usage and examples</a>
 
 <h3>theme</h3> 
 
-<img src = "https://user-images.githubusercontent.com/62425964/120197420-e41f4880-c25b-11eb-99ea-cc93ad62628d.png"/><br>
-<img src = "https://user-images.githubusercontent.com/62425964/120197426-e5507580-c25b-11eb-8d33-215eebb3be38.png"/><br>
+<img src = "https://user-images.githubusercontent.com/62425964/124747878-6686e080-df5d-11eb-973b-7af0178a93fa.png"/><br>
+<img src = "https://user-images.githubusercontent.com/62425964/124747884-67b80d80-df5d-11eb-848b-23516c0b8157.png"/><br>
 
 <h2></h2>
 <h3> <a name = "maker"> </a> Quick create and view all themes</h3>
@@ -120,11 +120,40 @@ set with sort?
   </a>
 </p>
 
+set with change Size?
+
+- Change the width value of style in img tag to the desired size.
+- The height value automatically increases in proportion to the width value.
+
+```html
+<p align="center">
+  <a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" style = "width : 250px; height : auto;"/>
+  </a>
+</p>
+```
+
+<p align="center">
+  <a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" style = "width : 250px; height : auto;"/>
+  </a>
+</p>
 
 
 <h2></h2>
 <a name = "history"></a>
 <h3> Version history </h3>
+
+<ul>
+<h4> version -1.9 / 2021.07.07</h4>
+<li>
+ Update <br>
+ use mysql, add table (save user contribuitonCount and etc..) <br>
+ add new theme <br>
+ <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=Rainbow-mini"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=Rainbow-mini-v2"/><br>
+ 
+</li>
+</ul>
 
 <ul>
 <h4> version -1.8 / 2021.06.14</h4>
@@ -213,45 +242,6 @@ Slight performance improvement
 <ul> 
 <h4>version -1.0 / 2021.05.22</h4>
 	<li> Release </li>
-
-<h2></h2>
-<a name = "issue"></a>
-<h3> Issue </h3>
-
-<ul>
-<li>
-<b> (Fixed) commit without break for 3-4 years, it takes too long to get the initial data </b>
-<br> - use github graphql api
-</li>
-<br>
-<li>
-<b> (Fixed) When requests are made to the server at the same time, the request contents are twisted. </b>
-<br> - Removed the (problematic) static variable in the singleton pattern, and changed the logic to return a variable.
-</li>
-<br>
-<li>
-<b> (Fixed) Fonts are not applied. </b>
-</li>
-<br>
-<li>
-<b> (Fixed)   
-Commit records older than one year are not applied.   </b>
-</li>
-<br>
-<li>
-<b> (Fixed) commit history is not reflected in real time.  </b>
-<br> - It appears that the image cached by GitHub remains on the GitHub server. 
-<br> - It will resolve automatically over time, but you can fix it right away by entering the following command into the kernel.   <br> : "curl -X PURGE [cached url]"
-</li>
-<br>
-<li>
-<b> (Fixed) Animation plays only once initially and cannot be played. </b>
-<br> -   
-It is identified as the same cause as the above reason. 
-<br> - You can force start the animation with [Ctrl + shift + R].
-<br> : Ctrl + Shift + R
-</li>
-</ul>
 
 <h2></h2>
 <p><a href = "https://github.com/devxb/CommitCombo/blob/main/LICENSE"> License </p>
