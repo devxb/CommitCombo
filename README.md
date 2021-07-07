@@ -48,7 +48,7 @@ Contribution setting에서 Private contributions를 체크하세요
 	<a href = "#history"> 버전기록</a>
 </li>
 <li>
-	<a href = ".ISSUELOG.md"> 발견된 이슈 </a>
+	<a href = "./ISSUELOG.md"> 발견된 이슈 </a>
 </li>
 </ul>
 </div>
@@ -64,7 +64,7 @@ Contribution setting에서 Private contributions를 체크하세요
 
 <h2></h2>
 <h3> <a name = "maker"> </a> 빠른 만들기 및 모든 테마 보기</h3>
-아래 사진(<a href = "http://commitcombo.com/maker">링크</a>)을 클릭하고 적용 예시를 확인하며 당신의 테마를 만들수있습니다!
+아래 사진(<a href = "http://commitcombo.com/maker">링크</a>)을 클릭하고 적용 예시를 확인하며 자신만의 테마를 만들수있습니다!
 
 [![commitcombo-maker](https://user-images.githubusercontent.com/62425964/119252836-4d161900-bbe9-11eb-8e30-7984ef18337d.jpeg)](http://commitcombo.com/maker)
 
