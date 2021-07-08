@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.*;
 import commitcombo.*;
 import aboutuser.*;
-import storage.*;
+import aboutDB.*;
 
 public class Controller extends HttpServlet{
     
@@ -28,24 +28,28 @@ public class Controller extends HttpServlet{
         return ret;
     }
     
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
-        // do get
-        
-        // definition
-        String theme = "BasicDark-mini";
-        String username = "nonamed";
-        String animationController = "false";
-        int comboCnt = -1;
-        // END-definition
-        
-        // camo cache-control
+    public void setResponse(HttpServletResponse response){
         response.setHeader("Cache-Control","no-cahce");
         response.addHeader("Cache-Control","no-store");
         response.setHeader("Pragma","no-cahce");
         response.setDateHeader("Expires",0);
+    }
+    
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
+        // do get
+        
+        // 정의
+        String theme = "BasicDark-mini";
+        String username = "nonamed";
+        String animationController = "false";
+        int comboCnt = -1;
+        // END-정의
+        
+        // camo cache-control
+        setResponse(response);
         // END-camo cahche-control
         
-        // logic
+        // 변수 대입
         animationController = request.getParameter("animation");
         theme = request.getParameter("theme");
         if(theme == null) theme = "RoyalRed-mini-v2";
@@ -53,40 +57,17 @@ public class Controller extends HttpServlet{
         ThemeFactory themeFactory = new ThemeFactory();
         Theme userTheme = themeFactory.getTheme(theme);
         UserContribution userContribution = new UserContribution();
-        // END-logic
+        // END-변수 대입
 
-        // storage
-        // 중요 ! 캐시,쿠키 대신 사용할 용도로급한대로 임시로 만든 저장소임 ! 나중에 DB로 바꿀것
-        
-        String lowerCaseUserName = mappingLowerCase(username);
-        String debugname = "";
-        StorageList storageList = StorageList.getInstaceOfStorageList();
-        ArrayList<Storage> userList = storageList.getUserList();
-        boolean existUser = false;
-        for(int i = 0; i < userList.size(); i++){
-            debugname += userList.get(i).getUserName();
-            if(userList.get(i).getUserName().equals(lowerCaseUserName)){
-                existUser = true;
-                comboCnt = userList.get(i).getUserCommitCnt();
-                break;
-            }
-        }
-        if(!existUser){
-            Storage user = new StorageUser(lowerCaseUserName, userContribution.getContributions(username),GetDate.getNowDate());
-            storageList.addStorage(user);
-            comboCnt = user.getUserCommitCnt();
-        }
-        // END-storage
-
-        // set username
+        // set username, contributionCount, contributionStartDate, contributionEndDate
         User user = new User(username);
-        // END-username
+        // END-username, contributionCount, contributionStartDate, contributionEndDate
         
         
         // display set
         request.setAttribute("userNameSize",user.getFontSize(username)+"em");
         request.setAttribute("nameTag",username); // setting user-name
-        request.setAttribute("comboCnt",comboCnt); // setting combocount
+        request.setAttribute("comboCnt",user.getContributionCount()); // setting combocount
         request.setAttribute("dragLength",user.getDragLength(username));
         // END-display set
         

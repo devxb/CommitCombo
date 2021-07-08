@@ -1,3 +1,5 @@
+/* Bill pugh Single ton */
+
 package commitcombo;
 
 import java.util.ArrayList;
@@ -50,6 +52,7 @@ public class Themes{
         themeList.add(new RoyalPurple());
         themeList.add(new RoyalBlack());
         themeList.add(new RoyalBrown());
+        themeList.add(new Rainbow());
         return themeList;
     }
     

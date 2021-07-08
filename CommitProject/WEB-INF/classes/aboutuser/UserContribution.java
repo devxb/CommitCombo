@@ -1,7 +1,5 @@
 package aboutuser;
 
-import storage.*;
-
 import java.util.*;
 import java.net.*;
 import java.io.*;
@@ -17,25 +15,11 @@ public class UserContribution{
     
     private boolean[] checkCalendar;
     private String userName;
-    private String contributionDate; // "YYYY MM DD ~ YYYY MM DD"  contributionDate format
-    private Storage user;
     
-    public int getContributions(Storage user){
-        this.user = user;
+    public int getContributions(String user){
         String serverDate = GetDate.getNowDate();
-        setter(user.getUserName(), serverDate);
-        int ret = getContributionCount(serverDate); 
-        return ret;
-    }
-    
-    public String getContributionDate(){
-        return this.contributionDate;
-    }
-    
-    private void setContributionDate(String date){
-        date = GetDate.deDateOptimizer(date);
-        if(contributionDate == null) contributionDate = date + contributionDate.substring(10, contributionDate.length());
-        contributionDate = contributionDate.substring(0,10) + " ~ " + date;
+        setter(user, serverDate);
+        return getContributionCount(serverDate);
     }
     
     private void setter(String user, String date){
@@ -64,9 +48,7 @@ public class UserContribution{
             edge = (JSONObject)edge.get("user"); // user{ name(String!) contributionCollection{ } } 
             edge = (JSONObject)edge.get("contributionsCollection"); // contributionCollection{ contributionCalendar{ colors[String!] weeks[Edges!] } }
             edge = (JSONObject)edge.get("contributionCalendar"); // contributionCalendar{ color[String] weeks{ } }
-            
             JSONArray userCalendar = (JSONArray)edge.get("weeks"); // weeks[{ contributionDays[{ }] }]
-            
             for(int week = userCalendar.size()-1; week >= 0; week--){
                 
                 JSONObject tempWeek = (JSONObject)userCalendar.get(week);
@@ -82,7 +64,6 @@ public class UserContribution{
                     contributionCount++;
                 }
             }
-            
             return contributionCount + getContributionCount(GetDate.getOneYearsAgo(date)); 
         } catch (Exception E){
             System.out.println("parseErr");
@@ -112,8 +93,6 @@ public class UserContribution{
             OutputStream setQuery = con.getOutputStream();
             setQuery.write(query.getBytes("utf-8"));
             setQuery.close();
-            System.out.println(query);
-            System.out.println(con.getResponseCode());
             
             // END-makeQuery
             
