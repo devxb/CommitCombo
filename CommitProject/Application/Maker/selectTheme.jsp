@@ -154,6 +154,8 @@
             
             <a href = "./displayURL?user=${username}&theme=Pink-mini"> <img src = "./get?user=${username}&theme=Pink-mini"></a>
             <a href = "./displayURL?user=${username}&theme=Pink-mini-v2"> <img src = "./get?user=${username}&theme=Pink-mini-v2"></a>
+            <a href = "./displayURL?user=${username}&theme=Rainbow-mini"> <img src = "./get?user=${username}&theme=Rainbow-mini"></a>
+            <a href = "./displayURL?user=${username}&theme=Rainbow-mini-v2"> <img src = "./get?user=${username}&theme=Rainbow-mini-v2"></a>
             <br>
             <!--
             Not pretty
