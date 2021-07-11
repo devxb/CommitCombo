@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="image/svg+xml; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<svg width="79" height="67" viewBox="0 0 79 67" overflow = "Scroll" xmlns="http://www.w3.org/2000/svg">
+<svg width="${nameTagWidth}" height="${nameTagHeight}" viewBox="0 0 ${nameTagWidth} ${nameTagHeight}" overflow = "Scroll" xmlns="http://www.w3.org/2000/svg">
     <style>
     
         <![CDATA[ 
         
-            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+            /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');*/
             
             @keyframes dragUsername{
                 0%{
@@ -36,9 +36,9 @@
         ]]>
         
     </style>
-        <g transform="translate(0,27)">
-            <g class='nameTag'>
-                <text text-anchor="left" dominant-baseline="middle">${nameTag}</text>
+        <g transform="translate(${nameTagX},${nameTagY})">
+            <g>
+                <text text-anchor="left" dominant-baseline="middle" class='nameTag'>${nameTag}</text>
             </g>
         </g>
 </svg>

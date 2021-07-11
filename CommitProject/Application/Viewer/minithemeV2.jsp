@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="image/svg+xml; charset=UTF-8" pageEncoding = "UTF-8"%>
 
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
-<svg width="153" height="67" viewBox="0 0 153 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="${miniThemeV2Width}" height="${miniThemeV2Height}" viewBox="0 0 ${miniThemeV2Width} ${miniThemeV2Height}" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style type="text/css">
         <![CDATA[
         
@@ -61,16 +59,16 @@
     <defs>
         ${gradient}
     </defs>
-    <rect width="153" height="66.5217" rx="5" fill="${backgroundFill}"/>
+    <rect x="${marginLeft}" y="${marginTop}" width="153" height="66.5217" rx="5" fill="${backgroundFill}"/>
     
     <g style = "animation: fadeInAnimation 0.8s ease-in-out" transform="translate(11,0)">
         <%@ include file="nameTag.jsp" %>
     </g>
     
-    <g transform="translate(11,43)">
+    <g transform="translate(${commitComboMarginLeft},${commitComboMarginTop})">
         <text text-anchor="left" dominant-baseline="middle" class="commitCombo">Commit Combo</text>
     </g>
-    <g transform="translate(120,35)">
+    <g transform="translate(${comboCntMarginLeft},${comboCntMarginTop})">
         <text text-anchor="middle" dominant-baseline = "middle" class = "comboCnt">${comboCnt}</text>
     </g> 
 </svg>
