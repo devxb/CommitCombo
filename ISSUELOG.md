@@ -5,9 +5,15 @@
 
 <li>
 <b> (해결) DB탐색 오래걸림 및, 병목현상 발생 </b>
-<br> - 요청마다 Connection인스턴스 새로 만드는부분에서 시간이 많이 소요되는거로 보임, singleton으로 DB접속 주관 클래스 생성. DB서버와 애플리케이션 서버는 계속 connection되어있음
-<br> - Statement인스턴스를 static으로 만들면서 병목현상 발생함 요청마다 Connection인스턴스에서 Statement생성하여 넘겨줌
+<br> - 요청마다 Connection인스턴스 새로 만드는부분에서 시간이 많이 소요되는거로 보임 -> singleton으로 DB접속을 주관하는 클래스 생성, DB서버와 애플리케이션 서버의 연결을 끊지않으면서 속도 향상시킴
+<br> - Statement인스턴스를 static으로 만들면서 병목현상 발생함. -> 요청마다 Connection인스턴스에서 Statement생성하여 넘겨줌
 </li>
+
+<li>
+<b> (해결) graphql api rate limit 초과시 유저정보 받아올수없는 문제 발생 </b>
+<br> - graphql api는 1시간에 5,000점 호출가능 유저당 마지막 업데이트 날짜를 지정하여, 서버시간과 마지막 업데이트 시간이 다르다면, github api호출하는 방식으로 로직변경
+</li>
+
 
 <br>
 <li>
