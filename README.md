@@ -7,7 +7,7 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
 <div align = "center">  ⭐스타를 눌러주세요 개발에 큰 도움이 됩니다!⭐️</div>
-<div align="center"><a href="./ENG.md"> English </a></div>
+<!--<div align="center"><a href="./ENG.md"> English </a></div>--> 
 <div align = "center"> 
 <h3>연속된 커밋기록을 아름답게 관리하세요<h3> <h4> 커밋을 끊기지 않고 연속해서 할 경우 숫자가 올라가지만, <br> 커밋이 끊긴다면 숫자가 0으로 초기화 됩니다. <br> 커밋기록에 따라서 트로피가 주어지며 등수가 매겨집니다. <br> </h4>
 <p> 아이디어나 발견 한 버그가 있다면 제보 해주세요<br><br>
