@@ -10,6 +10,8 @@ public class User{ // User정보 총괄 클래스
     private int contributionCount;
     private String contributionStartDate;
     private String contributionEndDate;
+    private int rank = -1;
+    private String trophyColor;
     
     public User(String username){
         this.username = username;
@@ -24,22 +26,79 @@ public class User{ // User정보 총괄 클래스
             if(!rs.next()){ // DB처음 등록하는 사람 이라면
                 System.out.println("first Input");
                 users.insertTable(this.username);
+                this.setRank(); // 랭크 지정 (하루에 한번 업데이트)
                 rs = users.selectTable(this.username);
                 rs.next();
             }
             if(!GetDate.getNowDate().equals(rs.getString("contributionEndDate"))){ // 마지막 업데이트부터 하루 이상 지난경우
                 System.out.println("dateChange");
                 users.insertTable(this.username);
+                this.setRank(); // 랭크 지정 (하루에 한번 업데이트)
                 rs = users.selectTable(this.username);
                 rs.next();
             }
-            contributionCount = rs.getInt("contributionCount");
-            contributionStartDate = rs.getString("contributionStartDate");
-            contributionEndDate = rs.getString("contributionEndDate");
+            this.contributionCount = rs.getInt("contributionCount");
+            this.contributionStartDate = rs.getString("contributionStartDate");
+            this.contributionEndDate = rs.getString("contributionEndDate");
+            this.rank = rs.getInt("rank");
+            this.trophyColor = setTrophyColor(this.contributionCount);
             rs.close();
         } catch (SQLException SQLE){
             System.out.println(SQLE);
         }
+    }
+    
+    private void setRank(){
+        try{
+            Table users = new Users();
+            ResultSet rs = users.selectTable();
+            int totalUserCnt = 0;
+            int userRank = -1;
+            while(rs.next()){
+                totalUserCnt++;
+                String userName = rs.getString("username");
+                if(userName.equals(this.username)) userRank = totalUserCnt;
+            }
+            users.updateTable("rank", userRank, username);
+            rs.close();
+        } catch (SQLException SQLE){
+            System.out.println(SQLE);
+        }
+    }
+    
+    /* (]
+        상위 1%~5% : red
+        상위 6%~15% : dia
+        상위 16%~35% : platinum
+        상위 31%~50% : gold
+        상위 51%~75% : silver;
+    */
+    
+    /*
+        red : 5 (5)
+        dia : 10 (15)
+        platinum : 20 (35)
+        gold : 35 (70)
+        silver : 25 (95)
+        bronze : 5 (100)
+    */
+        
+    private String setTrophyColor(int contributionCount){
+        if(contributionCount <= 0) return "#302F2F";
+        if(contributionCount <= 15) return "#8C4325";
+        if(contributionCount <= 75) return "#C2CEE0";
+        if(contributionCount <= 250) return "#FFBC50";
+        if(contributionCount <= 700) return "#05EBB9";
+        if(contributionCount <= 987654321) return "#7BBEFF";
+        return "#302F2F"; // 오류 (검은색)
+    }
+    
+    public int getRank(){
+        return this.rank;
+    }
+    
+    public String getTrophyColor(){
+        return this.trophyColor;
     }
     
     public int getContributionCount(){

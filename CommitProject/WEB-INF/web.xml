@@ -63,6 +63,15 @@
     <url-pattern>/calendartheme</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+    <servlet-name>themeWithRank</servlet-name>
+    <jsp-file>/Application/Viewer/themeWithRank.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>themeWithRank</servlet-name>
+    <url-pattern>/themeWithRank</url-pattern>
+  </servlet-mapping>
+  
   <!-- themes end -->
   
   
