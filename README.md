@@ -13,8 +13,16 @@
 <p> 아이디어나 발견 한 버그가 있다면 제보 해주세요<br><br>
 <b><i>Contact : develxb@gmail.com</i></b></p>
 
-
-
+<h5> 알림! </h5>
+<p>
+서버비 문제로 호스팅을 2021.09.01일부터 중지 합니다 ㅠㅠ
+<br>그동안 사용해주셨던분들 정말 감사합니다.
+<br>곧 개인서버에 올려서 사용하는 방법을 정리해서 올리겠습니다.
+<br>추가로 새로운 깃허브 관련 <a href = "https://github.com/devxb/ReadmePlants">프로젝트</a>를 진행하였으니, 관심있으신 분들은 확인해주시면 감사하겠습니다.
+</p>
+<a href = "https://github.com/devxb/ReadmePlants">
+<img src = "readmeplants.com/get?name=devxb&planet=blueMoon"/>
+</a>
 <p align = "center">
 private repository 커밋기록이 잘 반영되지 않고있다면, <br>
 Contribution setting에서 Private contributions를 체크하세요
