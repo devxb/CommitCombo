@@ -16,7 +16,7 @@
 <p>새로운 깃허브 관련 <a href = "https://github.com/devxb/ReadmePlants">프로젝트</a>를 진행하였으니, 관심있으신 분들은 확인해주시면 감사하겠습니다.</p>
 
 <a href = "https://github.com/devxb/ReadmePlants">
-<img src = "http://readmeplants.com/get?name=Devxb&planet=sunset"/>
+<img src = "http://readmeplants.com/get?name=Devxb&planet=blueMoon&v=1010101"/>
 </a>
 <p align = "center">
 private repository 커밋기록이 잘 반영되지 않고있다면, <br>
