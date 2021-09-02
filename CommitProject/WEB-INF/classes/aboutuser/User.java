@@ -24,14 +24,12 @@ public class User{ // User정보 총괄 클래스
             Table users = new Users();
             ResultSet rs = users.selectTable(this.username);
             if(!rs.next()){ // DB처음 등록하는 사람 이라면
-                System.out.println("first Input");
-                users.insertTable(this.username);
+                if(!users.insertTable(this.username)) return;
                 this.setRank(); // 랭크 지정 (하루에 한번 업데이트)
                 rs = users.selectTable(this.username);
                 rs.next();
             }
             if(!GetDate.getNowDate().equals(rs.getString("contributionEndDate"))){ // 마지막 업데이트부터 하루 이상 지난경우
-                System.out.println("dateChange");
                 users.insertTable(this.username);
                 this.setRank(); // 랭크 지정 (하루에 한번 업데이트)
                 rs = users.selectTable(this.username);
@@ -44,7 +42,7 @@ public class User{ // User정보 총괄 클래스
             this.trophyColor = setTrophyColor(this.contributionCount);
             rs.close();
         } catch (SQLException SQLE){
-            System.out.println(SQLE);
+            SQLE.printStackTrace();
         }
     }
     
@@ -62,7 +60,7 @@ public class User{ // User정보 총괄 클래스
             users.updateTable("rank", userRank, username);
             rs.close();
         } catch (SQLException SQLE){
-            System.out.println(SQLE);
+            SQLE.printStackTrace();
         }
     }
     

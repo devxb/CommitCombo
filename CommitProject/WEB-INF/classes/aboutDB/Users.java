@@ -17,10 +17,25 @@ public class Users implements Table{
     }
     
     @Override
+    public boolean deleteTable(String id){
+        try{
+            String query = "DELETE TABLE " + tableName + " WHERE username = " + id;
+            stmt.executeQuery(query);
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
+        return true;
+    }
+    
+    @Override
     public boolean insertTable(String id){
         try{
             UserContribution userContribution = new UserContribution();
             int contributionCount = userContribution.getContributions(id);
+            if(contributionCount == -1){
+                deleteTable(id);
+                return false;
+            }
             String contributionStartDate = "'2021-01-01'";
             String contributionEndDate = "'" + GetDate.getNowDate() + "'";
             id = "'" + id + "'";
@@ -28,7 +43,7 @@ public class Users implements Table{
             query += "ON DUPLICATE KEY UPDATE " + "contributionCount = " + contributionCount + ", contributionStartDate = " + contributionStartDate + ", contributionEndDate = " + contributionEndDate; 
             stmt.executeUpdate(query);
         } catch (SQLException e){
-            System.out.println(e);
+            e.printStackTrace();
             return false;
         }
         return true;
@@ -41,7 +56,7 @@ public class Users implements Table{
             String query = "update " + tableName + " set " + target + " = '" + item + "' where username = " + id;
             stmt.executeUpdate(query);
         } catch (SQLException e){
-            System.out.println(e);
+            e.printStackTrace();
             return false;
         }
         return true;
@@ -54,7 +69,7 @@ public class Users implements Table{
             String query = "update " + tableName + " set " + target + " = " + item + " where username = " + id;
             stmt.executeUpdate(query);
         } catch (SQLException e){
-            System.out.println(e);
+            e.printStackTrace();
             return false;
         }
         return true;
@@ -67,7 +82,7 @@ public class Users implements Table{
             String query = "SELECT * FROM " + tableName + " order by contributionCount desc";
             ans = stmt.executeQuery(query);
         } catch (SQLException e){
-            System.out.println(e);
+            e.printStackTrace();
         }
         return ans;
     }
@@ -80,7 +95,7 @@ public class Users implements Table{
             String query = "SELECT * FROM " + tableName + " WHERE username = " + id;
             ans = stmt.executeQuery(query);
         } catch (SQLException e){
-            System.out.println(e);
+            e.printStackTrace();
         }
         return ans;
     }

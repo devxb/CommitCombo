@@ -67,8 +67,8 @@ public class UserContribution{
             return contributionCount + getContributionCount(GetDate.getOneYearsAgo(date)); 
         } catch (Exception E){
             System.out.println("parseErr");
+            return -1;
         }
-        return 0;
     }
     
     private String getUserCalendar(String date){ // get user calendar info - JSON.
