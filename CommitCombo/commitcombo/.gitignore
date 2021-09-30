@@ -5,6 +5,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 src/main/resources/application.properties
+src/main/java/com/commitcombo/service/externalApi/token/GithubToken.java
 
 ### STS ###
 .apt_generated
