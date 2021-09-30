@@ -4,9 +4,14 @@
 <ul>
 
 <li>
+<b> (해결) DB Statement객체 병목현상 발생 </b>
+<br> singleton으로 생성된 Connection 인스턴스의 문제점 - Connection pool 고려중
+<br> - legacy 프로젝트 리 팩토링으로 spring boot로 전환 -> hikaricp 도입, jpa 도입
+</li>
+
+<li>
 <b> (해결) DB탐색 오래걸림 및, 병목현상 발생 </b>
 <br> - 요청마다 Connection인스턴스 새로 만드는부분에서 시간이 많이 소요되는거로 보임 -> singleton으로 DB접속을 주관하는 클래스 생성, DB서버와 애플리케이션 서버의 연결을 끊지않으면서 속도 향상시킴
-<br> - Statement인스턴스를 static으로 만들면서 병목현상 발생함. -> 요청마다 Connection인스턴스에서 Statement생성하여 넘겨줌
 </li>
 
 <li>
