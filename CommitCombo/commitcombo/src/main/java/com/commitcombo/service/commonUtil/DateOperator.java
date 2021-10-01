@@ -21,4 +21,9 @@ public class DateOperator{
 		return Integer.parseInt(sb.toString());
 	}
 	
+	public int getThisDay(LocalDate localDate){
+		String[] stringLocalDate = localDate.toString().split("-");
+		return Integer.parseInt(stringLocalDate[stringLocalDate.length-1]);
+	}
+	
 }

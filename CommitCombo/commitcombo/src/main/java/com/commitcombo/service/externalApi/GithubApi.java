@@ -22,6 +22,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.IOException;
+import java.util.Optional;
 
 @Service
 public class GithubApi{
@@ -50,13 +51,13 @@ public class GithubApi{
 		long contributionCount = 0L;
 		boolean[] checkCalendar = new boolean[dateOperator.dateOptimize(localDate)+5];
 		String calendar = null;
+		
 		try{
 			calendar = getCalendar(username, localDate);
 		}catch(Exception E){
 			E.printStackTrace();
 		}
-		if(calendar == null) return 0;
-		System.out.println("calendar = " + calendar);
+		
 		JSONParser jsonParser = new JSONParser();
 		Object StringToJson = null;
 		try{
@@ -65,17 +66,26 @@ public class GithubApi{
 			PE.printStackTrace();
 			return 0;
 		}
+		
 		JSONObject edge = (JSONObject)StringToJson;
+		
+		JSONArray errors = Optional.ofNullable((JSONArray)edge.get("errors")).orElse(null);
+		if(errors != null){ 
+			JSONObject jobj = (JSONObject)errors.get(0);
+			String errorType = (String)jobj.get("type");
+			if(errorType.equals("NOT_FOUND")) return -404;
+			/*
+			 에러 코드 발견시 추가	
+			*/
+		}
+		
 		edge = (JSONObject)edge.get("data");
-			
+		
 		JSONObject rateLimit = (JSONObject)edge.get("rateLimit");
 		
 		edge = (JSONObject)edge.get("user");
-		System.out.println(edge);
 		edge = (JSONObject)edge.get("contributionsCollection");
-		System.out.println(edge);
 		edge = (JSONObject)edge.get("contributionCalendar");
-		System.out.println(edge);
 		
 		JSONArray userCalendar = (JSONArray)edge.get("weeks");
 		
@@ -85,6 +95,7 @@ public class GithubApi{
 			for(int day = oneWeek.size()-1; day >= 0; day--){
 				JSONObject oneDay = (JSONObject)oneWeek.get(day);
 				int thisDate = dateOperator.dateOptimize((String)oneDay.get("date"));
+				if(thisDate == dateOperator.dateOptimize(LocalDate.now())) continue;
                 String thisDateColor = (String)oneDay.get("color");
             	if(checkCalendar[thisDate]) continue;
                 if(thisDateColor.equals("#ebedf0")) return contributionCount;

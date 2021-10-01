@@ -1,4 +1,4 @@
-package com.commitcombo.domain;
+   package com.commitcombo.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -56,7 +56,7 @@ public class User extends CommonDate{
 		return this.rank;
 	}
 	
-	public long getId(){
+	public Long getId(){
 		return this.id;
 	}
 	
