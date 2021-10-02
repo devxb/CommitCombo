@@ -7,10 +7,10 @@ public class BasicDark extends Theme{
 
     public BasicDark(){
         this.themeName = "BasicDark";
-        this.NameTagColor = "#FFFFFF";
-        this.CommitComboColor = "#FFFFFF";
-        this.ComboCntColor = "#000000";
-        this.BackgroundColor = "#000000";
-        this.ComboBoxColor = "#F0F0F0";
+        this.nameTagColor = "#FFFFFF";
+        this.commitComboColor = "#FFFFFF";
+        this.comboCntColor = "#000000";
+        this.backgroundColor = "#000000";
+        this.comboBoxColor = "#F0F0F0";
     }
 }

@@ -7,10 +7,10 @@ public class Abocado extends Theme{
 
     public Abocado(){
         this.themeName = "Abocado";
-        this.NameTagColor = "#813627";
-        this.CommitComboColor = "#813627";
-        this.ComboCntColor = "#813627";
-        this.BackgroundColor = "#D0DF23";
-        this.ComboBoxColor = "#FEF8C6";
+        this.nameTagColor = "#813627";
+        this.commitComboColor = "#813627";
+        this.comboCntColor = "#813627";
+        this.backgroundColor = "#D0DF23";
+        this.comboBoxColor = "#FEF8C6";
     }
 }

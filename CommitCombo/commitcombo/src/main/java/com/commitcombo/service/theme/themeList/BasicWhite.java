@@ -7,11 +7,11 @@ public class BasicWhite extends Theme{
 
     public BasicWhite(){
         this.themeName = "BasicWhite";
-        this.NameTagColor = "#458FFF";
-        this.CommitComboColor = "#458FFF";
-        this.ComboCntColor = "#458FFF";
-        this.BackgroundColor = "#FFFEFE";
-        this.ComboBoxColor = "#F0F0F0";
+        this.nameTagColor = "#458FFF";
+        this.commitComboColor = "#458FFF";
+        this.comboCntColor = "#458FFF";
+        this.backgroundColor = "#FFFEFE";
+        this.comboBoxColor = "#F0F0F0";
     }
 } 
 	

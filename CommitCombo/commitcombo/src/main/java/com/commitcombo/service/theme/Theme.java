@@ -6,13 +6,13 @@ import org.springframework.stereotype.Component;
 public abstract class Theme{
 	
     protected String themeName;
-    protected String NameTagColor;
-    protected String CommitComboColor;
-    protected String ComboCntColor;
-    protected String BackgroundColor;
-    protected String ComboBoxColor;
-    protected String Gradient;
-    protected String ExtraAnimation;
+    protected String nameTagColor;
+    protected String commitComboColor;
+    protected String comboCntColor;
+    protected String backgroundColor;
+    protected String comboBoxColor;
+    protected String gradient;
+	
 	protected StringBuilder stringBuilder = new StringBuilder();
 	
 	public String getThemeName(){
@@ -20,31 +20,27 @@ public abstract class Theme{
 	}
 	
     public String getNameTagColor(){
-        return this.NameTagColor;
+        return this.nameTagColor;
     }
     
 	public String getCommitComboColor(){
-        return this.CommitComboColor;
+        return this.commitComboColor;
     }
     
 	public String getComboCntColor(){
-        return this.ComboCntColor;
+        return this.comboCntColor;
     }
     
 	public String getBackgroundColor(){
-        return this.BackgroundColor;
+        return this.backgroundColor;
     }
     
 	public String getComboBoxColor(){
-        return this.ComboBoxColor;
+        return this.comboBoxColor;
     }
     
 	public String getGradient(){
-        return this.Gradient;
+        return this.gradient;
 	}
-	
-    public String getExtraAnimation(){
-        return this.ExtraAnimation;
-    }
 
 }

@@ -7,17 +7,17 @@ public class Indigo extends Theme{
 
     public Indigo(){	
         this.themeName = "Indigo";	
-        this.NameTagColor = "#FFFFFF";	
-        this.CommitComboColor = "#FFFFFF";	
-        this.ComboCntColor = "url(#Gradient)";	
-        this.BackgroundColor = "url(#Gradient)";	
-        this.ComboBoxColor = "#FFFFFF";	
+        this.nameTagColor = "#FFFFFF";	
+        this.commitComboColor = "#FFFFFF";	
+        this.comboCntColor = "url(#Gradient)";	
+        this.backgroundColor = "url(#Gradient)";	
+        this.comboBoxColor = "#FFFFFF";	
 		
 		stringBuilder.append("<linearGradient id=\"Gradient\" gradientTransform=\"rotate(45)\">\n")
 			.append("<stop offset=\"0%\" stop-color=\"#7579FF\"/> \n")
 			.append("<stop offset=\"100%\" stop-color=\"#B224EF\"/> \n")
 			.append("</linearGradient>");
-        this.Gradient = stringBuilder.toString();
+        this.gradient = stringBuilder.toString();
     }	
 
 } 	

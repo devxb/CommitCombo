@@ -7,18 +7,18 @@ public class DeepOcean extends Theme{
 
     public DeepOcean(){
         this.themeName = "DeepOcean";
-        this.NameTagColor = "#FFFFFF";
-        this.CommitComboColor = "#FFFFFF";
-        this.ComboCntColor = "url(#Gradient)";
-        this.BackgroundColor = "url(#Gradient)";
-        this.ComboBoxColor = "#FFFFFF";
+        this.nameTagColor = "#FFFFFF";
+        this.commitComboColor = "#FFFFFF";
+        this.comboCntColor = "url(#Gradient)";
+        this.backgroundColor = "url(#Gradient)";
+        this.comboBoxColor = "#FFFFFF";
 
 		stringBuilder.append("<linearGradient id=\"Gradient\" gradientTransform=\"rotate(20)\">\n")
 			.append("<stop offset=\"0%\" stop-color=\"#000046\"/> \n")
 			.append("<stop offset=\"100%\" stop-color=\"#1CB5E0\"/> \n")
 			.append("</linearGradient>");
         // set Gradient
-        this.Gradient = stringBuilder.toString();
+        this.gradient = stringBuilder.toString();
 
     }
 

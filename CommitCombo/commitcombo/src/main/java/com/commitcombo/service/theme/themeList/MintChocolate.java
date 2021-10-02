@@ -7,10 +7,10 @@ public class MintChocolate extends Theme{
 
     public MintChocolate(){	
         this.themeName = "MintChocolate";	
-        this.NameTagColor = "#000000";	
-        this.CommitComboColor = "#000000";	
-        this.ComboCntColor = "#000000";	
-        this.BackgroundColor = "#00FFBB";	
-        this.ComboBoxColor = "#FFFFFF";	
+        this.nameTagColor = "#000000";	
+        this.commitComboColor = "#000000";	
+        this.comboCntColor = "#000000";	
+        this.backgroundColor = "#00FFBB";	
+        this.comboBoxColor = "#FFFFFF";	
     }	
 } 	

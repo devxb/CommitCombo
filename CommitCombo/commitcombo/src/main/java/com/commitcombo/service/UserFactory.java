@@ -27,7 +27,8 @@ public class UserFactory{
 	}
 	
 	public User getUser(String userName){
-		User user = userRepository.findByUserName(userName).orElse(new User());
+		User user = userRepository.findByUserName(userName);
+		if(user == null) user = new User();
 		user.setUserName(userName);
 		setContributionCount(user);
 		setRank(user);
@@ -36,15 +37,19 @@ public class UserFactory{
 	
 	@Transactional(readOnly = true)
 	private void setContributionCount(User user){
-		User finded = userRepository.findByUserName(user.getUserName()).orElse(user);
+		User finded = userRepository.findByUserName(user.getUserName());
+		if(finded == null) finded = user;
 		// DB에 저장된 유저가 없거나 최신상태가 아닌경우에만 githubApi호출
-		if(finded.getLastModifiedDate().toString().equals(LocalDate.now().toString())) return; 
+		if(finded.getLastModifiedDate() != null
+			&& 
+		   finded.getLastModifiedDate().toString().equals(LocalDate.now().toString())) return; 
+		user.setLastModifiedDate(LocalDate.now());
 		user.setContributionCount(githubApi.getContributionCount(user.getUserName()));
 	}
 	
 	@Transactional(readOnly = true)
 	private void setRank(User user){
-		List<User> users = userRepository.findAll();
+		List<User> users = userRepository.findAllWithSort();
 		for(User iter : users){
 			if(iter.getContributionCount() > user.getContributionCount()){
 				user.setRank(iter.getRank()+1);

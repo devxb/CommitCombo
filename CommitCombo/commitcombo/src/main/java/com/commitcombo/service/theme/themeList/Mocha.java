@@ -6,10 +6,10 @@ public class Mocha extends Theme{
 
     public Mocha(){
         this.themeName = "Mocha";
-        this.NameTagColor = "#FFFFFF";
-        this.CommitComboColor = "#FFFFFF";
-        this.ComboCntColor = "#371E1E";
-        this.BackgroundColor = "#371E1E";
-        this.ComboBoxColor = "#F0F0F0";
+        this.nameTagColor = "#FFFFFF";
+        this.commitComboColor = "#FFFFFF";
+        this.comboCntColor = "#371E1E";
+        this.backgroundColor = "#371E1E";
+        this.comboBoxColor = "#F0F0F0";
     }
 }

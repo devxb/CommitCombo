@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="image/svg+xml; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<svg width="${rankSheetWidth}" height="${rankSheetHeight}" viewBox="0 0 ${rankSheetWidth} ${rankSheetHeight}" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="161" height="104" viewBox="0 0 161 104" fill="none" xmlns="http://www.w3.org/2000/svg">
 
     <style>
         <![CDATA[
@@ -8,9 +8,9 @@
         ]]>
     </style>
     
-    <rect width="${rankSheetWidth}" height="${rankSheetHeight}" rx="5" fill="${backgroundFill}" fill-opacity="0.5"/>
+    <rect width="161" height="104" rx="5" fill="${viewMapper.getBackgroundColor()}" fill-opacity="0.5"/>
         
-        <jsp:include page="Application/Viewer/${dependentThemeName}"/> 
+        <jsp:include page="${viewMapper.getThemeCategory()}"/> 
         <%@ include file="trophy.jsp" %>
         <%@ include file="rankTag.jsp" %>
         

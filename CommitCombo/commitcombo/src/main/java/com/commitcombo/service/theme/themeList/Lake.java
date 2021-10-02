@@ -7,11 +7,11 @@ public class Lake extends Theme{
 
     public Lake(){
         this.themeName = "Lake";
-        this.NameTagColor = "#FFFFFF";
-        this.CommitComboColor = "#FFFFFF";
-        this.ComboCntColor = "url(#Gradient)";
-        this.BackgroundColor = "url(#Gradient)";
-        this.ComboBoxColor = "#FFFFFF";
+        this.nameTagColor = "#FFFFFF";
+        this.commitComboColor = "#FFFFFF";
+        this.comboCntColor = "url(#Gradient)";
+        this.backgroundColor = "url(#Gradient)";
+        this.comboBoxColor = "#FFFFFF";
 
         // set Gradient
 		stringBuilder.append("<linearGradient id=\"Gradient\" gradientTransform=\"rotate(20)\">\n")
@@ -19,7 +19,7 @@ public class Lake extends Theme{
 			.append("<stop offset=\"50%\" stop-color=\"#86A8E7\"/> \n")
 			.append("<stop offset=\"100%\" stop-color=\"#91EAE4\"/> \n")
 			.append("</linearGradient>");
-        this.Gradient = stringBuilder.toString();
+        this.gradient = stringBuilder.toString();
 
     }
 

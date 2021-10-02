@@ -7,6 +7,8 @@ import org.springframework.transaction.annotation.Transactional;
 import com.commitcombo.repository.UserRepository;
 import com.commitcombo.domain.User;
 
+import java.time.LocalDate;
+
 @Service
 @Transactional
 public class UserService{
@@ -36,13 +38,15 @@ public class UserService{
 	}
 	
 	public User findUserByUserName(String userName){
-		return userRepository.findByUserName(userName).orElseGet(() -> {
-			User invalidUser = new User();
-			invalidUser.setUserName("InvalidUser");
-			invalidUser.setContributionCount(-1L);
-			invalidUser.setRank(-1);
-			return invalidUser;
-		});
+		User ret = userRepository.findByUserName(userName);
+		if(ret == null){
+			ret = new User();
+			ret.setUserName("InvalidUser");
+			ret.setContributionCount(-1L);
+			ret.setRank(-1);
+			ret.setLastModifiedDate(LocalDate.now());
+		}
+		return ret;
 	}
 	
 }

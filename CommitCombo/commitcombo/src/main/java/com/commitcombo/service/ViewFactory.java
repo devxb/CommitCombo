@@ -10,8 +10,8 @@ import com.commitcombo.domain.User;
 @Service
 public class ViewFactory{
 	
-	public ViewMapper getViewMapper(User user, Theme theme){
-		return new ViewMapper(user, theme);
+	public ViewMapper getViewMapper(User user, Theme theme, Option option){
+		return new ViewMapper(user, theme, option);
 	}
 	
 }

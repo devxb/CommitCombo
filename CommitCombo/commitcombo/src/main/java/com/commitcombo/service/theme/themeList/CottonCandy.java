@@ -7,11 +7,11 @@ public class CottonCandy extends Theme{
 
     public CottonCandy(){
         this.themeName = "CottonCandy";
-        this.NameTagColor = "#458FFF";
-        this.CommitComboColor = "#458FFF";
-        this.ComboCntColor = "#458FFF";
-        this.BackgroundColor = "url(#Gradient)";
-        this.ComboBoxColor = "#FFFFFF";
+        this.nameTagColor = "#458FFF";
+        this.commitComboColor = "#458FFF";
+        this.comboCntColor = "#458FFF";
+        this.backgroundColor = "url(#Gradient)";
+        this.comboBoxColor = "#FFFFFF";
 		
 		this.stringBuilder = new StringBuilder();
 		stringBuilder.append("<linearGradient id=\"Gradient\" gradientTransform=\"rotate(20)\">\n")
@@ -19,7 +19,7 @@ public class CottonCandy extends Theme{
 			.append("<stop offset=\"100%\" stop-color=\"#FFE6FA\"/> \n")
 			.append("</linearGradient>");
 		
-        this.Gradient = this.stringBuilder.toString();
+        this.gradient = this.stringBuilder.toString();
     }
 
 }

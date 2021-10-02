@@ -2,7 +2,12 @@ package com.commitcombo.service.commonUtil;
 
 public class ViewOperator{
 	
-	public static String getTrophyColor(int contributionCount){
+	public static String getContributionFontSize(long contributionCount){
+        if(contributionCount > 999) return "1.3625em";
+		return "1.688em";
+	}
+	
+	public static String getTrophyColor(long contributionCount){
         if(contributionCount <= 0) return "#302F2F";
         if(contributionCount <= 15) return "#8C4325";
         if(contributionCount <= 75) return "#C2CEE0";

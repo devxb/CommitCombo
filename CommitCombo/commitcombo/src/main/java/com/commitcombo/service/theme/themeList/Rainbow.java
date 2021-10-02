@@ -7,18 +7,18 @@ public class Rainbow extends Theme{
 
     public Rainbow(){
         this.themeName = "Rainbow";
-        this.NameTagColor = "#FFFFFF";
-        this.CommitComboColor = "#FFFFFF";
-        this.ComboCntColor = "url(#Gradient)";
-        this.BackgroundColor = "url(#Gradient)";
-        this.ComboBoxColor = "#FFFFFF";
+        this.nameTagColor = "#FFFFFF";
+        this.commitComboColor = "#FFFFFF";
+        this.comboCntColor = "url(#Gradient)";
+        this.backgroundColor = "url(#Gradient)";
+        this.comboBoxColor = "#FFFFFF";
 		
 		stringBuilder.append("<linearGradient id=\"Gradient\" gradientTransform=\"rotate(20)\">\n")
 			.append("<stop offset=\"0%\" stop-color=\"#9DDDF6\"/> \n")
 			.append("<stop offset=\"50%\" stop-color=\"#B58DF0\"/> \n")
 			.append("<stop offset=\"100%\" stop-color=\"#F37FAB\"/> \n")
 			.append("</linearGradient>");
-        this.Gradient = stringBuilder.toString();
+        this.gradient = stringBuilder.toString();
     }
 
 

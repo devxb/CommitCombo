@@ -9,10 +9,14 @@ import java.time.LocalDate;
 public class CommonDate{
 	
 	@Column(name = "LAST_MODIFIED_DATE")
-	private LocalDate lastModifiedDate = LocalDate.now();
+	private LocalDate lastModifiedDate;
 	
 	public LocalDate getLastModifiedDate(){
 		return this.lastModifiedDate;
+	}
+	
+	public void setLastModifiedDate(LocalDate lastModifiedDate){
+		this.lastModifiedDate = lastModifiedDate;
 	}
 	
 }

@@ -6,10 +6,10 @@ public class Orange extends Theme{
 
     public Orange(){
         this.themeName = "Orange";
-        this.NameTagColor = "#E74C3C";
-        this.CommitComboColor = "#E74C3C";
-        this.ComboCntColor = "#E74C3C";
-        this.BackgroundColor = "#FFBB12";
-        this.ComboBoxColor = "#FFFFFF";
+        this.nameTagColor = "#E74C3C";
+        this.commitComboColor = "#E74C3C";
+        this.comboCntColor = "#E74C3C";
+        this.backgroundColor = "#FFBB12";
+        this.comboBoxColor = "#FFFFFF";
     }
 }

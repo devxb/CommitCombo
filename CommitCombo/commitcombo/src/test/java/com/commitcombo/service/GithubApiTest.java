@@ -24,7 +24,7 @@ public class GithubApiTest{
 		long DevxbcontributionCount = githubApi.getContributionCount(userName);
 		
 		// Then
-		assertEquals(DevxbcontributionCount, 2);
+		assertEquals(DevxbcontributionCount, 3);
 	}
 	
 	@Test

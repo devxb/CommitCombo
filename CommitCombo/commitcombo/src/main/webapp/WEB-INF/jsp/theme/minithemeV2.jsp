@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="image/svg+xml; charset=UTF-8" pageEncoding = "UTF-8"%>
 
-<svg width="${miniThemeV2Width}" height="${miniThemeV2Height}" viewBox="0 0 ${miniThemeV2Width} ${miniThemeV2Height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="153" height="66.52" viewBox="0 0 153 66.52" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style type="text/css">
         <![CDATA[
         
