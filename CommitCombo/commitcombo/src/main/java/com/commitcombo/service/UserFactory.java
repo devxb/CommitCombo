@@ -50,13 +50,20 @@ public class UserFactory{
 	@Transactional(readOnly = true)
 	private void setRank(User user){
 		List<User> users = userRepository.findAllWithSort();
+		if(users.isEmpty()){
+			user.setRank(1);
+			return;
+		}
+		long rank = 1;
 		for(User iter : users){
-			if(iter.getContributionCount() > user.getContributionCount()){
-				user.setRank(iter.getRank()+1);
+			if(iter.getUserName() == user.getUserName()) continue;
+			if(iter.getContributionCount() < user.getContributionCount()){
+				user.setRank(rank);
 				return;
 			}
-		}
-		user.setRank((long)users.size()+1L);
+			rank++;
+		}	
+		user.setRank(rank);
 	}
 	
 }

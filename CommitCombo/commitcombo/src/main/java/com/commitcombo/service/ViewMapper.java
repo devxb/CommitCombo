@@ -28,13 +28,13 @@ public class ViewMapper{
 	private String fontSize;
 	
 	// Option
-	private String rankOption;
 	private String animation;
 	
 	
-	public void changeThemeCategory(){
+	public ViewMapper flipThemeCategory(){
 		if(this.themeCategory.equals("minitheme.jsp")) this.themeCategory = "minithemeV2.jsp";
 		else this.themeCategory = "minitheme.jsp";
+		return this;
 	}
 	
 	public ViewMapper(User user, Theme theme, Option option){
@@ -63,7 +63,6 @@ public class ViewMapper{
 	}
 	
 	private void setOption(Option option){
-		this.rankOption = option.getRank();
 		this.animation = option.getAnimation();
 	}
 	
@@ -71,10 +70,6 @@ public class ViewMapper{
 	
 	public String getAnimation(){
 		return this.animation;
-	}
-	
-	public String getRankOption(){
-		return this.rankOption;
 	}
 	
 	public String getGradient(){

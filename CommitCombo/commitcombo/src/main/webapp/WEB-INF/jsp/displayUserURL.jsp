@@ -66,8 +66,8 @@
         %>
         <div class = "divStyle">
             <h2 class = "textGradient" style = "color:white"> Copy and Paste the link below to your GitHub!  </h2>
-            <h3 class = "userURL" style = "color:white"> [![commit combo](http://commitcombo.com/get?user=${username}&theme=${theme})](https://github.com/devxb/commitcombo) </h3>
-            <object data = "./get?user=${username}&theme=${theme}"> </object>
+            <h3 class = "userURL" style = "color:white"> [![commit combo](http://commitcombo.com/get?user=${username}&theme=${theme}&v=${v})](https://github.com/devxb/commitcombo) </h3>
+            <object data = "./get?user=${username}&theme=${theme}&v=${v}"> </object>
         </div>
     </body>
 </html>

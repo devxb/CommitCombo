@@ -13,7 +13,7 @@ public interface UserRepository extends JpaRepository<User, Long>{
 	
 	User findByUserName(String userName);
 	
-	@Query("select u from User as u order by u.contributionCount")
+	@Query("select u from User as u order by u.contributionCount desc")
 	List<User> findAllWithSort();
 	
 }

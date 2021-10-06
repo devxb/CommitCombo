@@ -3,9 +3,7 @@
 <svg width="157" height="71" viewBox="0 0 157 71" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style type="text/css">
         <![CDATA[
-        
-            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
-            
+		
             @keyframes fadeInAnimation{
                 from{
                     opacity:0;
@@ -54,9 +52,11 @@
             }
         ]]>
     </style>
-    <defs>
-        ${gradient}
-    </defs>
+	
+	<defs>
+		${viewMapper.getGradient()}
+	</defs>
+	
     <rect x="4" y="4" width="153" height="66.5217" rx="5" fill="${viewMapper.getBackgroundColor()}"/>
     <rect x="97.2926" y="10.21948" width="53.5419" height="53.5419" rx="5" fill="${viewMapper.getComboBoxColor()}"/>
     <g style = "animation: fadeInAnimation 0.8s ease-in-out" transform="translate(11,0)">

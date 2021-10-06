@@ -73,11 +73,11 @@
     <body style="background-color:#0D1117; margin:0%">
         <div align="center" style="position:absolute; left: 50%; margin-left: -392px;"> 
             <!--<img src="./projectCC/logo/Commit-Combo-small.svg"/>-->
-            <img src="./Application/Maker/logo/Commit-Combo.svg"/>
+            <img src="/logo"/>
         </div>
         <div style="padding-top:1%;">
 
-            <form method="post" action="./selecttheme"> 
+            <form method="post" action="/selecttheme"> 
                 <div align="center" class="nameTag"><input type="text" name="username" class="inputStyle" placeholder="type github name"/> </div>
                 <div align="center" class="themeButton"><input type="submit" name="chooseTheme" value="ChooseTheme" class="buttonStyle"/> </div>
             </form>

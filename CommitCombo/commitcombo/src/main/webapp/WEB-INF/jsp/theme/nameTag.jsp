@@ -5,8 +5,6 @@
     
         <![CDATA[ 
         
-            /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');*/
-            
             @keyframes dragUsername{
                 0%{
                     -webkit-transform: translate(0px, 0px);
@@ -34,7 +32,7 @@
             }
             
         ]]>
-        
+		
     </style>
         <g transform="translate(4, 31)">
             <g>

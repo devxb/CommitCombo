@@ -1,8 +1,7 @@
 <svg width="161" height="104" viewBox="0 0 161 104" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
         <![CDATA[
-            /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');*/
-            
+		
             .rankText{
                 font-family: 'Noto Sans KR', sans-serif;
                 font-size: 0.78em;

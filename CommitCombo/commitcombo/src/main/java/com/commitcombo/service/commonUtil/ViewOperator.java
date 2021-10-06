@@ -8,13 +8,12 @@ public class ViewOperator{
 	}
 	
 	public static String getTrophyColor(long contributionCount){
-        if(contributionCount <= 0) return "#302F2F";
-        if(contributionCount <= 15) return "#8C4325";
-        if(contributionCount <= 75) return "#C2CEE0";
-        if(contributionCount <= 250) return "#FFBC50";
-        if(contributionCount <= 700) return "#05EBB9";
-        if(contributionCount <= 987654321) return "#7BBEFF";
-        return "#302F2F"; // 오류 (검은색)
+        if(contributionCount < 15) return "#C2CEE0";
+        if(contributionCount < 45) return "#FFBC50";
+        if(contributionCount < 210) return "#05EBB9";
+        if(contributionCount < 700) return "#7BBEFF";
+        if(contributionCount <= 987654321) return "#F34D89";
+        return "FFFFFF"; // 오류 (흰색 -> 표시안함 검은색)
     }
 	
 	public static double getFontSize(String userName){

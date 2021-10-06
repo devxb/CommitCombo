@@ -16,7 +16,7 @@ public class ThemeFactory{
 	}
 	
 	public Theme getTheme(String themeName){
-		String[] themeArr = themeName.split("-");
+		String[] themeArr = themeName.split("-"); // deprecate된 -mini api대응하기 위해 남겨놓음
 		for(Theme theme : themes) if(themeArr[0].equals(theme.getThemeName())) return theme;
 		return themes.get(0);
 	}

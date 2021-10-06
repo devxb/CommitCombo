@@ -28,7 +28,7 @@
     </head>
     <body style="margin:0%; background-color:#0D1117;">
         <div class= "logoStyle">
-            <img src="./Application/ETC/logo.jsp"/>
+            <img src="/logo"/>
         </div>
     </body>
 </html>
