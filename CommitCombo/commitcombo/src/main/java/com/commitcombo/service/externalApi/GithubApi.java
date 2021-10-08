@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import com.commitcombo.service.externalApi.token.Token;
 import com.commitcombo.service.externalApi.token.GithubToken;
 import com.commitcombo.service.commonUtil.DateOperator;
+import com.commitcombo.service.errors.InvalidUserException;
 
 import java.time.LocalDate;
 import java.net.URL;
@@ -73,7 +74,7 @@ public class GithubApi{
 		if(errors != null){ 
 			JSONObject jobj = (JSONObject)errors.get(0);
 			String errorType = (String)jobj.get("type");
-			if(errorType.equals("NOT_FOUND")) return -404;
+			if(errorType.equals("NOT_FOUND")) throw new InvalidUserException("Invalid user");
 			/*
 			 에러 코드 발견시 추가	
 			*/

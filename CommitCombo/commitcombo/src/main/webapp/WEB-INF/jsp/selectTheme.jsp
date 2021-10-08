@@ -49,7 +49,7 @@
     %>
 
         <div>
-         <img src = "./chooseYourTheme.jsp" style="animation: fadeInAnimation 1s ease-in-out"> <br>
+         <img src = "/chooseYourThemeLogo" style="animation: fadeInAnimation 1s ease-in-out"> <br>
          <!--
          <p> 
             <span style="color:#FFFFFF">If you see more than one of the same theme, please refresh.</span> <br>

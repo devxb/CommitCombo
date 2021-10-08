@@ -10,6 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import com.commitcombo.domain.User;
 import com.commitcombo.repository.UserRepository;
 
+import java.io.IOException;
+
 @SpringBootTest
 @Transactional
 public class UserServiceTest{

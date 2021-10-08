@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.ui.Model;
 
-
 @Controller
 public class MainController{
 	
@@ -18,6 +17,11 @@ public class MainController{
 	@GetMapping("/logo")
 	public String logo(){
 		return "logo";
+	}
+	
+	@GetMapping("/chooseYourThemeLogo")
+	public String chooseYourThemeLogo(){
+		return "chooseYourTheme";
 	}
 	
 	@GetMapping("/maker")

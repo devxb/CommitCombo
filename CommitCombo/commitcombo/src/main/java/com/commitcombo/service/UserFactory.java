@@ -40,8 +40,7 @@ public class UserFactory{
 		User finded = userRepository.findByUserName(user.getUserName());
 		if(finded == null) finded = user;
 		// DB에 저장된 유저가 없거나 최신상태가 아닌경우에만 githubApi호출
-		if(finded.getLastModifiedDate() != null
-			&& 
+		if(finded.getLastModifiedDate() != null && 
 		   finded.getLastModifiedDate().toString().equals(LocalDate.now().toString())) return; 
 		user.setLastModifiedDate(LocalDate.now());
 		user.setContributionCount(githubApi.getContributionCount(user.getUserName()));
