@@ -2,11 +2,17 @@ plugins {
 	id 'org.springframework.boot' version '2.5.4'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'war'
 }
 
 group = 'com'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
+
+bootWar {
+	archiveBaseName = 'commitcombo'
+	archiveVersion = "0.0.1"
+}
 
 repositories {
 	mavenCentral()
