@@ -145,15 +145,15 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 ```
 
 <p>
-!수정중! 랭크시스템 사용을 원하지않으면 /get/norank URL로 요청하세요<br>
+랭크시스템 사용을 원하지않으면 http://commitcombo.com/norank/get URL로 요청하세요<br>
 <b> 예시 </b> <br>
 </p>
 <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get/norank?user=Devxb"/>
+    <img src="http://commitcombo.com/norank/get?user=Devxb"/>
 </a> <br>
 
 ```html
 <a href="https://github.com/devxb/CommitCombo">
-	<img src="http://commitcombo.com/get/norank?user=Devxb"/>
+	<img src="http://commitcombo.com/norank/get?user=Devxb"/>
 </a>
 ```

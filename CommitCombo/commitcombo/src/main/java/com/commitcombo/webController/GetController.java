@@ -41,7 +41,7 @@ public class GetController{
 		return new ModelAndView("theme/themeWithRank", "viewMapper", viewMapper);
 	}
 	
-	@GetMapping("/get/norank")
+	@GetMapping("/norank/get")
 	public ModelAndView noRankGet(
 		@RequestParam(required = false) String user,
 		@RequestParam(value = "theme", required = false, defaultValue = "Rainbow") String theme,
@@ -53,7 +53,7 @@ public class GetController{
 		
 		ViewMapper viewMapper = getViewMapper(user, theme, animation, version);
 		
-		return new ModelAndView(viewMapper.getThemeCategory(), "viewMapper", viewMapper);
+		return new ModelAndView("theme/themeNoRank", "viewMapper", viewMapper);
 	}
 	
 	private ViewMapper getViewMapper(String user, String theme, String animation, String version){
