@@ -56,6 +56,19 @@ public class GetController{
 		return new ModelAndView("theme/themeNoRank", "viewMapper", viewMapper);
 	}
 	
+	@GetMapping("box/get")
+	public ModelAndView boxGet(
+		@RequestParam(required = false) String user,
+		@RequestParam(value = "theme", required = false, defaultValue = "Rainbow") String theme,
+		Model model
+	){
+		if(user == null) throw new InvalidUserException("Null user");
+		
+		ViewMapper viewMapper = getViewMapper(user, theme);
+		
+		return new ModelAndView("theme/boxtheme", "viewMapper", viewMapper);
+	}
+	
 	private ViewMapper getViewMapper(String user, String theme, String animation, String version){
 		
 		User findedUser = userService.findUserByUserName(userService.saveUserByUserName(user));
@@ -66,6 +79,10 @@ public class GetController{
 		
 		return viewMapper;
 		
+	}
+	
+	private ViewMapper getViewMapper(String user, String theme){
+		return getViewMapper(user, theme, "dragUsername", "1");
 	}
 	
 }

@@ -1,10 +1,11 @@
-   package com.commitcombo.domain;
+package com.commitcombo.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Column;
+import javax.persistence.Cacheable;
 
 @Entity
 @Table(name = "USER")

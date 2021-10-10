@@ -39,9 +39,17 @@ public class ExceptionController{
 	}
 	
 	@ExceptionHandler({ InvalidUserException.class })
-	public ModelAndView InvalidUserException(RuntimeException runtimeException){
+	public ModelAndView invalidUserException(RuntimeException runtimeException){
 		ExceptionWrapper exceptionWrapper = new ExceptionWrapper.Builder()
 			.msg(runtimeException.getMessage())
+			.build();
+		return new ModelAndView("error/exception", "exceptionWrapper", exceptionWrapper);
+	}
+	
+	@ExceptionHandler({ NullPointerException.class })
+	public ModelAndView nullPointerException(Exception exception){
+		ExceptionWrapper exceptionWrapper = new ExceptionWrapper.Builder()
+			.msg(exception.getMessage())
 			.build();
 		return new ModelAndView("error/exception", "exceptionWrapper", exceptionWrapper);
 	}
