@@ -47,6 +47,11 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 <h2></h2>
 <div align = "center">
 <h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
+<a href = "https://github.com/devxb/CommitCombo"> 
+<img src = "commitcombo.com/get?user=Devxb&theme=Rainbow"/> <img src = "commitcombo.com/norank/get?user=Devxb&theme=Pink"/> <img src = "commitcombo.com/box/get?user=Devxb&theme=Pink"/> <br> 
+<img src = "commitcombo.com/get?user=Devxb&thme=Rainbow&v=2"/> <img src = "commitcombo.com/norank/get?user=Devxb&theme=Pink&v=2"/>
+
+</a> 
 </div>
 
 <h4> <a name = "rankSystem"></a> 랭크 시스템 </h4>
@@ -130,17 +135,19 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
   </a>
 </p>
 
-<b>요청가능한 옵션들</b>
+<b>요청가능한 옵션, 테마들</b>
 
 <p>
-유저 이름이 범위를 초과할경우 슬라이딩하면서 보여줍니다. 원하지않을시 &animation=false를 적어서 요청하세요. <br>
-<b> 예시 </b>
+박스테마 사용을 원하면 http://commitcombo.com/box/get URL로 요청하세요<br>
+<b> 예시 </b> <br>
 </p>
-<img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate&v=2"/> <br>
+<a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/box/get?user=Devxb"/>
+</a> <br>
 
 ```html
 <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb&animation=false"/>
+	<img src="http://commitcombo.com/box/get?user=Devxb"/>
 </a>
 ```
 
@@ -155,5 +162,17 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 ```html
 <a href="https://github.com/devxb/CommitCombo">
 	<img src="http://commitcombo.com/norank/get?user=Devxb"/>
+</a>
+```
+
+<p>
+유저 이름이 범위를 초과할경우 슬라이딩하면서 보여줍니다. 원하지않을시 &animation=false를 적어서 요청하세요. <br>
+<b> 예시 </b>
+</p>
+<img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate&v=2"/> <br>
+
+```html
+<a href="https://github.com/devxb/CommitCombo">
+    <img src="http://commitcombo.com/get?user=Devxb&animation=false"/>
 </a>
 ```
