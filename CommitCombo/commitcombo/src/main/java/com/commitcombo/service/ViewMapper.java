@@ -31,16 +31,17 @@ public class ViewMapper{
 	private String animation;
 	
 	
-	public ViewMapper flipThemeCategory(){
+	private ViewMapper flipThemeCategory(){
 		if(this.themeCategory.equals("minitheme.jsp")) this.themeCategory = "minithemeV2.jsp";
 		else this.themeCategory = "minitheme.jsp";
 		return this;
 	}
 	
-	public ViewMapper(User user, Theme theme, Option option){
+	public ViewMapper(User user, Theme theme, Option option, String version){
 		setUser(user);
 		setTheme(theme);
 		setOption(option);
+		if(version.equals("2")) flipThemeCategory();
 	}
 	
 	private void setUser(User user){

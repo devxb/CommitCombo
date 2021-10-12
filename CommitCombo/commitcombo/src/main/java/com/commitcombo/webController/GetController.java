@@ -12,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.commitcombo.service.Option;
 import com.commitcombo.service.theme.Theme;
 import com.commitcombo.service.theme.ThemeFactory;
+import com.commitcombo.service.ViewFactory;
 import com.commitcombo.service.UserService;
 import com.commitcombo.service.ViewMapper;
 import com.commitcombo.domain.User;
@@ -25,6 +26,9 @@ public class GetController{
 	
 	@Autowired
 	private ThemeFactory themeFactory;
+	
+	@Autowired
+	private ViewFactory viewFactory;
 	
 	@GetMapping("/get")
 	public ModelAndView get(
@@ -74,8 +78,7 @@ public class GetController{
 		User findedUser = userService.findUserByUserName(userService.saveUserByUserName(user));
 		Theme getTheme = themeFactory.getTheme(theme);
 		
-		ViewMapper viewMapper = new ViewMapper(findedUser, getTheme, new Option(animation));
-		if(version.equals("2")) viewMapper.flipThemeCategory();
+		ViewMapper viewMapper = viewFactory.getViewMapper(findedUser, getTheme, new Option(animation), version);
 		
 		return viewMapper;
 		

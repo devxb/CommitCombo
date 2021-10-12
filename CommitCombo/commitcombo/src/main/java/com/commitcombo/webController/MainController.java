@@ -44,7 +44,7 @@ public class MainController{
 	
 	@PostMapping("/selecttheme")
 	public String selectTheme(
-		@RequestParam(value = "username", required = true, defaultValue = "InvalidUser") String userName,
+		@RequestParam(value = "username", required = false) String userName,
 		Model model
 	){
 		model.addAttribute("username", userName);

@@ -48,7 +48,7 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 <div align = "center">
 <h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
 <a href = "https://github.com/devxb/CommitCombo"> 
-<img src = "http://commitcombo.com/get?user=Devxb&theme=Rainbow"/> <img src = "http://commitcombo.com/norank/get?user=Devxb&theme=Pink"/> <img src = "http://commitcombo.com/box/get?user=Devxb&theme=Pink"/> <br> 
+<img src = "http://commitcombo.com/get?user=Devxb&theme=Rainbow"/> <img src = "http://commitcombo.com/norank/get?user=Devxb&theme=Pink"/> <img src = "http://commitcombo.com/box/get?user=Devxb&theme=Rainbow"/> <br> 
 <img src = "http://commitcombo.com/get?user=Devxb&thme=Rainbow&v=2"/> <img src = "http://commitcombo.com/norank/get?user=Devxb&theme=Pink&v=2"/>
 
 </a> 

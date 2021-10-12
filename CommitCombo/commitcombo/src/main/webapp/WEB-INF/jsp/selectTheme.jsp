@@ -40,14 +40,6 @@
     </head>
     <body style="margin:0%; background-color:#0D1117">
 
-    <%
-        String name = (String)request.getParameter("username");
-        if(name.equals(null) || name.equals("")){
-            response.sendRedirect("/maker");
-        }
-        pageContext.setAttribute("username",name);
-    %>
-
         <div>
          <img src = "/chooseYourThemeLogo" style="animation: fadeInAnimation 1s ease-in-out"> <br>
          <!--
