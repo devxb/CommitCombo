@@ -1,11 +1,14 @@
 package com.commitcombo.controller;
 
+import lombok.extern.slf4j.Slf4j;
+
 import com.commitcombo.service.errors.InvalidUserException;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.ModelAndView;
 
+@Slf4j
 @ControllerAdvice
 public class ExceptionController{
 	
@@ -43,6 +46,7 @@ public class ExceptionController{
 		ExceptionWrapper exceptionWrapper = new ExceptionWrapper.Builder()
 			.msg(runtimeException.getMessage())
 			.build();
+		log.warn("유저 이름 찾을 수 없음.");
 		return new ModelAndView("error/exception", "exceptionWrapper", exceptionWrapper);
 	}
 	

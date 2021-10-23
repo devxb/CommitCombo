@@ -2,6 +2,8 @@ package com.commitcombo.webController;
 
 import javax.servlet.http.HttpServletResponse;
 
+import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,6 +20,7 @@ import com.commitcombo.service.ViewMapper;
 import com.commitcombo.domain.User;
 import com.commitcombo.service.errors.InvalidUserException;
 
+@Slf4j
 @Controller
 public class GetController{
 	
@@ -40,6 +43,8 @@ public class GetController{
 	){
 		if(user == null) throw new InvalidUserException("Null user");
 		
+		log.info("이름 : " + user);
+		
 		ViewMapper viewMapper = getViewMapper(user, theme, animation, version);
 		
 		return new ModelAndView("theme/themeWithRank", "viewMapper", viewMapper);
@@ -55,6 +60,8 @@ public class GetController{
 	){
 		if(user == null) throw new InvalidUserException("Null user");
 		
+		log.info("이름 : " + user);
+		
 		ViewMapper viewMapper = getViewMapper(user, theme, animation, version);
 		
 		return new ModelAndView("theme/themeNoRank", "viewMapper", viewMapper);
@@ -67,6 +74,8 @@ public class GetController{
 		Model model
 	){
 		if(user == null) throw new InvalidUserException("Null user");
+		
+		log.info("이름 : " + user);
 		
 		ViewMapper viewMapper = getViewMapper(user, theme);
 		

@@ -1,5 +1,7 @@
 package com.commitcombo.service.externalApi;
 
+import lombok.extern.slf4j.Slf4j;
+
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
@@ -25,6 +27,7 @@ import java.io.OutputStream;
 import java.io.IOException;
 import java.util.Optional;
 
+@Slf4j
 @Service
 public class GithubApi{
 	
@@ -44,7 +47,10 @@ public class GithubApi{
 	}
 	
 	public long getContributionCount(String username){
-		return operateContributionCount(username, LocalDate.now());
+		log.info(username + " 깃허브 ContributionCount 오퍼레이트 시작 ");
+		long contributionCount = operateContributionCount(username, LocalDate.now());
+		log.info("결과 : " + contributionCount);
+		return contributionCount;
 	}
 	
 	private long operateContributionCount(String username, LocalDate localDate){
@@ -56,7 +62,7 @@ public class GithubApi{
 		try{
 			calendar = getCalendar(username, localDate);
 		}catch(Exception E){
-			E.printStackTrace();
+			log.error(E.getMessage());
 		}
 		
 		JSONParser jsonParser = new JSONParser();
@@ -64,7 +70,7 @@ public class GithubApi{
 		try{
 			StringToJson = jsonParser.parse(calendar);
 		}catch(ParseException PE){
-			PE.printStackTrace();
+			log.error(PE.getMessage());
 			return 0;
 		}
 		
@@ -75,15 +81,16 @@ public class GithubApi{
 			JSONObject jobj = (JSONObject)errors.get(0);
 			String errorType = (String)jobj.get("type");
 			if(errorType.equals("NOT_FOUND")) throw new InvalidUserException("Invalid user");
-			/*
-			 에러 코드 발견시 추가	
-			*/
 		}
 		
 		edge = (JSONObject)edge.get("data");
 		
 		JSONObject rateLimit = (JSONObject)edge.get("rateLimit");
-		
+		log.info("-----깃허브 GraphqlAPI RateLimit-----");
+		log.info("limit : " + rateLimit.get("limit"));
+		log.info("remaining : " + rateLimit.get("remaining"));
+		log.info("cost : " + rateLimit.get("cost"));
+		log.info("nodeCount : " + rateLimit.get("nodeCount"));
 		edge = (JSONObject)edge.get("user");
 		edge = (JSONObject)edge.get("contributionsCollection");
 		edge = (JSONObject)edge.get("contributionCalendar");
@@ -126,18 +133,8 @@ public class GithubApi{
 				}
 			}
 			
-		}catch(IllegalStateException ISE){
-			ISE.printStackTrace();
-		}catch(NullPointerException NPE){
-			NPE.printStackTrace();
-		}catch(ProtocolException PE){
-			PE.printStackTrace();
-		}catch(MalformedURLException MFUE){
-			MFUE.printStackTrace();
-		}catch(IOException IOE){
-			IOE.printStackTrace();
-		}catch(Exception E){
-			E.printStackTrace();
+		}catch(Exception e){
+			log.error(e.getMessage());
 		}
 		return null;
 	}

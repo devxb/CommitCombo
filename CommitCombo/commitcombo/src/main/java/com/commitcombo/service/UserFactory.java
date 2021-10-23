@@ -1,5 +1,7 @@
 package com.commitcombo.service;
 
+import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,6 +15,7 @@ import com.commitcombo.domain.User;
 import com.commitcombo.repository.UserRepository;
 
 @Service
+@Slf4j
 public class UserFactory{
 	
 	private GithubApi githubApi;
@@ -27,10 +30,15 @@ public class UserFactory{
 	}
 	
 	public User getUser(String userName){
+		log.info(userName + " 유저정보 세팅 시작 ...");
 		User user = userRepository.findByUserName(userName);
-		if(user == null) user = new User();
+		if(user == null){
+			user = new User();
+			log.info("신규 유저");
+		} 
 		user.setUserName(userName);
 		setContributionCount(user);
+		log.info("유저 contribution 매핑 성공 : " + user.getContributionCount());
 		setRank(user);
 		return user;
 	}
@@ -41,7 +49,12 @@ public class UserFactory{
 		if(finded == null) finded = user;
 		// DB에 저장된 유저가 없거나 최신상태가 아닌경우에만 githubApi호출
 		if(finded.getLastModifiedDate() != null && 
-		   finded.getLastModifiedDate().toString().equals(LocalDate.now().toString())) return; 
+		   finded.getLastModifiedDate().toString().equals(LocalDate.now().toString())){
+			log.info("오늘 중복 업데이트 되는 유저");
+			return;
+		}
+		log.info("신규 유저이거나 Date값이 최신이 아님");
+		log.info("깃 허브 API 호출");
 		user.setLastModifiedDate(LocalDate.now());
 		user.setContributionCount(githubApi.getContributionCount(user.getUserName()));
 	}
@@ -61,7 +74,7 @@ public class UserFactory{
 				return;
 			}
 			rank++;
-		}	
+		}
 		user.setRank(rank);
 	}
 	
