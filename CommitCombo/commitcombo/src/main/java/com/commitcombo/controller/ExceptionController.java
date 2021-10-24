@@ -46,7 +46,7 @@ public class ExceptionController{
 		ExceptionWrapper exceptionWrapper = new ExceptionWrapper.Builder()
 			.msg(runtimeException.getMessage())
 			.build();
-		log.warn("유저 이름 찾을 수 없음.");
+		log.warn("No user founded.");
 		return new ModelAndView("error/exception", "exceptionWrapper", exceptionWrapper);
 	}
 	

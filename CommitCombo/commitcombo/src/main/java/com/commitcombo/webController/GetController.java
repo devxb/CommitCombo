@@ -43,7 +43,7 @@ public class GetController{
 	){
 		if(user == null) throw new InvalidUserException("Null user");
 		
-		log.info("이름 : " + user);
+		log.info("username : " + user);
 		
 		ViewMapper viewMapper = getViewMapper(user, theme, animation, version);
 		
@@ -60,7 +60,7 @@ public class GetController{
 	){
 		if(user == null) throw new InvalidUserException("Null user");
 		
-		log.info("이름 : " + user);
+		log.info("username : " + user);
 		
 		ViewMapper viewMapper = getViewMapper(user, theme, animation, version);
 		
@@ -75,7 +75,7 @@ public class GetController{
 	){
 		if(user == null) throw new InvalidUserException("Null user");
 		
-		log.info("이름 : " + user);
+		log.info("username : " + user);
 		
 		ViewMapper viewMapper = getViewMapper(user, theme);
 		

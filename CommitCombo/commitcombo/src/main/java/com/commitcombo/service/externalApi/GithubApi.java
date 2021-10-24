@@ -47,9 +47,9 @@ public class GithubApi{
 	}
 	
 	public long getContributionCount(String username){
-		log.info(username + " 깃허브 ContributionCount 오퍼레이트 시작 ");
+		log.info(username + "Start github operateContributionCount");
 		long contributionCount = operateContributionCount(username, LocalDate.now());
-		log.info("결과 : " + contributionCount);
+		log.info("result : " + contributionCount);
 		return contributionCount;
 	}
 	
@@ -86,7 +86,7 @@ public class GithubApi{
 		edge = (JSONObject)edge.get("data");
 		
 		JSONObject rateLimit = (JSONObject)edge.get("rateLimit");
-		log.info("-----깃허브 GraphqlAPI RateLimit-----");
+		log.info("-----Github GraphqlAPI RateLimit-----");
 		log.info("limit : " + rateLimit.get("limit"));
 		log.info("remaining : " + rateLimit.get("remaining"));
 		log.info("cost : " + rateLimit.get("cost"));
