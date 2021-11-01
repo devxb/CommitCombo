@@ -1,8 +1,9 @@
-package com.commitcombo.service;
+package com.commitcombo.service.viewDTO;
 
 import com.commitcombo.domain.User;
 import com.commitcombo.service.commonUtil.ViewOperator;
 import com.commitcombo.service.theme.Theme;
+import com.commitcombo.service.Option;
 
 public class ViewMapper{
 	

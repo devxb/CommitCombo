@@ -30,15 +30,15 @@ public class UserFactory{
 	}
 	
 	public User getUser(String userName){
-		log.info(userName + " 유저정보 세팅 시작 ...");
+		log.info(userName + " setting info...");
 		User user = userRepository.findByUserName(userName);
 		if(user == null){
 			user = new User();
-			log.info("신규 유저");
+			log.info("Hello World!!");
 		} 
 		user.setUserName(userName);
 		setContributionCount(user);
-		log.info("유저 contribution 매핑 성공 : " + user.getContributionCount());
+		log.info("Success contribution mapping : " + user.getContributionCount());
 		setRank(user);
 		return user;
 	}
@@ -50,11 +50,10 @@ public class UserFactory{
 		// DB에 저장된 유저가 없거나 최신상태가 아닌경우에만 githubApi호출
 		if(finded.getLastModifiedDate() != null && 
 		   finded.getLastModifiedDate().toString().equals(LocalDate.now().toString())){
-			log.info("오늘 중복 업데이트 되는 유저");
+			log.info("this user was overlapped");
 			return;
 		}
-		log.info("신규 유저이거나 Date값이 최신이 아님");
-		log.info("깃 허브 API 호출");
+		log.info("-- github API --");
 		user.setLastModifiedDate(LocalDate.now());
 		user.setContributionCount(githubApi.getContributionCount(user.getUserName()));
 	}

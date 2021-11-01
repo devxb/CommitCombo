@@ -14,15 +14,15 @@ import org.springframework.web.servlet.ModelAndView;
 import com.commitcombo.service.Option;
 import com.commitcombo.service.theme.Theme;
 import com.commitcombo.service.theme.ThemeFactory;
-import com.commitcombo.service.ViewFactory;
+import com.commitcombo.service.viewDTO.ViewFactory;
 import com.commitcombo.service.UserService;
-import com.commitcombo.service.ViewMapper;
+import com.commitcombo.service.viewDTO.ViewMapper;
 import com.commitcombo.domain.User;
 import com.commitcombo.service.errors.InvalidUserException;
 
 @Slf4j
 @Controller
-public class GetController{
+public class ThemeController{
 	
 	@Autowired
 	private UserService userService;
@@ -32,6 +32,45 @@ public class GetController{
 	
 	@Autowired
 	private ViewFactory viewFactory;
+	
+	@GetMapping("/theme")
+	public ModelAndView miniTheme(
+		@RequestParam(required = false) String user,
+		@RequestParam(value = "theme", required = false, defaultValue = "Rainbow") String theme,
+		@RequestParam(value = "animation", required = false, defaultValue = "dragUsername") String animation,
+		@RequestParam(value = "v", required = false, defaultValue = "1") String version,
+		Model model
+	){
+		return this.get(user, theme, animation, version, model);
+	}
+	
+	@GetMapping("/theme/norank")
+	public ModelAndView norankMiniTheme(
+		@RequestParam(required = false) String user,
+		@RequestParam(value = "theme", required = false, defaultValue = "Rainbow") String theme,
+		@RequestParam(value = "animation", required =  false, defaultValue = "dragUsername") String animation,
+		@RequestParam(value = "v", required = false, defaultValue = "1") String version,
+		Model model
+	){
+		return this.noRankGet(user, theme, animation, version, model);
+	}
+	
+	@GetMapping("/theme/box")
+	public ModelAndView boxTheme(
+		@RequestParam(required = false) String user,
+		@RequestParam(value = "theme", required = false, defaultValue = "Rainbow") String theme,
+		@RequestParam(value = "animation", required =  false, defaultValue = "dragUsername") String animation,
+		@RequestParam(value = "v", required = false, defaultValue = "1") String version,
+		Model model
+	){
+		return this.boxGet(user, theme, model);
+	}
+	
+	/*
+		----------------------------------
+		deprecated
+		-----------------------------------
+	*/
 	
 	@GetMapping("/get")
 	public ModelAndView get(

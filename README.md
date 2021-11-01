@@ -2,7 +2,7 @@
 <div align = "center">
   <br>
   <a href="https://github.com/devxb/CommitCombo"><img src = "http://commitcombo.com/logo" align="center"/></a> <br><br><br>
-  <img src = "http://commitcombo.com/get?user=Devxb&theme=Rainbow-mini" align="center" alt="Github Commit Combo"/>
+  <img src = "http://commitcombo.com/theme/norank?user=Devxb&theme=Rainbow" align="center" alt="Github Commit Combo"/>
   <h2></h2>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
@@ -48,8 +48,8 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 <div align = "center">
 <h3> <a name = "availableTheme"></a>사용가능한 테마</h3>
 <a href = "https://github.com/devxb/CommitCombo"> 
-<img src = "http://commitcombo.com/get?user=Devxb&theme=Rainbow"/> <img src = "http://commitcombo.com/norank/get?user=Devxb&theme=Pink"/> <img src = "http://commitcombo.com/box/get?user=Devxb&theme=Rainbow"/> <br> 
-<img src = "http://commitcombo.com/get?user=Devxb&thme=Rainbow&v=2"/> <img src = "http://commitcombo.com/norank/get?user=Devxb&theme=Pink&v=2"/>
+<img src = "http://commitcombo.com/theme?user=Devxb&theme=Rainbow"/> <img src = "http://commitcombo.com/theme/norank?user=Devxb&theme=Pink"/> <img src = "http://commitcombo.com/theme/box?user=Devxb&theme=Rainbow"/> <br> 
+<img src = "http://commitcombo.com/theme?user=Devxb&thme=Rainbow&v=2"/> <img src = "http://commitcombo.com/theme/norank?user=Devxb&theme=Pink&v=2"/>
 
 </a> 
 </div>
@@ -87,7 +87,7 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 (스킵가능하며 기본 버전은 1입니다.)
 </p>
 
-	[![commitcombo](http://commitcombo.com/get?user={username}&theme={theme}&v={version})](https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/theme?user={username}&theme={theme}&v={version})](https://github.com/devxb/CommitCombo)
 
 <p> 예제 <br>
 {username} : Devxb, <br>
@@ -95,9 +95,9 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 {version} : 1 일때,
 </p>
 
-	[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean&v=1)](https://github.com/devxb/CommitCombo)
+	[![commitcombo](http://commitcombo.com/theme?user=Devxb&theme=DeepOcean&v=1)](https://github.com/devxb/CommitCombo)
 
-[![commitcombo](http://commitcombo.com/get?user=Devxb&theme=DeepOcean&v=1)](https://github.com/devxb/CommitCombo)
+[![commitcombo](http://commitcombo.com/theme?user=Devxb&theme=DeepOcean&v=1)](https://github.com/devxb/CommitCombo)
 
 <b>정렬하면서 적용하는법</b>
 	
@@ -107,13 +107,13 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 ```html
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb"/>
+    <img src="http://commitcombo.com/theme?user=Devxb"/>
   </a>
 </p>
 ```
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb"/>
+    <img src="http://commitcombo.com/theme?user=Devxb"/>
   </a>
 </p>
 
@@ -124,44 +124,44 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 ```html
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb" width = "300" height = "auto"/>
+    <img src="http://commitcombo.com/theme?user=Devxb" width = "300" height = "auto"/>
   </a>
 </p>
 ```
 
 <p align="center">
   <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb" width = "300" height = "auto"/>
+    <img src="http://commitcombo.com/theme?user=Devxb" width = "300" height = "auto"/>
   </a>
 </p>
 
 <b>요청가능한 옵션, 테마들</b>
 
 <p>
-박스테마 사용을 원하면 http://commitcombo.com/box/get URL로 요청하세요<br>
+박스테마 사용을 원하면 http://commitcombo.com/theme/box/ URL로 요청하세요<br>
 <b> 예시 </b> <br>
 </p>
 <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/box/get?user=Devxb&theme=Rainbow"/>
+    <img src="http://commitcombo.com/theme/box?user=Devxb&theme=Rainbow"/>
 </a> <br>
 
 ```html
 <a href="https://github.com/devxb/CommitCombo">
-	<img src="http://commitcombo.com/box/get?user=Devxb&theme=Rainbow"/>
+	<img src="http://commitcombo.com/theme/box/?user=Devxb&theme=Rainbow"/>
 </a>
 ```
 
 <p>
-랭크시스템 사용을 원하지않으면 http://commitcombo.com/norank/get URL로 요청하세요<br>
+랭크시스템 사용을 원하지않으면 http://commitcombo.com/theme/norank URL로 요청하세요<br>
 <b> 예시 </b> <br>
 </p>
 <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/norank/get?user=Devxb&theme=Pink"/>
+    <img src="http://commitcombo.com/theme/norank?user=Devxb&theme=Pink"/>
 </a> <br>
 
 ```html
 <a href="https://github.com/devxb/CommitCombo">
-	<img src="http://commitcombo.com/norank/get?user=Devxb&theme=Pink"/>
+	<img src="http://commitcombo.com/theme/norank?user=Devxb&theme=Pink"/>
 </a>
 ```
 
@@ -169,10 +169,10 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 유저 이름이 범위를 초과할경우 슬라이딩하면서 보여줍니다. 원하지않을시 &animation=false를 적어서 요청하세요. <br>
 <b> 예시 </b>
 </p>
-<img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate"/> <img src = "http://commitcombo.com/get?user=ABCDEFGHIJKLMNOP&theme=MintChocolate&v=2"/> <br>
+<img src = "http://commitcombo.com/theme?user=ABCDEFGHIJKLMNOP&theme=MintChocolate"/> <img src = "http://commitcombo.com/theme?user=ABCDEFGHIJKLMNOP&theme=MintChocolate&v=2"/> <br>
 
 ```html
 <a href="https://github.com/devxb/CommitCombo">
-    <img src="http://commitcombo.com/get?user=Devxb&animation=false"/>
+    <img src="http://commitcombo.com/theme?user=Devxb&animation=false"/>
 </a>
 ```
