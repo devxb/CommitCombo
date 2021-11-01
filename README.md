@@ -77,6 +77,7 @@ private repository 커밋 유무가 숨김 처리 되어있으면 커밋기록�
 
 <h2></h2>
 <h3> <a name = "manual"></a>사용법 및 예시</h3>
+<br> <p> 모든 요청은 GET 입니다. </p>
 <br>
 <p>
 아래 링크를 자신의 README.md파일에 복사 붙여넣기 하시면 됩니다. <br> 
