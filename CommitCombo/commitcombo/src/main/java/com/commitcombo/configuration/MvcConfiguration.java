@@ -11,7 +11,7 @@ public class MvcConfiguration implements WebMvcConfigurer{
 	
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
-		registry.addInterceptor(new ResponseInterceptor()).addPathPatterns("/get", "/norank/get", "/box/get");
+		registry.addInterceptor(new ResponseInterceptor()).addPathPatterns("/get", "/norank/get", "/box/get", "/theme", "/theme/norank", "/theme/box");
 	}
 	
 }
