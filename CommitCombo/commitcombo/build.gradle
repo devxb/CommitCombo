@@ -6,12 +6,12 @@ plugins {
 }
 
 group = 'com'
-version = '0.0.6-SNAPSHOT'
+version = '0.0.7-SNAPSHOT'
 sourceCompatibility = '11'
 
 bootWar {
 	archiveBaseName = 'commitcombo'
-	archiveVersion = "0.0.6"
+	archiveVersion = "0.0.7"
 }
 
 repositories {

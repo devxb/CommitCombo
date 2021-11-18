@@ -22,16 +22,13 @@ public class ViewFactory{
 		User user = userService.findUserByUserName(userService.saveUserByUserName(userName));
 		Theme theme = themeFactory.getTheme(themeName);
 		theme = hook(user, theme);
-		System.out.println(theme.getNameTagColor());
 		return new ViewMapper(user, theme, new Option(animation), version);
 	}
 	
 	public ViewMapper getViewMapper(String userName, String themeName){
 		User user = userService.findUserByUserName(userService.saveUserByUserName(userName));
 		Theme theme = themeFactory.getTheme(themeName);
-		System.out.println(theme.getNameTagColor());
 		theme = hook(user, theme);
-		System.out.println(theme.getNameTagColor());
 		return new ViewMapper(user, theme, new Option("dragUserName"), "1");
 	}
 	
