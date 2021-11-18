@@ -13,8 +13,45 @@ public class ViewOperator{
         if(contributionCount < 210) return "#05EBB9";
         if(contributionCount < 700) return "#7BBEFF";
         if(contributionCount <= 987654321) return "#F34D89";
-        return "FFFFFF"; // 오류 (흰색 -> 표시안함 검은색)
+        return "#FFFFFF"; // 오류 (흰색 -> 표시안함 검은색)
     }
+	
+	public static String getNextTrophyColor(long contributionCount){
+        if(contributionCount < 15) return "#FFBC50";
+        if(contributionCount < 45) return "#05EBB9";
+        if(contributionCount < 210) return "#7BBEFF";
+        if(contributionCount < 700) return "#F34D89";
+        if(contributionCount <= 987654321) return "#F34D89";
+        return "#FFFFFF"; // 오류 (흰색 -> 표시안함 검은색)
+    }
+	
+	public static String getCurrentRank(long contributionCount){
+        if(contributionCount < 15) return "Silver";
+        if(contributionCount < 45) return "Gold";
+        if(contributionCount < 210) return "Platinum";
+        if(contributionCount < 700) return "Diamond";
+        if(contributionCount <= 987654321) return "Ruby";
+        return "#FFFFFF"; // 오류 (흰색 -> 표시안함 검은색)
+    }
+	
+	public static String getNextRank(long contributionCount){
+		if(contributionCount < 15) return "Gold";
+        if(contributionCount < 45) return "Platinum";
+        if(contributionCount < 210) return "Diamond";
+        if(contributionCount < 700) return "Ruby";
+        if(contributionCount <= 987654321) return "";
+        return "Error"; // 오류 (흰색 -> 표시안함 검은색)
+	}
+	
+	public static Double getCurrentRankBar(long contributionCount){
+		double total = 240.0;
+		if(contributionCount < 15) return total * (contributionCount/15);
+        if(contributionCount < 45) return total * (contributionCount/45);
+        if(contributionCount < 210) return total * (contributionCount/210);
+        if(contributionCount < 700) return total * (contributionCount/700);
+        if(contributionCount <= 987654321) return 240.0;
+		return 240.0;
+	}
 	
 	public static double getFontSize(String userName){
         //if(userName.length() >= 10) return 0.6800;
