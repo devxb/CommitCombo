@@ -1,4 +1,15 @@
 
+<h2></h2>
+
+<div align = "center"> 🙇 그동안 이용해주셔서 감사했습니다. <br/> 약 6-7개월간 기획 개발하던 프로젝트가 완성되어 서비스가 4월안으로 종료될 예정입니다. </div>
+
+<div align = "center">배포 예정인 프로젝트👇<br/> 자신만의 이력서 카드/포트폴리오 카드를 만들고, Markup문서에 올릴 수 있습니다. <br/>카드와 연동된 이력서 유입수 와 경로를 조사해 통계내고 보여줍니다.</div>
+
+<img src="https://api.gitofolio.com/portfoliocard/svg/742" align="center"/>
+
+<h2></h2>
+
+
 <div align = "center">
   <br>
   <a href="https://github.com/devxb/CommitCombo"><img src = "http://commitcombo.com/logo" align="center"/></a> <br><br><br>
@@ -6,6 +17,7 @@
   <h2></h2>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdevxb%2FCommitCombo&count_bg=%23212121&title_bg=%231488CC&icon=&icon_color=%231488CC&title=visitor&edge_flat=false"/></a>
 </div>
+
 <div align = "center">  ⭐스타를 눌러주세요 개발에 큰 도움이 됩니다!⭐️</div>
 <!--<div align="center"><a href="./ENG.md"> English </a></div>--> 
 <div align = "center"> 
