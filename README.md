@@ -6,7 +6,7 @@
 <div align = "center">배포 예정인 프로젝트👇<br/> 자신만의 이력서 카드/포트폴리오 카드를 만들고, Markup문서에 올릴 수 있습니다. <br/>카드와 연동된 이력서 유입수 와 경로를 조사해 통계내고 보여줍니다.</div>
 
 <div align="center">
-	<img src="https://api.gitofolio.com/portfoliocard/svg/742"/>
+	<a href="https://github.com/gitofolio/gitofolio"><img src="https://api.gitofolio.com/portfoliocard/svg/742"/></a>
 </div>
 
 <h2></h2>
