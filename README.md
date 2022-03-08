@@ -9,7 +9,7 @@
 
 <br/>
 <div align="center">
-	<a href="https://api.gitofolio.com/portfolio/1/4"><img src="https://api.gitofolio.com/portfoliocard/svg/4?color=white"/></a>
+	<a href = "https://api.gitofolio.com/portfolio/1/4"><img src = "https://api.gitofolio.com/portfoliocard/svg/4?color=white" style="width:345px; height:auto; "/></a>
 </div>
 
 <h2></h2>
